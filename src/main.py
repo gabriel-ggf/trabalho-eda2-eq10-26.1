@@ -1,6 +1,7 @@
 import processamento_de_dados as pdd
 import os
 from grafos import criar_grafo
+from algoritmos import bfs
 
 words_list = {}
 data_path = os.path.join('data', 'text')
@@ -32,3 +33,23 @@ grafos_por_epoca = {}
 for period, documentos in words_list.items():
     grafos_por_epoca[period] = criar_grafo(documentos)
     print(f"Grafo {period}: {len(grafos_por_epoca[period])} vértices")
+    
+target_word = "economia"
+
+for target_period, target_graph in grafos_por_epoca.items():
+    if target_word in target_graph:
+        try:
+            bfs_result = bfs(target_graph, target_word)
+            
+            save_data = {
+                "periodo": target_period,
+                "palavra_raiz": target_word,
+                "tamanho_resultado": len(bfs_result),
+                "caminho_bfs": bfs_result
+            }
+            
+            bfs_output_path = os.path.join("data", "processed", f"bfs_{target_period}_{target_word}.json")
+            pdd.list_write(bfs_output_path, save_data)
+            
+        except Exception as e:
+            print(f"Erro no periodo {target_period}: {e}")
