@@ -54,3 +54,7 @@ for target_period, target_graph in grafos_por_epoca.items():
             
         except Exception as e:
             print(f"Erro no periodo {target_period}: {e}")
+
+from algoritmos import kruskal_todas_epocas, salvar_todos_resultados
+resultados_kruskal = kruskal_todas_epocas(grafos_por_epoca)
+salvar_todos_resultados(resultados_kruskal)
