@@ -34,18 +34,19 @@ for period, documentos in words_list.items():
     grafos_por_epoca[period] = criar_grafo(documentos)
     print(f"Grafo {period}: {len(grafos_por_epoca[period])} vértices")
     
-target_word = "economia"
-
+target_word = "economia" # palavra chave do bfs
 for target_period, target_graph in grafos_por_epoca.items():
     if target_word in target_graph:
         try:
             bfs_result = bfs(target_graph, target_word)
+            total_words_found = sum(len(words) for words in bfs_result.values())
             
             save_data = {
                 "periodo": target_period,
                 "palavra_raiz": target_word,
-                "tamanho_resultado": len(bfs_result),
-                "caminho_bfs": bfs_result
+                "profundidade_arvore": len(bfs_result) - 1, 
+                "total_palavras": total_words_found,
+                "arvore_bfs": bfs_result 
             }
             
             bfs_output_path = os.path.join("data", "processed", f"bfs_{target_period}_{target_word}.json")
