@@ -4,24 +4,69 @@ import os
 
 spc = spacy.load("pt_core_news_sm")
 
-def load_words (path):
+def carregar_palavras (caminho):
 
-    with open(path, 'r', encoding='utf-8') as fl:
+    '''
+    A partir do caminho pré-definido dos arquivos das palavras,
+    retorna uma lista de palavras filtradas utilizando a biblioteca spacy.
+    '''
+
+    with open(caminho, 'r', encoding='utf-8') as fl:
         
-        text = fl.read()
-        doc = spc(text)
+        texto = fl.read()
+        doc = spc(texto)
 
-    words = []
+    palavras = []
 
     for token in doc:
-        lemma = token.lemma_.lower()
-        if not token.is_stop and not token.is_punct and not token.is_space and len(lemma):
-            words.append(lemma)
+        lema = token.lemma_.lower()
+        if not token.is_stop and not token.is_punct and not token.is_space and len(lema):
+            palavras.append(lema)
 
-    return words
+    return palavras
 
-def list_write(savement_path, data):
-    with open(savement_path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
+def salvar_lista(caminho_de_salvamento, dados):
 
-    print(f"Dados salvos em: {os.path.abspath(savement_path)}")
+    '''
+    Função simples de salvamento com arquivos ".json".
+    Recebe os dados e o caminho para salvar tudo lá.
+    '''
+
+    with open(caminho_de_salvamento, 'w', encoding='utf-8') as f:
+        json.dump(dados, f, indent=4, ensure_ascii=False)
+
+    print(f"Dados salvos em: {caminho_de_salvamento}")
+
+def salvar_resultado_kruskal(resultado, epoca, caminho="data/processed"):
+    """
+    Salva o resultado do Kruskal de UMA época em um arquivo .json ou .txt.
+    Segue o mesmo padrão de pasta usado em main.py (data/processed/...).
+    """
+
+    os.makedirs(caminho, exist_ok=True)
+
+    # Salva em JSON se o resultado for grande, txt se for pequeno
+    if len(resultado["arestas"]) > 50:
+        nome_arquivo = f"{caminho}/kruskal_{epoca}.json"
+        with open(nome_arquivo, "w", encoding="utf-8") as f:
+            json.dump(resultado, f, ensure_ascii=False, indent=4)
+    else:
+        nome_arquivo = f"{caminho}/kruskal_{epoca}.txt"
+        with open(nome_arquivo, "w", encoding="utf-8") as f:
+            f.write(f"=== Floresta Geradora Mínima - Época {epoca} ===\n\n")
+            f.write(f"Componentes conectados: {resultado['num_componentes']}\n")
+            f.write(f"Peso total: {resultado['peso_total']}\n\n")
+            f.write("Arestas da floresta:\n")
+            for a, b, peso in resultado["arestas"]:
+                f.write(f"  {a} -- {b}  (peso: {peso})\n")
+
+    print(f"Resultado salvo em: {nome_arquivo}")
+    return nome_arquivo
+
+
+def salvar_todos_resultados(resultados_por_epoca, caminho="data/processed"):
+    """
+    Salva o resultado do Kruskal de TODAS as épocas, um arquivo por época.
+    """
+    for epoca, resultado in resultados_por_epoca.items():
+        salvar_resultado_kruskal(resultado, epoca, caminho)

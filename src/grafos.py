@@ -1,9 +1,45 @@
+# Esses dois imports são utilizados para gerar a lista de ocorrência.
+# Eles NÃO são aplicados na função geradora dos grafos.
+import os
+from processamento_de_dados import carregar_palavras
+
+def criar_lista(caminho):
+
+    '''
+    Gera e retorna a lista de ocorrência.
+    Esta função utiliza o import "os" para encontrar o lugar de salvamento dos dados
+    e o import "carregar_palavras" para filtrar as palavras com a biblioteca spacy.
+    '''
+
+    lista = {}
+    
+    for periodo in os.listdir(caminho):
+
+        caminho_periodo = os.path.join(caminho, periodo)
+
+        if os.path.isdir(caminho):
+
+            lista [periodo] = []
+            for arquivo in os.listdir(caminho_periodo):
+                if arquivo.endswith("txt"):
+
+                    caminho_do_arquivo = os.path.join(caminho_periodo, arquivo)
+                    palavras = carregar_palavras(caminho_do_arquivo)
+            
+                frequencia = {}
+                for word in palavras:
+                    frequencia[word] = frequencia.get(word, 0) + 1
+
+                lista[periodo].append(frequencia)
+    
+    return lista
+
 def criar_grafo(documentos):
     
     """
-    constroi um grafo de coocorrência a partir dos documentos de uma época
-    cada vértice representa uma palavra e cada aresta o peso da relação entre duas palavras,
-    calculado pela multiplicação de suas frequências no mesmo documento
+    Constroi um grafo de coocorrência a partir dos documentos de uma época.
+    Cada vértice representa uma palavra e cada aresta o peso da relação entre duas palavras,
+    calculado pela multiplicação de suas frequências no mesmo documento.
     """
     grafo = {}
     
