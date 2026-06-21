@@ -23,31 +23,21 @@ def bfs(graph, start_word):
                 queue.append((neighbor, current_level + 1))
 
     return tree_levels
-# Serve para detectar ciclos e unir componentes do grafo
+
 
 def criar_union_find(vertices):
-    """
-    Cria a estrutura Union-Find para um conjunto de vértices.
-    Cada vértice começa como seu próprio pai (componente isolado).
-    """
     pai = {v: v for v in vertices}
     rank = {v: 0 for v in vertices}
     return pai, rank
 
+
 def encontrar(pai, vertice):
-    """
-    Encontra o representante (raiz) do componente de um vértice.
-    Usa compressão de caminho para eficiência.
-    """
     if pai[vertice] != vertice:
-        pai[vertice] = encontrar(pai, pai[vertice])  # compressão de caminho
+        pai[vertice] = encontrar(pai, pai[vertice])
     return pai[vertice]
 
+
 def unir(pai, rank, vertice_a, vertice_b):
-    """
-    Une os componentes de dois vértices.
-    Retorna True se foram unidos, False se já estavam no mesmo componente (ciclo).
-    """
     raiz_a = encontrar(pai, vertice_a)
     raiz_b = encontrar(pai, vertice_b)
 
@@ -66,29 +56,21 @@ def unir(pai, rank, vertice_a, vertice_b):
 
 
 def kruskal(grafo):
-    """
-    Executa o algoritmo de Kruskal para encontrar a Floresta Geradora Mínima.
-    
-    Como o grafo é DESCONEXO, o resultado será uma FLORESTA (várias árvores),
-    uma para cada componente conectado do grafo.
-    """
-    # --- 1. Extrair vértices e arestas do grafo ---
     vertices = list(grafo.keys())
     arestas = []
 
     for vertice_a, vizinhos in grafo.items():
         for vertice_b, peso in vizinhos.items():
-            # Evita duplicatas (aresta A-B e B-A são a mesma)
             if vertice_a < vertice_b:
                 arestas.append((peso, vertice_a, vertice_b))
 
     arestas.sort()
+
     pai, rank = criar_union_find(vertices)
     floresta = []
     peso_total = 0
 
     for peso, vertice_a, vertice_b in arestas:
-        # Só adiciona a aresta se não formar ciclo
         if unir(pai, rank, vertice_a, vertice_b):
             floresta.append((vertice_a, vertice_b, peso))
             peso_total += peso
@@ -101,10 +83,8 @@ def kruskal(grafo):
         "num_componentes": componentes
     }
 
+
 def kruskal_todas_epocas(grafos_por_epoca):
-    """
-    Roda o Kruskal para cada época do dicionário gerado em main.py.
-    """
     resultados = {}
     for epoca, grafo in grafos_por_epoca.items():
         resultados[epoca] = kruskal(grafo)
@@ -115,16 +95,11 @@ def kruskal_todas_epocas(grafos_por_epoca):
 
 
 def salvar_resultado_kruskal(resultado, epoca, caminho="data/processed"):
-    """
-    Salva o resultado do Kruskal de UMA época em um arquivo .json ou .txt.
-    Segue o mesmo padrão de pasta usado em main.py (data/processed/...).
-    """
     import json
     import os
 
     os.makedirs(caminho, exist_ok=True)
 
-    # Salva em JSON se o resultado for grande, txt se for pequeno
     if len(resultado["arestas"]) > 50:
         nome_arquivo = f"{caminho}/kruskal_{epoca}.json"
         with open(nome_arquivo, "w", encoding="utf-8") as f:
@@ -142,9 +117,7 @@ def salvar_resultado_kruskal(resultado, epoca, caminho="data/processed"):
     print(f"Resultado salvo em: {nome_arquivo}")
     return nome_arquivo
 
+
 def salvar_todos_resultados(resultados_por_epoca, caminho="data/processed"):
-    """
-    Salva o resultado do Kruskal de TODAS as épocas, um arquivo por época.
-    """
     for epoca, resultado in resultados_por_epoca.items():
         salvar_resultado_kruskal(resultado, epoca, caminho)
