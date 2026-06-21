@@ -1,7 +1,7 @@
 import processamento_de_dados as pdd
 import os
 from grafos import criar_grafo
-from algoritmos import bfs
+from algoritmos import bfs, kruskal_todas_epocas, salvar_todos_resultados
 
 words_list = {}
 data_path = os.path.join('data', 'text')
@@ -33,7 +33,6 @@ grafos_por_epoca = {}
 for period, documentos in words_list.items():
     grafos_por_epoca[period] = criar_grafo(documentos)
     print(f"Grafo {period}: {len(grafos_por_epoca[period])} vértices")
-    
 target_word = "economia" # palavra chave do bfs
 for target_period, target_graph in grafos_por_epoca.items():
     if target_word in target_graph:
@@ -54,7 +53,5 @@ for target_period, target_graph in grafos_por_epoca.items():
             
         except Exception as e:
             print(f"Erro no periodo {target_period}: {e}")
-
-from algoritmos import kruskal_todas_epocas, salvar_todos_resultados
 resultados_kruskal = kruskal_todas_epocas(grafos_por_epoca)
 salvar_todos_resultados(resultados_kruskal)

@@ -23,7 +23,6 @@ def bfs(graph, start_word):
                 queue.append((neighbor, current_level + 1))
 
     return tree_levels
-# UNION-FIND 
 # Serve para detectar ciclos e unir componentes do grafo
 
 def criar_union_find(vertices):
@@ -35,7 +34,6 @@ def criar_union_find(vertices):
     rank = {v: 0 for v in vertices}
     return pai, rank
 
-
 def encontrar(pai, vertice):
     """
     Encontra o representante (raiz) do componente de um vértice.
@@ -44,7 +42,6 @@ def encontrar(pai, vertice):
     if pai[vertice] != vertice:
         pai[vertice] = encontrar(pai, pai[vertice])  # compressão de caminho
     return pai[vertice]
-
 
 def unir(pai, rank, vertice_a, vertice_b):
     """
@@ -57,7 +54,6 @@ def unir(pai, rank, vertice_a, vertice_b):
     if raiz_a == raiz_b:
         return False  
 
-    
     if rank[raiz_a] < rank[raiz_b]:
         pai[raiz_a] = raiz_b
     elif rank[raiz_a] > rank[raiz_b]:
@@ -69,37 +65,13 @@ def unir(pai, rank, vertice_a, vertice_b):
     return True
 
 
-
-# ALGORITMO DE KRUSKAL
-
-
 def kruskal(grafo):
     """
     Executa o algoritmo de Kruskal para encontrar a Floresta Geradora Mínima.
     
     Como o grafo é DESCONEXO, o resultado será uma FLORESTA (várias árvores),
     uma para cada componente conectado do grafo.
-
-    Parâmetros:
-    -----------
-    grafo : dict
-        Dicionário de adjacência ponderado, gerado por criar_grafo() (grafos.py):
-        {
-            "palavra1": {"palavra2": peso, "palavra3": peso},
-            "palavra2": {"palavra1": peso},
-            ...
-        }
-        O peso de cada aresta é o produto das frequências das duas palavras
-        no mesmo documento (ver grafos.py).
-
-    Retorna:
-    --------
-    dict com:
-        - "arestas": lista de tuplas (vertice_a, vertice_b, peso) da floresta geradora
-        - "peso_total": soma dos pesos das arestas selecionadas
-        - "num_componentes": número de componentes conectados encontrados
     """
-
     # --- 1. Extrair vértices e arestas do grafo ---
     vertices = list(grafo.keys())
     arestas = []
@@ -110,13 +82,8 @@ def kruskal(grafo):
             if vertice_a < vertice_b:
                 arestas.append((peso, vertice_a, vertice_b))
 
-    
     arestas.sort()
-
-    
     pai, rank = criar_union_find(vertices)
-
-   
     floresta = []
     peso_total = 0
 
@@ -126,7 +93,6 @@ def kruskal(grafo):
             floresta.append((vertice_a, vertice_b, peso))
             peso_total += peso
 
-    
     componentes = len(set(encontrar(pai, v) for v in vertices))
 
     return {
@@ -135,32 +101,9 @@ def kruskal(grafo):
         "num_componentes": componentes
     }
 
-
-
-# EXECUÇÃO PARA TODAS AS ÉPOCAS
-
 def kruskal_todas_epocas(grafos_por_epoca):
     """
     Roda o Kruskal para cada época do dicionário gerado em main.py.
-
-    Parâmetros:
-    -----------
-    grafos_por_epoca : dict
-        {
-            "1980": {grafo da época},
-            "1990": {grafo da época},
-            ...
-        }
-        (formato gerado no main.py: grafos_por_epoca[period] = criar_grafo(documentos))
-
-    Retorna:
-    --------
-    dict no formato:
-        {
-            "1980": {"arestas": [...], "peso_total": ..., "num_componentes": ...},
-            "1990": {...},
-            ...
-        }
     """
     resultados = {}
     for epoca, grafo in grafos_por_epoca.items():
@@ -171,23 +114,10 @@ def kruskal_todas_epocas(grafos_por_epoca):
     return resultados
 
 
-
-# FUNÇÃO DE SAÍDA - Salva ou retorna o resultado
-
-
 def salvar_resultado_kruskal(resultado, epoca, caminho="data/processed"):
     """
     Salva o resultado do Kruskal de UMA época em um arquivo .json ou .txt.
     Segue o mesmo padrão de pasta usado em main.py (data/processed/...).
-
-    Parâmetros:
-    -----------
-    resultado : dict
-        Retorno da função kruskal() para uma época específica
-    epoca : str
-        Nome/ano da época analisada (ex: "1980", "1990"...)
-    caminho : str
-        Pasta onde salvar o arquivo
     """
     import json
     import os
@@ -212,17 +142,9 @@ def salvar_resultado_kruskal(resultado, epoca, caminho="data/processed"):
     print(f"Resultado salvo em: {nome_arquivo}")
     return nome_arquivo
 
-
 def salvar_todos_resultados(resultados_por_epoca, caminho="data/processed"):
     """
     Salva o resultado do Kruskal de TODAS as épocas, um arquivo por época.
-
-    Parâmetros:
-    -----------
-    resultados_por_epoca : dict
-        Retorno da função kruskal_todas_epocas()
-    caminho : str
-        Pasta onde salvar os arquivos
     """
     for epoca, resultado in resultados_por_epoca.items():
         salvar_resultado_kruskal(resultado, epoca, caminho)
