@@ -45,7 +45,7 @@ def unir(pai, rank, vertice_a, vertice_b):
 
 def kruskal(grafo):
     """
-    Executa o algoritmo de Kruskal para encontrar a Floresta Geradora Mínima. 
+    Executa o algoritmo de Kruskal para encontrar a Floresta Geradora Máxima. 
     Caso o grafo seja desconexo, o resultado será uma FLORESTA (várias árvores),
     uma para cada componente conectado do grafo.
     Em nosso caso, não há grafo desconexo, então essa exceção não se aplica aqui.
