@@ -3,509 +3,9 @@
     "palavra_raiz": "economia",
     "total_palavras": 527,
     "arvore_bfs": {
-        "ganhar": {
-            "pai": "2020",
-            "ordem_de_visita": 398,
-            "nivel": 2
-        },
-        "venda": {
-            "pai": "economia",
-            "ordem_de_visita": 23,
-            "nivel": 1
-        },
-        "longo": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 206,
-            "nivel": 2
-        },
-        "generalizado": {
-            "pai": "economia",
-            "ordem_de_visita": 36,
-            "nivel": 1
-        },
-        "forçar": {
-            "pai": "principal",
-            "ordem_de_visita": 103,
-            "nivel": 2
-        },
-        "mecanismo": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 236,
-            "nivel": 2
-        },
-        "proposta": {
-            "pai": "2020",
-            "ordem_de_visita": 407,
-            "nivel": 2
-        },
-        "viver": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 226,
-            "nivel": 2
-        },
-        "medida": {
-            "pai": "economia",
-            "ordem_de_visita": 58,
-            "nivel": 1
-        },
-        "pagamento": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 143,
-            "nivel": 2
-        },
-        "ação": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 225,
-            "nivel": 2
-        },
-        "noventa": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 292,
-            "nivel": 2
-        },
-        "buscar": {
-            "pai": "principal",
-            "ordem_de_visita": 105,
-            "nivel": 2
-        },
-        "flutuação": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 299,
-            "nivel": 2
-        },
-        "dinheiro": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 158,
-            "nivel": 2
-        },
-        "e-commerce": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 191,
-            "nivel": 2
-        },
-        "próximo": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 291,
-            "nivel": 2
-        },
-        "repentinamente": {
-            "pai": "operar",
-            "ordem_de_visita": 463,
-            "nivel": 2
-        },
-        "vínculo": {
-            "pai": "setor",
-            "ordem_de_visita": 488,
-            "nivel": 2
-        },
-        "real": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 218,
-            "nivel": 2
-        },
-        "sobreviver": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 351,
-            "nivel": 2
-        },
-        "linha": {
-            "pai": "reduzir",
-            "ordem_de_visita": 510,
-            "nivel": 3
-        },
-        "socorro": {
-            "pai": "operar",
-            "ordem_de_visita": 456,
-            "nivel": 2
-        },
-        "discutir": {
-            "pai": "2020",
-            "ordem_de_visita": 406,
-            "nivel": 2
-        },
-        "hora": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 152,
-            "nivel": 2
-        },
-        "urgência": {
-            "pai": "2020",
-            "ordem_de_visita": 404,
-            "nivel": 2
-        },
-        "decorrente": {
-            "pai": "2020",
-            "ordem_de_visita": 434,
-            "nivel": 2
-        },
-        "transação": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 147,
-            "nivel": 2
-        },
-        "capital": {
-            "pai": "principal",
-            "ordem_de_visita": 108,
-            "nivel": 2
-        },
-        "ambiente": {
-            "pai": "2020",
-            "ordem_de_visita": 391,
-            "nivel": 2
-        },
-        "externo": {
-            "pai": "economia",
-            "ordem_de_visita": 24,
-            "nivel": 1
-        },
-        "varejisto": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 182,
-            "nivel": 2
-        },
-        "informalidade": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 297,
-            "nivel": 2
-        },
-        "esvaziar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 344,
-            "nivel": 2
-        },
-        "expansão": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 169,
-            "nivel": 2
-        },
-        "turismo": {
-            "pai": "operar",
-            "ordem_de_visita": 440,
-            "nivel": 2
-        },
-        "dólar": {
-            "pai": "economia",
-            "ordem_de_visita": 15,
-            "nivel": 1
-        },
-        "câmbio": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 249,
-            "nivel": 2
-        },
-        "empresário": {
-            "pai": "reduzir",
-            "ordem_de_visita": 523,
-            "nivel": 3
-        },
-        "economia": {
-            "pai": null,
-            "ordem_de_visita": 0,
-            "nivel": 0
-        },
-        "sanitário": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 177,
-            "nivel": 2
-        },
-        "agronegócio": {
-            "pai": "economia",
-            "ordem_de_visita": 1,
-            "nivel": 1
-        },
-        "valorização": {
-            "pai": "economia",
-            "ordem_de_visita": 14,
-            "nivel": 1
-        },
-        "serviço": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 308,
-            "nivel": 2
-        },
-        "garantir": {
-            "pai": "economia",
-            "ordem_de_visita": 29,
-            "nivel": 1
-        },
-        "comprador": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 209,
-            "nivel": 2
-        },
         "pregão": {
             "pai": "brasileiro",
             "ordem_de_visita": 240,
-            "nivel": 2
-        },
-        "diferencial": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 260,
-            "nivel": 2
-        },
-        "federal": {
-            "pai": "setor",
-            "ordem_de_visita": 468,
-            "nivel": 2
-        },
-        "balança": {
-            "pai": "economia",
-            "ordem_de_visita": 32,
-            "nivel": 1
-        },
-        "espécie": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 159,
-            "nivel": 2
-        },
-        "subsequente": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 241,
-            "nivel": 2
-        },
-        "logística": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 183,
-            "nivel": 2
-        },
-        "salário": {
-            "pai": "setor",
-            "ordem_de_visita": 478,
-            "nivel": 2
-        },
-        "lançamento": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 154,
-            "nivel": 2
-        },
-        "descolar": {
-            "pai": "economia",
-            "ordem_de_visita": 8,
-            "nivel": 1
-        },
-        "trabalhador": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 303,
-            "nivel": 2
-        },
-        "amplo": {
-            "pai": "2020",
-            "ordem_de_visita": 395,
-            "nivel": 2
-        },
-        "sustentar": {
-            "pai": "impacto",
-            "ordem_de_visita": 494,
-            "nivel": 2
-        },
-        "desocupação": {
-            "pai": "2020",
-            "ordem_de_visita": 368,
-            "nivel": 2
-        },
-        "sobrevivência": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 194,
-            "nivel": 2
-        },
-        "centro": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 345,
-            "nivel": 2
-        },
-        "queda": {
-            "pai": "economia",
-            "ordem_de_visita": 35,
-            "nivel": 1
-        },
-        "porte": {
-            "pai": "reduzir",
-            "ordem_de_visita": 509,
-            "nivel": 3
-        },
-        "rentabilidade": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 223,
-            "nivel": 2
-        },
-        "governo": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 289,
-            "nivel": 2
-        },
-        "ter": {
-            "pai": "2020",
-            "ordem_de_visita": 402,
-            "nivel": 2
-        },
-        "ambulante": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 306,
-            "nivel": 2
-        },
-        "estrangeiro": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 258,
-            "nivel": 2
-        },
-        "família": {
-            "pai": "economia",
-            "ordem_de_visita": 63,
-            "nivel": 1
-        },
-        "despesa": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 120,
-            "nivel": 2
-        },
-        "fuga": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 361,
-            "nivel": 2
-        },
-        "população": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 122,
-            "nivel": 2
-        },
-        "investidores": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 353,
-            "nivel": 2
-        },
-        "balanço": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 367,
-            "nivel": 2
-        },
-        "político": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 365,
-            "nivel": 2
-        },
-        "produto": {
-            "pai": "economia",
-            "ordem_de_visita": 48,
-            "nivel": 1
-        },
-        "negociação": {
-            "pai": "operar",
-            "ordem_de_visita": 454,
-            "nivel": 2
-        },
-        "isolamento": {
-            "pai": "economia",
-            "ordem_de_visita": 59,
-            "nivel": 1
-        },
-        "final": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 126,
-            "nivel": 2
-        },
-        "presencial": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 166,
-            "nivel": 2
-        },
-        "giro": {
-            "pai": "reduzir",
-            "ordem_de_visita": 521,
-            "nivel": 3
-        },
-        "individual": {
-            "pai": "impacto",
-            "ordem_de_visita": 497,
-            "nivel": 2
-        },
-        "breaker": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 238,
-            "nivel": 2
-        },
-        "microempreendedor": {
-            "pai": "impacto",
-            "ordem_de_visita": 496,
-            "nivel": 2
-        },
-        "2020": {
-            "pai": "economia",
-            "ordem_de_visita": 6,
-            "nivel": 1
-        },
-        "semestre": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 231,
-            "nivel": 2
-        },
-        "evitar": {
-            "pai": "setor",
-            "ordem_de_visita": 473,
-            "nivel": 2
-        },
-        "assistência": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 288,
-            "nivel": 2
-        },
-        "crescimento": {
-            "pai": "economia",
-            "ordem_de_visita": 67,
-            "nivel": 1
-        },
-        "história": {
-            "pai": "operar",
-            "ordem_de_visita": 466,
-            "nivel": 2
-        },
-        "fechamento": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 248,
-            "nivel": 2
-        },
-        "ministério": {
-            "pai": "economia",
-            "ordem_de_visita": 73,
-            "nivel": 1
-        },
-        "instantâneo": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 148,
-            "nivel": 2
-        },
-        "superar": {
-            "pai": "2020",
-            "ordem_de_visita": 371,
-            "nivel": 2
-        },
-        "apesar": {
-            "pai": "2020",
-            "ordem_de_visita": 420,
-            "nivel": 2
-        },
-        "trabalho": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 213,
-            "nivel": 2
-        },
-        "complexo": {
-            "pai": "operar",
-            "ordem_de_visita": 455,
-            "nivel": 2
-        },
-        "desaparecer": {
-            "pai": "operar",
-            "ordem_de_visita": 462,
-            "nivel": 2
-        },
-        "colapso": {
-            "pai": "impacto",
-            "ordem_de_visita": 500,
-            "nivel": 2
-        },
-        "nível": {
-            "pai": "2020",
-            "ordem_de_visita": 369,
             "nivel": 2
         },
         "dependência": {
@@ -513,1529 +13,9 @@
             "ordem_de_visita": 157,
             "nivel": 2
         },
-        "socorrer": {
-            "pai": "reduzir",
-            "ordem_de_visita": 502,
-            "nivel": 3
-        },
-        "decisão": {
-            "pai": "principal",
-            "ordem_de_visita": 95,
-            "nivel": 2
-        },
-        "proteína": {
-            "pai": "economia",
-            "ordem_de_visita": 27,
-            "nivel": 1
-        },
-        "auge": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 302,
-            "nivel": 2
-        },
-        "força": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 327,
-            "nivel": 2
-        },
-        "custear": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 119,
-            "nivel": 2
-        },
-        "habitual": {
-            "pai": "operar",
-            "ordem_de_visita": 452,
-            "nivel": 2
-        },
-        "histórico": {
-            "pai": "economia",
-            "ordem_de_visita": 43,
-            "nivel": 1
-        },
-        "preservação": {
-            "pai": "setor",
-            "ordem_de_visita": 472,
-            "nivel": 2
-        },
-        "itens": {
-            "pai": "2020",
-            "ordem_de_visita": 428,
-            "nivel": 2
-        },
-        "financiamento": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 204,
-            "nivel": 2
-        },
-        "sessentar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 253,
-            "nivel": 2
-        },
-        "procurar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 314,
-            "nivel": 2
-        },
-        "temporariamente": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 316,
-            "nivel": 2
-        },
-        "postos": {
-            "pai": "2020",
-            "ordem_de_visita": 374,
-            "nivel": 2
-        },
-        "exercer": {
-            "pai": "2020",
-            "ordem_de_visita": 377,
-            "nivel": 2
-        },
-        "atendimento": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 165,
-            "nivel": 2
-        },
-        "devastador": {
-            "pai": "operar",
-            "ordem_de_visita": 443,
-            "nivel": 2
-        },
-        "seguro-desemprego": {
-            "pai": "setor",
-            "ordem_de_visita": 486,
-            "nivel": 2
-        },
-        "pessoa": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 150,
-            "nivel": 2
-        },
-        "selic": {
-            "pai": "principal",
-            "ordem_de_visita": 81,
-            "nivel": 2
-        },
-        "exigir": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 347,
-            "nivel": 2
-        },
-        "finanças": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 296,
-            "nivel": 2
-        },
-        "soja": {
-            "pai": "economia",
-            "ordem_de_visita": 25,
-            "nivel": 1
-        },
-        "especial": {
-            "pai": "reduzir",
-            "ordem_de_visita": 511,
-            "nivel": 3
-        },
-        "estrutural": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 325,
-            "nivel": 2
-        },
-        "fundo": {
-            "pai": "reduzir",
-            "ordem_de_visita": 514,
-            "nivel": 3
-        },
-        "patrimonial": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 221,
-            "nivel": 2
-        },
-        "asiático": {
-            "pai": "economia",
-            "ordem_de_visita": 22,
-            "nivel": 1
-        },
-        "busca": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 243,
-            "nivel": 2
-        },
-        "bar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 335,
-            "nivel": 2
-        },
-        "restaurante": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 336,
-            "nivel": 2
-        },
-        "vulnerável": {
-            "pai": "impacto",
-            "ordem_de_visita": 493,
-            "nivel": 2
-        },
-        "restrição": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 164,
-            "nivel": 2
-        },
-        "estimular": {
-            "pai": "principal",
-            "ordem_de_visita": 88,
-            "nivel": 2
-        },
-        "empresas": {
-            "pai": "reduzir",
-            "ordem_de_visita": 508,
-            "nivel": 3
-        },
-        "realizar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 173,
-            "nivel": 2
-        },
-        "enfrentar": {
-            "pai": "economia",
-            "ordem_de_visita": 41,
-            "nivel": 1
-        },
-        "movimento": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 360,
-            "nivel": 2
-        },
-        "objetivo": {
-            "pai": "principal",
-            "ordem_de_visita": 85,
-            "nivel": 2
-        },
-        "distribuição": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 185,
-            "nivel": 2
-        },
-        "corporativo": {
-            "pai": "2020",
-            "ordem_de_visita": 392,
-            "nivel": 2
-        },
-        "precedente": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 170,
-            "nivel": 2
-        },
-        "perda": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 112,
-            "nivel": 2
-        },
-        "visar": {
-            "pai": "2020",
-            "ordem_de_visita": 410,
-            "nivel": 2
-        },
-        "proteção": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 220,
-            "nivel": 2
-        },
-        "interromper": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 239,
-            "nivel": 2
-        },
-        "contrapartida": {
-            "pai": "setor",
-            "ordem_de_visita": 483,
-            "nivel": 2
-        },
-        "profissional": {
-            "pai": "2020",
-            "ordem_de_visita": 384,
-            "nivel": 2
-        },
-        "registrar": {
-            "pai": "economia",
-            "ordem_de_visita": 16,
-            "nivel": 1
-        },
-        "alcançar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 110,
-            "nivel": 2
-        },
-        "ver": {
-            "pai": "operar",
-            "ordem_de_visita": 461,
-            "nivel": 2
-        },
-        "empresarial": {
-            "pai": "2020",
-            "ordem_de_visita": 393,
-            "nivel": 2
-        },
-        "congresso": {
-            "pai": "2020",
-            "ordem_de_visita": 399,
-            "nivel": 2
-        },
-        "vulnerabilidade": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 324,
-            "nivel": 2
-        },
-        "asfixiar": {
-            "pai": "reduzir",
-            "ordem_de_visita": 504,
-            "nivel": 3
-        },
-        "acima": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 252,
-            "nivel": 2
-        },
-        "inatividade": {
-            "pai": "2020",
-            "ordem_de_visita": 380,
-            "nivel": 2
-        },
-        "autônomos": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 309,
-            "nivel": 2
-        },
-        "aumento": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 282,
-            "nivel": 2
-        },
-        "essencial": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 193,
-            "nivel": 2
-        },
-        "pós-crise": {
-            "pai": "2020",
-            "ordem_de_visita": 413,
-            "nivel": 2
-        },
-        "nacional": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 197,
-            "nivel": 2
-        },
-        "ibovespa": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 247,
-            "nivel": 2
-        },
-        "pib": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 330,
-            "nivel": 2
-        },
-        "especialmente": {
-            "pai": "economia",
-            "ordem_de_visita": 20,
-            "nivel": 1
-        },
-        "agrícola": {
-            "pai": "2020",
-            "ordem_de_visita": 436,
-            "nivel": 2
-        },
-        "início": {
-            "pai": "economia",
-            "ordem_de_visita": 72,
-            "nivel": 1
-        },
-        "diretamente": {
-            "pai": "principal",
-            "ordem_de_visita": 97,
-            "nivel": 2
-        },
-        "executivo": {
-            "pai": "setor",
-            "ordem_de_visita": 484,
-            "nivel": 2
-        },
-        "tradicional": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 224,
-            "nivel": 2
-        },
-        "limitar": {
-            "pai": "2020",
-            "ordem_de_visita": 403,
-            "nivel": 2
-        },
-        "sofrer": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 298,
-            "nivel": 2
-        },
-        "pix": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 140,
-            "nivel": 2
-        },
-        "impedido": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 172,
-            "nivel": 2
-        },
-        "intensificar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 362,
-            "nivel": 2
-        },
-        "bruto": {
-            "pai": "economia",
-            "ordem_de_visita": 50,
-            "nivel": 1
-        },
-        "fixo": {
-            "pai": "principal",
-            "ordem_de_visita": 102,
-            "nivel": 2
-        },
-        "surpreender": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 198,
-            "nivel": 2
-        },
-        "apresentar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 201,
-            "nivel": 2
-        },
-        "amparar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 318,
-            "nivel": 2
-        },
-        "garantia": {
-            "pai": "reduzir",
-            "ordem_de_visita": 513,
-            "nivel": 3
-        },
-        "extremo": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 227,
-            "nivel": 2
-        },
-        "crucial": {
-            "pai": "2020",
-            "ordem_de_visita": 418,
-            "nivel": 2
-        },
-        "definitivo": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 343,
-            "nivel": 2
-        },
-        "desempregado": {
-            "pai": "impacto",
-            "ordem_de_visita": 495,
-            "nivel": 2
-        },
-        "capacidade": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 134,
-            "nivel": 2
-        },
-        "completamente": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 311,
-            "nivel": 2
-        },
-        "encarecer": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 261,
-            "nivel": 2
-        },
-        "arroz": {
-            "pai": "2020",
-            "ordem_de_visita": 430,
-            "nivel": 2
-        },
-        "conter": {
-            "pai": "impacto",
-            "ordem_de_visita": 490,
-            "nivel": 2
-        },
-        "tributário": {
-            "pai": "2020",
-            "ordem_de_visita": 397,
-            "nivel": 2
-        },
-        "cidadão": {
-            "pai": "2020",
-            "ordem_de_visita": 379,
-            "nivel": 2
-        },
-        "insumo": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 263,
-            "nivel": 2
-        },
-        "potencializar": {
-            "pai": "2020",
-            "ordem_de_visita": 437,
-            "nivel": 2
-        },
-        "conta": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 270,
-            "nivel": 2
-        },
-        "beleza": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 339,
-            "nivel": 2
-        },
-        "internacional": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 269,
-            "nivel": 2
-        },
-        "ano": {
-            "pai": "economia",
-            "ordem_de_visita": 40,
-            "nivel": 1
-        },
         "banco": {
             "pai": "brasileiro",
             "ordem_de_visita": 136,
-            "nivel": 2
-        },
-        "aplicativo": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 186,
-            "nivel": 2
-        },
-        "título": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 358,
-            "nivel": 2
-        },
-        "devido": {
-            "pai": "economia",
-            "ordem_de_visita": 44,
-            "nivel": 1
-        },
-        "público": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 271,
-            "nivel": 2
-        },
-        "fragilizar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 366,
-            "nivel": 2
-        },
-        "desvalorizar": {
-            "pai": "2020",
-            "ordem_de_visita": 438,
-            "nivel": 2
-        },
-        "fechar": {
-            "pai": "2020",
-            "ordem_de_visita": 423,
-            "nivel": 2
-        },
-        "físico": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 151,
-            "nivel": 2
-        },
-        "tijolo": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 219,
-            "nivel": 2
-        },
-        "representar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 328,
-            "nivel": 2
-        },
-        "crédito": {
-            "pai": "principal",
-            "ordem_de_visita": 87,
-            "nivel": 2
-        },
-        "volume": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 355,
-            "nivel": 2
-        },
-        "governamental": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 285,
-            "nivel": 2
-        },
-        "revolucionar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 142,
-            "nivel": 2
-        },
-        "entrega": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 352,
-            "nivel": 2
-        },
-        "bolsa": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 228,
-            "nivel": 2
-        },
-        "compra": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 174,
-            "nivel": 2
-        },
-        "inflação": {
-            "pai": "2020",
-            "ordem_de_visita": 421,
-            "nivel": 2
-        },
-        "acordo": {
-            "pai": "setor",
-            "ordem_de_visita": 476,
-            "nivel": 2
-        },
-        "estimar": {
-            "pai": "economia",
-            "ordem_de_visita": 71,
-            "nivel": 1
-        },
-        "chamado": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 274,
-            "nivel": 2
-        },
-        "sanitár": {
-            "pai": "economia",
-            "ordem_de_visita": 46,
-            "nivel": 1
-        },
-        "consumidor": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 129,
-            "nivel": 2
-        },
-        "loja": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 175,
-            "nivel": 2
-        },
-        "saúde": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 286,
-            "nivel": 2
-        },
-        "demanda": {
-            "pai": "2020",
-            "ordem_de_visita": 435,
-            "nivel": 2
-        },
-        "acabar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 264,
-            "nivel": 2
-        },
-        "interno": {
-            "pai": "economia",
-            "ordem_de_visita": 49,
-            "nivel": 1
-        },
-        "alimento": {
-            "pai": "2020",
-            "ordem_de_visita": 427,
-            "nivel": 2
-        },
-        "programa": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 287,
-            "nivel": 2
-        },
-        "transferência": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 144,
-            "nivel": 2
-        },
-        "carne": {
-            "pai": "2020",
-            "ordem_de_visita": 432,
-            "nivel": 2
-        },
-        "preço": {
-            "pai": "2020",
-            "ordem_de_visita": 426,
-            "nivel": 2
-        },
-        "incentivar": {
-            "pai": "principal",
-            "ordem_de_visita": 91,
-            "nivel": 2
-        },
-        "grande": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 211,
-            "nivel": 2
-        },
-        "profundo": {
-            "pai": "2020",
-            "ordem_de_visita": 382,
-            "nivel": 2
-        },
-        "civil": {
-            "pai": "operar",
-            "ordem_de_visita": 442,
-            "nivel": 2
-        },
-        "paralisia": {
-            "pai": "impacto",
-            "ordem_de_visita": 492,
-            "nivel": 2
-        },
-        "atingir": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 251,
-            "nivel": 2
-        },
-        "contingente": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 317,
-            "nivel": 2
-        },
-        "extraordinário": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 283,
-            "nivel": 2
-        },
-        "sustentação": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 195,
-            "nivel": 2
-        },
-        "orçamento": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 275,
-            "nivel": 2
-        },
-        "índice": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 246,
-            "nivel": 2
-        },
-        "forçado": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 349,
-            "nivel": 2
-        },
-        "operar": {
-            "pai": "economia",
-            "ordem_de_visita": 7,
-            "nivel": 1
-        },
-        "fluxo": {
-            "pai": "reduzir",
-            "ordem_de_visita": 520,
-            "nivel": 3
-        },
-        "empurrar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 121,
-            "nivel": 2
-        },
-        "seguro": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 357,
-            "nivel": 2
-        },
-        "alterar": {
-            "pai": "economia",
-            "ordem_de_visita": 64,
-            "nivel": 1
-        },
-        "refúgio": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 356,
-            "nivel": 2
-        },
-        "informal": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 304,
-            "nivel": 2
-        },
-        "expressivo": {
-            "pai": "economia",
-            "ordem_de_visita": 31,
-            "nivel": 1
-        },
-        "elevada": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 131,
-            "nivel": 2
-        },
-        "cancelamento": {
-            "pai": "operar",
-            "ordem_de_visita": 445,
-            "nivel": 2
-        },
-        "abrupta": {
-            "pai": "economia",
-            "ordem_de_visita": 55,
-            "nivel": 1
-        },
-        "agência": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 167,
-            "nivel": 2
-        },
-        "consolidar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 190,
-            "nivel": 2
-        },
-        "promover": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 245,
-            "nivel": 2
-        },
-        "competitividade": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 266,
-            "nivel": 2
-        },
-        "milho": {
-            "pai": "economia",
-            "ordem_de_visita": 26,
-            "nivel": 1
-        },
-        "global": {
-            "pai": "economia",
-            "ordem_de_visita": 47,
-            "nivel": 1
-        },
-        "comitê": {
-            "pai": "principal",
-            "ordem_de_visita": 74,
-            "nivel": 2
-        },
-        "gratuita": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 149,
-            "nivel": 2
-        },
-        "regra": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 279,
-            "nivel": 2
-        },
-        "amargar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 340,
-            "nivel": 2
-        },
-        "óleo": {
-            "pai": "2020",
-            "ordem_de_visita": 431,
-            "nivel": 2
-        },
-        "deixar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 313,
-            "nivel": 2
-        },
-        "oficial": {
-            "pai": "2020",
-            "ordem_de_visita": 422,
-            "nivel": 2
-        },
-        "implementar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 139,
-            "nivel": 2
-        },
-        "setorial": {
-            "pai": "operar",
-            "ordem_de_visita": 467,
-            "nivel": 2
-        },
-        "elevar": {
-            "pai": "impacto",
-            "ordem_de_visita": 498,
-            "nivel": 2
-        },
-        "manufaturar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 267,
-            "nivel": 2
-        },
-        "aplicação": {
-            "pai": "principal",
-            "ordem_de_visita": 99,
-            "nivel": 2
-        },
-        "gerar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 233,
-            "nivel": 2
-        },
-        "auxílio": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 320,
-            "nivel": 2
-        },
-        "academia": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 337,
-            "nivel": 2
-        },
-        "mercado": {
-            "pai": "economia",
-            "ordem_de_visita": 21,
-            "nivel": 1
-        },
-        "centavo": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 254,
-            "nivel": 2
-        },
-        "produtivo": {
-            "pai": "principal",
-            "ordem_de_visita": 90,
-            "nivel": 2
-        },
-        "reforma": {
-            "pai": "2020",
-            "ordem_de_visita": 396,
-            "nivel": 2
-        },
-        "aviação": {
-            "pai": "operar",
-            "ordem_de_visita": 441,
-            "nivel": 2
-        },
-        "valor": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 229,
-            "nivel": 2
-        },
-        "déficit": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 272,
-            "nivel": 2
-        },
-        "dominar": {
-            "pai": "2020",
-            "ordem_de_visita": 390,
-            "nivel": 2
-        },
-        "devolução": {
-            "pai": "operar",
-            "ordem_de_visita": 457,
-            "nivel": 2
-        },
-        "futuro": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 133,
-            "nivel": 2
-        },
-        "impacto": {
-            "pai": "economia",
-            "ordem_de_visita": 45,
-            "nivel": 1
-        },
-        "risco": {
-            "pai": "principal",
-            "ordem_de_visita": 107,
-            "nivel": 2
-        },
-        "expressiva": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 250,
-            "nivel": 2
-        },
-        "industrial": {
-            "pai": "economia",
-            "ordem_de_visita": 57,
-            "nivel": 1
-        },
-        "instituição": {
-            "pai": "reduzir",
-            "ordem_de_visita": 517,
-            "nivel": 3
-        },
-        "rendimento": {
-            "pai": "principal",
-            "ordem_de_visita": 98,
-            "nivel": 2
-        },
-        "produtividade": {
-            "pai": "2020",
-            "ordem_de_visita": 419,
-            "nivel": 2
-        },
-        "novembro": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 141,
-            "nivel": 2
-        },
-        "baixar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 244,
-            "nivel": 2
-        },
-        "contrato": {
-            "pai": "setor",
-            "ordem_de_visita": 481,
-            "nivel": 2
-        },
-        "demissão": {
-            "pai": "setor",
-            "ordem_de_visita": 474,
-            "nivel": 2
-        },
-        "plataforma": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 179,
-            "nivel": 2
-        },
-        "central": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 137,
-            "nivel": 2
-        },
-        "remoto": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 214,
-            "nivel": 2
-        },
-        "analista": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 199,
-            "nivel": 2
-        },
-        "doméstico": {
-            "pai": "2020",
-            "ordem_de_visita": 439,
-            "nivel": 2
-        },
-        "paralisação": {
-            "pai": "economia",
-            "ordem_de_visita": 54,
-            "nivel": 1
-        },
-        "saída": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 257,
-            "nivel": 2
-        },
-        "empregatício": {
-            "pai": "setor",
-            "ordem_de_visita": 489,
-            "nivel": 2
-        },
-        "estatística": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 321,
-            "nivel": 2
-        },
-        "resiliente": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 203,
-            "nivel": 2
-        },
-        "milhar": {
-            "pai": "reduzir",
-            "ordem_de_visita": 522,
-            "nivel": 3
-        },
-        "desempenho": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 202,
-            "nivel": 2
-        },
-        "mobilidade": {
-            "pai": "impacto",
-            "ordem_de_visita": 501,
-            "nivel": 2
-        },
-        "prático": {
-            "pai": "2020",
-            "ordem_de_visita": 401,
-            "nivel": 2
-        },
-        "hotéis": {
-            "pai": "operar",
-            "ordem_de_visita": 459,
-            "nivel": 2
-        },
-        "benefício": {
-            "pai": "setor",
-            "ordem_de_visita": 470,
-            "nivel": 2
-        },
-        "emprego": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 322,
-            "nivel": 2
-        },
-        "cambial": {
-            "pai": "economia",
-            "ordem_de_visita": 38,
-            "nivel": 1
-        },
-        "país": {
-            "pai": "economia",
-            "ordem_de_visita": 39,
-            "nivel": 1
-        },
-        "reduzir": {
-            "pai": "principal",
-            "ordem_de_visita": 77,
-            "nivel": 2
-        },
-        "distanciamento": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 163,
-            "nivel": 2
-        },
-        "recurso": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 216,
-            "nivel": 2
-        },
-        "principal": {
-            "pai": "economia",
-            "ordem_de_visita": 3,
-            "nivel": 1
-        },
-        "consolidar se": {
-            "pai": "economia",
-            "ordem_de_visita": 2,
-            "nivel": 1
-        },
-        "massa": {
-            "pai": "operar",
-            "ordem_de_visita": 446,
-            "nivel": 2
-        },
-        "evento": {
-            "pai": "operar",
-            "ordem_de_visita": 460,
-            "nivel": 2
-        },
-        "instituir": {
-            "pai": "setor",
-            "ordem_de_visita": 469,
-            "nivel": 2
-        },
-        "dia": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 153,
-            "nivel": 2
-        },
-        "complexidade": {
-            "pai": "2020",
-            "ordem_de_visita": 414,
-            "nivel": 2
-        },
-        "comprometer": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 132,
-            "nivel": 2
-        },
-        "cenário": {
-            "pai": "principal",
-            "ordem_de_visita": 92,
-            "nivel": 2
-        },
-        "móvel": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 187,
-            "nivel": 2
-        },
-        "disparar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 235,
-            "nivel": 2
-        },
-        "extremamente": {
-            "pai": "2020",
-            "ordem_de_visita": 386,
-            "nivel": 2
-        },
-        "fiscal": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 280,
-            "nivel": 2
-        },
-        "experimentar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 168,
-            "nivel": 2
-        },
-        "rede": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 181,
-            "nivel": 2
-        },
-        "jornada": {
-            "pai": "setor",
-            "ordem_de_visita": 477,
-            "nivel": 2
-        },
-        "recorde": {
-            "pai": "economia",
-            "ordem_de_visita": 17,
-            "nivel": 1
-        },
-        "direcionar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 215,
-            "nivel": 2
-        },
-        "pequeno": {
-            "pai": "reduzir",
-            "ordem_de_visita": 503,
-            "nivel": 3
-        },
-        "imobiliário": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 200,
-            "nivel": 2
-        },
-        "ponta": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 128,
-            "nivel": 2
-        },
-        "recorrer": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 115,
-            "nivel": 2
-        },
-        "autônoma": {
-            "pai": "2020",
-            "ordem_de_visita": 378,
-            "nivel": 2
-        },
-        "temporário": {
-            "pai": "setor",
-            "ordem_de_visita": 480,
-            "nivel": 2
-        },
-        "brasileiro": {
-            "pai": "economia",
-            "ordem_de_visita": 5,
-            "nivel": 1
-        },
-        "ferramenta": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 145,
-            "nivel": 2
-        },
-        "simplificação": {
-            "pai": "2020",
-            "ordem_de_visita": 408,
-            "nivel": 2
-        },
-        "clima": {
-            "pai": "2020",
-            "ordem_de_visita": 388,
-            "nivel": 2
-        },
-        "bloqueio": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 176,
-            "nivel": 2
-        },
-        "fonte": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 312,
-            "nivel": 2
-        },
-        "urbano": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 346,
-            "nivel": 2
-        },
-        "animal": {
-            "pai": "economia",
-            "ordem_de_visita": 28,
-            "nivel": 1
-        },
-        "deterioração": {
-            "pai": "2020",
-            "ordem_de_visita": 381,
-            "nivel": 2
-        },
-        "vendedor": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 305,
-            "nivel": 2
-        },
-        "recuperação": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 135,
-            "nivel": 2
-        },
-        "apontar": {
-            "pai": "2020",
-            "ordem_de_visita": 416,
-            "nivel": 2
-        },
-        "quatorze": {
-            "pai": "2020",
-            "ordem_de_visita": 373,
-            "nivel": 2
-        },
-        "baixo": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 125,
-            "nivel": 2
-        },
-        "monetária": {
-            "pai": "principal",
-            "ordem_de_visita": 76,
-            "nivel": 2
-        },
-        "expansionista": {
-            "pai": "principal",
-            "ordem_de_visita": 84,
-            "nivel": 2
-        },
-        "pilar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 192,
-            "nivel": 2
-        },
-        "retirar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 354,
-            "nivel": 2
-        },
-        "alta": {
-            "pai": "2020",
-            "ordem_de_visita": 425,
-            "nivel": 2
-        },
-        "estatal": {
-            "pai": "reduzir",
-            "ordem_de_visita": 516,
-            "nivel": 3
-        },
-        "decorrer": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 171,
-            "nivel": 2
-        },
-        "prestador": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 307,
-            "nivel": 2
-        },
-        "recebimento": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 319,
-            "nivel": 2
-        },
-        "desemprego": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 113,
-            "nivel": 2
-        },
-        "perder": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 310,
-            "nivel": 2
-        },
-        "crise": {
-            "pai": "economia",
-            "ordem_de_visita": 9,
-            "nivel": 1
-        },
-        "beneficiado": {
-            "pai": "economia",
-            "ordem_de_visita": 11,
-            "nivel": 1
-        },
-        "receita": {
-            "pai": "economia",
-            "ordem_de_visita": 37,
-            "nivel": 1
-        },
-        "liderança": {
-            "pai": "2020",
-            "ordem_de_visita": 405,
-            "nivel": 2
-        },
-        "pânico": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 232,
-            "nivel": 2
-        },
-        "aprovar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 277,
-            "nivel": 2
-        },
-        "influenciar": {
-            "pai": "principal",
-            "ordem_de_visita": 96,
-            "nivel": 2
-        },
-        "melhorar": {
-            "pai": "2020",
-            "ordem_de_visita": 411,
-            "nivel": 2
-        },
-        "financeiro": {
-            "pai": "principal",
-            "ordem_de_visita": 100,
-            "nivel": 2
-        },
-        "permitir": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 146,
-            "nivel": 2
-        },
-        "demandar": {
-            "pai": "operar",
-            "ordem_de_visita": 453,
-            "nivel": 2
-        },
-        "generalizar": {
-            "pai": "2020",
-            "ordem_de_visita": 389,
-            "nivel": 2
-        },
-        "cartão": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 118,
-            "nivel": 2
-        },
-        "atípica": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 300,
-            "nivel": 2
-        },
-        "manutenção": {
-            "pai": "setor",
-            "ordem_de_visita": 487,
-            "nivel": 2
-        },
-        "folha": {
-            "pai": "reduzir",
-            "ordem_de_visita": 525,
-            "nivel": 3
-        },
-        "ligar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 334,
-            "nivel": 2
-        },
-        "parcela": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 329,
-            "nivel": 2
-        },
-        "empréstimo": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 116,
-            "nivel": 2
-        },
-        "operacional": {
-            "pai": "operar",
-            "ordem_de_visita": 465,
-            "nivel": 2
-        },
-        "monetário": {
-            "pai": "principal",
-            "ordem_de_visita": 83,
-            "nivel": 2
-        },
-        "renda": {
-            "pai": "principal",
-            "ordem_de_visita": 101,
-            "nivel": 2
-        },
-        "contar": {
-            "pai": "reduzir",
-            "ordem_de_visita": 512,
-            "nivel": 3
-        },
-        "necessidade": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 114,
-            "nivel": 2
-        },
-        "negócio": {
-            "pai": "2020",
-            "ordem_de_visita": 412,
-            "nivel": 2
-        },
-        "favorecer": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 265,
-            "nivel": 2
-        },
-        "sucessivo": {
-            "pai": "economia",
-            "ordem_de_visita": 18,
-            "nivel": 1
-        },
-        "setor": {
-            "pai": "economia",
-            "ordem_de_visita": 10,
-            "nivel": 1
-        },
-        "ser": {
-            "pai": "economia",
-            "ordem_de_visita": 70,
-            "nivel": 1
-        },
-        "fixa": {
-            "pai": "reduzir",
-            "ordem_de_visita": 526,
-            "nivel": 3
-        },
-        "investidor": {
-            "pai": "principal",
-            "ordem_de_visita": 104,
-            "nivel": 2
-        },
-        "atividades": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 333,
-            "nivel": 2
-        },
-        "significativamente": {
-            "pai": "impacto",
-            "ordem_de_visita": 499,
-            "nivel": 2
-        },
-        "continuar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 130,
-            "nivel": 2
-        },
-        "milhão": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 178,
-            "nivel": 2
-        },
-        "passagem": {
-            "pai": "operar",
-            "ordem_de_visita": 458,
             "nivel": 2
         },
         "tecnologia": {
@@ -2043,459 +23,19 @@
             "ordem_de_visita": 184,
             "nivel": 2
         },
-        "primário": {
+        "orçamento": {
             "pai": "brasileiro",
-            "ordem_de_visita": 273,
+            "ordem_de_visita": 275,
             "nivel": 2
         },
-        "parar": {
-            "pai": "economia",
-            "ordem_de_visita": 61,
-            "nivel": 1
-        },
-        "flexibilizar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 278,
-            "nivel": 2
-        },
-        "social": {
-            "pai": "economia",
-            "ordem_de_visita": 60,
-            "nivel": 1
-        },
-        "econômico": {
-            "pai": "economia",
-            "ordem_de_visita": 68,
-            "nivel": 1
-        },
-        "arrecadação": {
-            "pai": "2020",
-            "ordem_de_visita": 415,
-            "nivel": 2
-        },
-        "importação": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 262,
-            "nivel": 2
-        },
-        "refletir": {
-            "pai": "economia",
-            "ordem_de_visita": 53,
-            "nivel": 1
-        },
-        "retração": {
-            "pai": "economia",
-            "ordem_de_visita": 42,
-            "nivel": 1
-        },
-        "duramente": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 331,
-            "nivel": 2
-        },
-        "acentuar": {
-            "pai": "economia",
-            "ordem_de_visita": 51,
-            "nivel": 1
-        },
-        "vigente": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 281,
-            "nivel": 2
-        },
-        "taxa": {
-            "pai": "principal",
-            "ordem_de_visita": 78,
-            "nivel": 2
-        },
-        "supersafra": {
-            "pai": "economia",
-            "ordem_de_visita": 12,
-            "nivel": 1
-        },
-        "atrair": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 208,
-            "nivel": 2
-        },
-        "alternativa": {
-            "pai": "principal",
-            "ordem_de_visita": 106,
-            "nivel": 2
-        },
-        "evidenciar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 323,
-            "nivel": 2
-        },
-        "mínimas": {
-            "pai": "operar",
-            "ordem_de_visita": 451,
-            "nivel": 2
-        },
-        "emergencial": {
+        "acordo": {
             "pai": "setor",
-            "ordem_de_visita": 471,
+            "ordem_de_visita": 476,
             "nivel": 2
         },
-        "gasto": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 284,
-            "nivel": 2
-        },
-        "política": {
+        "forçar": {
             "pai": "principal",
-            "ordem_de_visita": 75,
-            "nivel": 2
-        },
-        "impulsionar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 160,
-            "nivel": 2
-        },
-        "projeção": {
-            "pai": "economia",
-            "ordem_de_visita": 66,
-            "nivel": 1
-        },
-        "saltar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 290,
-            "nivel": 2
-        },
-        "alarmante": {
-            "pai": "2020",
-            "ordem_de_visita": 370,
-            "nivel": 2
-        },
-        "atenuar": {
-            "pai": "economia",
-            "ordem_de_visita": 34,
-            "nivel": 1
-        },
-        "ocupação": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 315,
-            "nivel": 2
-        },
-        "desvalorização": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 255,
-            "nivel": 2
-        },
-        "debate": {
-            "pai": "2020",
-            "ordem_de_visita": 394,
-            "nivel": 2
-        },
-        "marca": {
-            "pai": "2020",
-            "ordem_de_visita": 372,
-            "nivel": 2
-        },
-        "privado": {
-            "pai": "setor",
-            "ordem_de_visita": 475,
-            "nivel": 2
-        },
-        "drasticamente": {
-            "pai": "economia",
-            "ordem_de_visita": 65,
-            "nivel": 1
-        },
-        "avanço": {
-            "pai": "2020",
-            "ordem_de_visita": 400,
-            "nivel": 2
-        },
-        "fronteira": {
-            "pai": "operar",
-            "ordem_de_visita": 444,
-            "nivel": 2
-        },
-        "básico": {
-            "pai": "principal",
-            "ordem_de_visita": 79,
-            "nivel": 2
-        },
-        "endividamento": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 109,
-            "nivel": 2
-        },
-        "incerteza": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 363,
-            "nivel": 2
-        },
-        "ativo": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 217,
-            "nivel": 2
-        },
-        "fração": {
-            "pai": "operar",
-            "ordem_de_visita": 450,
-            "nivel": 2
-        },
-        "atividade": {
-            "pai": "economia",
-            "ordem_de_visita": 56,
-            "nivel": 1
-        },
-        "salão": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 338,
-            "nivel": 2
-        },
-        "durante": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 301,
-            "nivel": 2
-        },
-        "consolidação": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 212,
-            "nivel": 2
-        },
-        "aéreo": {
-            "pai": "operar",
-            "ordem_de_visita": 449,
-            "nivel": 2
-        },
-        "habitacional": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 205,
-            "nivel": 2
-        },
-        "volatilidade": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 222,
-            "nivel": 2
-        },
-        "acelerar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 155,
-            "nivel": 2
-        },
-        "aversão": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 256,
-            "nivel": 2
-        },
-        "cobrar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 127,
-            "nivel": 2
-        },
-        "entrave": {
-            "pai": "2020",
-            "ordem_de_visita": 417,
-            "nivel": 2
-        },
-        "cesta": {
-            "pai": "2020",
-            "ordem_de_visita": 429,
-            "nivel": 2
-        },
-        "inadimplência": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 123,
-            "nivel": 2
-        },
-        "iniciar": {
-            "pai": "operar",
-            "ordem_de_visita": 464,
-            "nivel": 2
-        },
-        "alerta": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 294,
-            "nivel": 2
-        },
-        "desaceleração": {
-            "pai": "principal",
-            "ordem_de_visita": 94,
-            "nivel": 2
-        },
-        "norte-americano": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 359,
-            "nivel": 2
-        },
-        "assumir": {
-            "pai": "setor",
-            "ordem_de_visita": 485,
-            "nivel": 2
-        },
-        "privar": {
-            "pai": "reduzir",
-            "ordem_de_visita": 518,
-            "nivel": 3
-        },
-        "consumo": {
-            "pai": "economia",
-            "ordem_de_visita": 62,
-            "nivel": 1
-        },
-        "guerra": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 276,
-            "nivel": 2
-        },
-        "viagem": {
-            "pai": "operar",
-            "ordem_de_visita": 447,
-            "nivel": 2
-        },
-        "brasil": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 138,
-            "nivel": 2
-        },
-        "imposto": {
-            "pai": "2020",
-            "ordem_de_visita": 409,
-            "nivel": 2
-        },
-        "criar": {
-            "pai": "reduzir",
-            "ordem_de_visita": 506,
-            "nivel": 3
-        },
-        "varejo": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 196,
-            "nivel": 2
-        },
-        "garantidor": {
-            "pai": "reduzir",
-            "ordem_de_visita": 515,
-            "nivel": 3
-        },
-        "estivessem": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 124,
-            "nivel": 2
-        },
-        "motor": {
-            "pai": "economia",
-            "ordem_de_visita": 4,
-            "nivel": 1
-        },
-        "comercial": {
-            "pai": "economia",
-            "ordem_de_visita": 33,
-            "nivel": 1
-        },
-        "encerramento": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 111,
-            "nivel": 2
-        },
-        "liquidez": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 242,
-            "nivel": 2
-        },
-        "microempresas": {
-            "pai": "reduzir",
-            "ordem_de_visita": 507,
-            "nivel": 3
-        },
-        "acender": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 293,
-            "nivel": 2
-        },
-        "circuit": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 237,
-            "nivel": 2
-        },
-        "companhia": {
-            "pai": "operar",
-            "ordem_de_visita": 448,
-            "nivel": 2
-        },
-        "eletrônico": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 162,
-            "nivel": 2
-        },
-        "exportação": {
-            "pai": "economia",
-            "ordem_de_visita": 19,
-            "nivel": 1
-        },
-        "empresa": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 350,
-            "nivel": 2
-        },
-        "investimento": {
-            "pai": "principal",
-            "ordem_de_visita": 89,
-            "nivel": 2
-        },
-        "reestruturação": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 348,
-            "nivel": 2
-        },
-        "redução": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 259,
-            "nivel": 2
-        },
-        "superávit": {
-            "pai": "economia",
-            "ordem_de_visita": 30,
-            "nivel": 1
-        },
-        "afetar": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 332,
-            "nivel": 2
-        },
-        "segmento": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 326,
-            "nivel": 2
-        },
-        "prejuízo": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 341,
-            "nivel": 2
-        },
-        "digitalização": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 156,
-            "nivel": 2
-        },
-        "fenômeno": {
-            "pai": "2020",
-            "ordem_de_visita": 433,
-            "nivel": 2
-        },
-        "destravar": {
-            "pai": "reduzir",
-            "ordem_de_visita": 519,
-            "nivel": 3
-        },
-        "sustentabilidade": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 295,
-            "nivel": 2
-        },
-        "bancário": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 117,
-            "nivel": 2
-        },
-        "pressionar": {
-            "pai": "2020",
-            "ordem_de_visita": 424,
+            "ordem_de_visita": 103,
             "nivel": 2
         },
         "forte": {
@@ -2503,19 +43,489 @@
             "ordem_de_visita": 93,
             "nivel": 2
         },
-        "haver": {
+        "arrecadação": {
+            "pai": "2020",
+            "ordem_de_visita": 415,
+            "nivel": 2
+        },
+        "deterioração": {
+            "pai": "2020",
+            "ordem_de_visita": 381,
+            "nivel": 2
+        },
+        "queda": {
             "pai": "economia",
-            "ordem_de_visita": 69,
+            "ordem_de_visita": 35,
             "nivel": 1
         },
-        "laboral": {
+        "drasticamente": {
+            "pai": "economia",
+            "ordem_de_visita": 65,
+            "nivel": 1
+        },
+        "financeiro": {
+            "pai": "principal",
+            "ordem_de_visita": 100,
+            "nivel": 2
+        },
+        "temporário": {
             "pai": "setor",
-            "ordem_de_visita": 482,
+            "ordem_de_visita": 480,
+            "nivel": 2
+        },
+        "diretamente": {
+            "pai": "principal",
+            "ordem_de_visita": 97,
+            "nivel": 2
+        },
+        "assistência": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 288,
+            "nivel": 2
+        },
+        "estimar": {
+            "pai": "economia",
+            "ordem_de_visita": 71,
+            "nivel": 1
+        },
+        "insumo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 263,
+            "nivel": 2
+        },
+        "ver": {
+            "pai": "operar",
+            "ordem_de_visita": 461,
+            "nivel": 2
+        },
+        "suspensão": {
+            "pai": "setor",
+            "ordem_de_visita": 479,
+            "nivel": 2
+        },
+        "espécie": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 159,
+            "nivel": 2
+        },
+        "repentinamente": {
+            "pai": "operar",
+            "ordem_de_visita": 463,
+            "nivel": 2
+        },
+        "itens": {
+            "pai": "2020",
+            "ordem_de_visita": 428,
+            "nivel": 2
+        },
+        "encarecer": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 261,
+            "nivel": 2
+        },
+        "buscar": {
+            "pai": "principal",
+            "ordem_de_visita": 105,
+            "nivel": 2
+        },
+        "custear": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 119,
+            "nivel": 2
+        },
+        "contrato": {
+            "pai": "setor",
+            "ordem_de_visita": 481,
+            "nivel": 2
+        },
+        "logística": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 183,
+            "nivel": 2
+        },
+        "superávit": {
+            "pai": "economia",
+            "ordem_de_visita": 30,
+            "nivel": 1
+        },
+        "alternativa": {
+            "pai": "principal",
+            "ordem_de_visita": 106,
+            "nivel": 2
+        },
+        "fixo": {
+            "pai": "principal",
+            "ordem_de_visita": 102,
+            "nivel": 2
+        },
+        "venda": {
+            "pai": "economia",
+            "ordem_de_visita": 23,
+            "nivel": 1
+        },
+        "valorização": {
+            "pai": "economia",
+            "ordem_de_visita": 14,
+            "nivel": 1
+        },
+        "ativo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 217,
+            "nivel": 2
+        },
+        "amparar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 318,
+            "nivel": 2
+        },
+        "política": {
+            "pai": "principal",
+            "ordem_de_visita": 75,
+            "nivel": 2
+        },
+        "monetário": {
+            "pai": "principal",
+            "ordem_de_visita": 83,
             "nivel": 2
         },
         "formal": {
             "pai": "2020",
             "ordem_de_visita": 375,
+            "nivel": 2
+        },
+        "operacional": {
+            "pai": "operar",
+            "ordem_de_visita": 465,
+            "nivel": 2
+        },
+        "extremo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 227,
+            "nivel": 2
+        },
+        "título": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 358,
+            "nivel": 2
+        },
+        "assumir": {
+            "pai": "setor",
+            "ordem_de_visita": 485,
+            "nivel": 2
+        },
+        "demandar": {
+            "pai": "operar",
+            "ordem_de_visita": 453,
+            "nivel": 2
+        },
+        "microempreendedor": {
+            "pai": "impacto",
+            "ordem_de_visita": 496,
+            "nivel": 2
+        },
+        "consolidação": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 212,
+            "nivel": 2
+        },
+        "recuperação": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 135,
+            "nivel": 2
+        },
+        "iniciar": {
+            "pai": "operar",
+            "ordem_de_visita": 464,
+            "nivel": 2
+        },
+        "visar": {
+            "pai": "2020",
+            "ordem_de_visita": 410,
+            "nivel": 2
+        },
+        "sessentar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 253,
+            "nivel": 2
+        },
+        "balança": {
+            "pai": "economia",
+            "ordem_de_visita": 32,
+            "nivel": 1
+        },
+        "animal": {
+            "pai": "economia",
+            "ordem_de_visita": 28,
+            "nivel": 1
+        },
+        "desafiadora": {
+            "pai": "2020",
+            "ordem_de_visita": 387,
+            "nivel": 2
+        },
+        "governamental": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 285,
+            "nivel": 2
+        },
+        "pilar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 192,
+            "nivel": 2
+        },
+        "extraordinário": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 283,
+            "nivel": 2
+        },
+        "produtividade": {
+            "pai": "2020",
+            "ordem_de_visita": 419,
+            "nivel": 2
+        },
+        "tributário": {
+            "pai": "2020",
+            "ordem_de_visita": 397,
+            "nivel": 2
+        },
+        "atividade": {
+            "pai": "economia",
+            "ordem_de_visita": 56,
+            "nivel": 1
+        },
+        "físico": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 151,
+            "nivel": 2
+        },
+        "internacional": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 269,
+            "nivel": 2
+        },
+        "motor": {
+            "pai": "economia",
+            "ordem_de_visita": 4,
+            "nivel": 1
+        },
+        "garantir": {
+            "pai": "economia",
+            "ordem_de_visita": 29,
+            "nivel": 1
+        },
+        "avanço": {
+            "pai": "2020",
+            "ordem_de_visita": 400,
+            "nivel": 2
+        },
+        "digital": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 180,
+            "nivel": 2
+        },
+        "experimentar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 168,
+            "nivel": 2
+        },
+        "benefício": {
+            "pai": "setor",
+            "ordem_de_visita": 470,
+            "nivel": 2
+        },
+        "loja": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 175,
+            "nivel": 2
+        },
+        "corporativo": {
+            "pai": "2020",
+            "ordem_de_visita": 392,
+            "nivel": 2
+        },
+        "gratuita": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 149,
+            "nivel": 2
+        },
+        "setor": {
+            "pai": "economia",
+            "ordem_de_visita": 10,
+            "nivel": 1
+        },
+        "lançamento": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 154,
+            "nivel": 2
+        },
+        "impedido": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 172,
+            "nivel": 2
+        },
+        "perder": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 310,
+            "nivel": 2
+        },
+        "imobiliário": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 200,
+            "nivel": 2
+        },
+        "precedente": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 170,
+            "nivel": 2
+        },
+        "isolamento": {
+            "pai": "economia",
+            "ordem_de_visita": 59,
+            "nivel": 1
+        },
+        "monetária": {
+            "pai": "principal",
+            "ordem_de_visita": 76,
+            "nivel": 2
+        },
+        "atingir": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 251,
+            "nivel": 2
+        },
+        "extremamente": {
+            "pai": "2020",
+            "ordem_de_visita": 386,
+            "nivel": 2
+        },
+        "congresso": {
+            "pai": "2020",
+            "ordem_de_visita": 399,
+            "nivel": 2
+        },
+        "estrutural": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 325,
+            "nivel": 2
+        },
+        "generalizar": {
+            "pai": "2020",
+            "ordem_de_visita": 389,
+            "nivel": 2
+        },
+        "baratear": {
+            "pai": "principal",
+            "ordem_de_visita": 86,
+            "nivel": 2
+        },
+        "patamar": {
+            "pai": "principal",
+            "ordem_de_visita": 82,
+            "nivel": 2
+        },
+        "aplicação": {
+            "pai": "principal",
+            "ordem_de_visita": 99,
+            "nivel": 2
+        },
+        "global": {
+            "pai": "economia",
+            "ordem_de_visita": 47,
+            "nivel": 1
+        },
+        "sanitár": {
+            "pai": "economia",
+            "ordem_de_visita": 46,
+            "nivel": 1
+        },
+        "selic": {
+            "pai": "principal",
+            "ordem_de_visita": 81,
+            "nivel": 2
+        },
+        "conta": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 270,
+            "nivel": 2
+        },
+        "liquidez": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 242,
+            "nivel": 2
+        },
+        "estatal": {
+            "pai": "reduzir",
+            "ordem_de_visita": 516,
+            "nivel": 3
+        },
+        "haver": {
+            "pai": "economia",
+            "ordem_de_visita": 69,
+            "nivel": 1
+        },
+        "próximo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 291,
+            "nivel": 2
+        },
+        "brasil": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 138,
+            "nivel": 2
+        },
+        "governo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 289,
+            "nivel": 2
+        },
+        "intensificar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 362,
+            "nivel": 2
+        },
+        "restrição": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 164,
+            "nivel": 2
+        },
+        "fragilizar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 366,
+            "nivel": 2
+        },
+        "honrar": {
+            "pai": "reduzir",
+            "ordem_de_visita": 524,
+            "nivel": 3
+        },
+        "atividades": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 333,
+            "nivel": 2
+        },
+        "federal": {
+            "pai": "setor",
+            "ordem_de_visita": 468,
+            "nivel": 2
+        },
+        "decisão": {
+            "pai": "principal",
+            "ordem_de_visita": 95,
+            "nivel": 2
+        },
+        "sofrer": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 298,
+            "nivel": 2
+        },
+        "desvalorizar": {
+            "pai": "2020",
+            "ordem_de_visita": 438,
+            "nivel": 2
+        },
+        "comitê": {
+            "pai": "principal",
+            "ordem_de_visita": 74,
             "nivel": 2
         },
         "transformar": {
@@ -2528,19 +538,114 @@
             "ordem_de_visita": 234,
             "nivel": 2
         },
-        "commodities": {
+        "diferencial": {
             "pai": "brasileiro",
-            "ordem_de_visita": 268,
+            "ordem_de_visita": 260,
             "nivel": 2
         },
-        "baratear": {
-            "pai": "principal",
-            "ordem_de_visita": 86,
+        "medida": {
+            "pai": "economia",
+            "ordem_de_visita": 58,
+            "nivel": 1
+        },
+        "plataforma": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 179,
             "nivel": 2
         },
-        "paulo": {
+        "sanitário": {
             "pai": "brasileiro",
-            "ordem_de_visita": 230,
+            "ordem_de_visita": 177,
+            "nivel": 2
+        },
+        "e-commerce": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 191,
+            "nivel": 2
+        },
+        "bolsa": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 228,
+            "nivel": 2
+        },
+        "presencial": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 166,
+            "nivel": 2
+        },
+        "rede": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 181,
+            "nivel": 2
+        },
+        "grão": {
+            "pai": "economia",
+            "ordem_de_visita": 13,
+            "nivel": 1
+        },
+        "comércio": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 161,
+            "nivel": 2
+        },
+        "rentabilidade": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 223,
+            "nivel": 2
+        },
+        "devido": {
+            "pai": "economia",
+            "ordem_de_visita": 44,
+            "nivel": 1
+        },
+        "seguro": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 357,
+            "nivel": 2
+        },
+        "milhar": {
+            "pai": "reduzir",
+            "ordem_de_visita": 522,
+            "nivel": 3
+        },
+        "negociação": {
+            "pai": "operar",
+            "ordem_de_visita": 454,
+            "nivel": 2
+        },
+        "dinheiro": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 158,
+            "nivel": 2
+        },
+        "subsequente": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 241,
+            "nivel": 2
+        },
+        "mecanismo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 236,
+            "nivel": 2
+        },
+        "sustentabilidade": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 295,
+            "nivel": 2
+        },
+        "promover": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 245,
+            "nivel": 2
+        },
+        "aprovar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 277,
+            "nivel": 2
+        },
+        "político": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 365,
             "nivel": 2
         },
         "severo": {
@@ -2548,34 +653,169 @@
             "ordem_de_visita": 342,
             "nivel": 2
         },
-        "digital": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 180,
-            "nivel": 2
-        },
-        "recolocação": {
+        "dominar": {
             "pai": "2020",
-            "ordem_de_visita": 383,
+            "ordem_de_visita": 390,
             "nivel": 2
         },
-        "faturamento": {
+        "surpreender": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 198,
+            "nivel": 2
+        },
+        "empresarial": {
+            "pai": "2020",
+            "ordem_de_visita": 393,
+            "nivel": 2
+        },
+        "urgência": {
+            "pai": "2020",
+            "ordem_de_visita": 404,
+            "nivel": 2
+        },
+        "elevar": {
+            "pai": "impacto",
+            "ordem_de_visita": 498,
+            "nivel": 2
+        },
+        "finanças": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 296,
+            "nivel": 2
+        },
+        "resiliente": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 203,
+            "nivel": 2
+        },
+        "busca": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 243,
+            "nivel": 2
+        },
+        "autônomos": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 309,
+            "nivel": 2
+        },
+        "salário": {
+            "pai": "setor",
+            "ordem_de_visita": 478,
+            "nivel": 2
+        },
+        "bar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 335,
+            "nivel": 2
+        },
+        "ambiente": {
+            "pai": "2020",
+            "ordem_de_visita": 391,
+            "nivel": 2
+        },
+        "transação": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 147,
+            "nivel": 2
+        },
+        "passagem": {
+            "pai": "operar",
+            "ordem_de_visita": 458,
+            "nivel": 2
+        },
+        "consumidor": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 129,
+            "nivel": 2
+        },
+        "crédito": {
+            "pai": "principal",
+            "ordem_de_visita": 87,
+            "nivel": 2
+        },
+        "evitar": {
+            "pai": "setor",
+            "ordem_de_visita": 473,
+            "nivel": 2
+        },
+        "parar": {
+            "pai": "economia",
+            "ordem_de_visita": 61,
+            "nivel": 1
+        },
+        "desocupação": {
+            "pai": "2020",
+            "ordem_de_visita": 368,
+            "nivel": 2
+        },
+        "empregatício": {
+            "pai": "setor",
+            "ordem_de_visita": 489,
+            "nivel": 2
+        },
+        "investidores": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 353,
+            "nivel": 2
+        },
+        "expressivo": {
+            "pai": "economia",
+            "ordem_de_visita": 31,
+            "nivel": 1
+        },
+        "ser": {
+            "pai": "economia",
+            "ordem_de_visita": 70,
+            "nivel": 1
+        },
+        "demissão": {
+            "pai": "setor",
+            "ordem_de_visita": 474,
+            "nivel": 2
+        },
+        "viagem": {
+            "pai": "operar",
+            "ordem_de_visita": 447,
+            "nivel": 2
+        },
+        "exigir": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 347,
+            "nivel": 2
+        },
+        "ministério": {
+            "pai": "economia",
+            "ordem_de_visita": 73,
+            "nivel": 1
+        },
+        "privar": {
             "pai": "reduzir",
-            "ordem_de_visita": 505,
+            "ordem_de_visita": 518,
             "nivel": 3
         },
-        "hábito": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 189,
+        "renda": {
+            "pai": "principal",
+            "ordem_de_visita": 101,
             "nivel": 2
         },
-        "imóvel": {
-            "pai": "brasileiro",
-            "ordem_de_visita": 210,
+        "aéreo": {
+            "pai": "operar",
+            "ordem_de_visita": 449,
             "nivel": 2
         },
-        "prazo": {
+        "reforma": {
+            "pai": "2020",
+            "ordem_de_visita": 396,
+            "nivel": 2
+        },
+        "prático": {
+            "pai": "2020",
+            "ordem_de_visita": 401,
+            "nivel": 2
+        },
+        "regra": {
             "pai": "brasileiro",
-            "ordem_de_visita": 207,
+            "ordem_de_visita": 279,
             "nivel": 2
         },
         "tensão": {
@@ -2583,34 +823,1134 @@
             "ordem_de_visita": 364,
             "nivel": 2
         },
-        "patamar": {
-            "pai": "principal",
-            "ordem_de_visita": 82,
-            "nivel": 2
+        "dólar": {
+            "pai": "economia",
+            "ordem_de_visita": 15,
+            "nivel": 1
         },
-        "desafiadora": {
-            "pai": "2020",
-            "ordem_de_visita": 387,
-            "nivel": 2
-        },
-        "comércio": {
+        "estrangeiro": {
             "pai": "brasileiro",
-            "ordem_de_visita": 161,
+            "ordem_de_visita": 258,
             "nivel": 2
         },
-        "trimestre": {
-            "pai": "economia",
-            "ordem_de_visita": 52,
-            "nivel": 1
+        "forçado": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 349,
+            "nivel": 2
         },
-        "grão": {
-            "pai": "economia",
-            "ordem_de_visita": 13,
-            "nivel": 1
-        },
-        "impossibilidade": {
+        "exercer": {
             "pai": "2020",
-            "ordem_de_visita": 376,
+            "ordem_de_visita": 377,
+            "nivel": 2
+        },
+        "flexibilizar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 278,
+            "nivel": 2
+        },
+        "turismo": {
+            "pai": "operar",
+            "ordem_de_visita": 440,
+            "nivel": 2
+        },
+        "pix": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 140,
+            "nivel": 2
+        },
+        "fixa": {
+            "pai": "reduzir",
+            "ordem_de_visita": 526,
+            "nivel": 3
+        },
+        "despesa": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 120,
+            "nivel": 2
+        },
+        "população": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 122,
+            "nivel": 2
+        },
+        "centavo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 254,
+            "nivel": 2
+        },
+        "profissional": {
+            "pai": "2020",
+            "ordem_de_visita": 384,
+            "nivel": 2
+        },
+        "giro": {
+            "pai": "reduzir",
+            "ordem_de_visita": 521,
+            "nivel": 3
+        },
+        "remoto": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 214,
+            "nivel": 2
+        },
+        "abrupta": {
+            "pai": "economia",
+            "ordem_de_visita": 55,
+            "nivel": 1
+        },
+        "futuro": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 133,
+            "nivel": 2
+        },
+        "academia": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 337,
+            "nivel": 2
+        },
+        "acelerar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 155,
+            "nivel": 2
+        },
+        "parcela": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 329,
+            "nivel": 2
+        },
+        "cidadão": {
+            "pai": "2020",
+            "ordem_de_visita": 379,
+            "nivel": 2
+        },
+        "final": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 126,
+            "nivel": 2
+        },
+        "generalizado": {
+            "pai": "economia",
+            "ordem_de_visita": 36,
+            "nivel": 1
+        },
+        "informalidade": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 297,
+            "nivel": 2
+        },
+        "destravar": {
+            "pai": "reduzir",
+            "ordem_de_visita": 519,
+            "nivel": 3
+        },
+        "pessoa": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 150,
+            "nivel": 2
+        },
+        "amargar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 340,
+            "nivel": 2
+        },
+        "histórico": {
+            "pai": "economia",
+            "ordem_de_visita": 43,
+            "nivel": 1
+        },
+        "financiamento": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 204,
+            "nivel": 2
+        },
+        "arroz": {
+            "pai": "2020",
+            "ordem_de_visita": 430,
+            "nivel": 2
+        },
+        "capital": {
+            "pai": "principal",
+            "ordem_de_visita": 108,
+            "nivel": 2
+        },
+        "aplicativo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 186,
+            "nivel": 2
+        },
+        "estimular": {
+            "pai": "principal",
+            "ordem_de_visita": 88,
+            "nivel": 2
+        },
+        "empresa": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 350,
+            "nivel": 2
+        },
+        "nível": {
+            "pai": "2020",
+            "ordem_de_visita": 369,
+            "nivel": 2
+        },
+        "informal": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 304,
+            "nivel": 2
+        },
+        "recorrer": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 115,
+            "nivel": 2
+        },
+        "ocupação": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 315,
+            "nivel": 2
+        },
+        "inadimplência": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 123,
+            "nivel": 2
+        },
+        "guerra": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 276,
+            "nivel": 2
+        },
+        "capacidade": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 134,
+            "nivel": 2
+        },
+        "limitar": {
+            "pai": "2020",
+            "ordem_de_visita": 403,
+            "nivel": 2
+        },
+        "crise": {
+            "pai": "economia",
+            "ordem_de_visita": 9,
+            "nivel": 1
+        },
+        "amplo": {
+            "pai": "2020",
+            "ordem_de_visita": 395,
+            "nivel": 2
+        },
+        "estivessem": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 124,
+            "nivel": 2
+        },
+        "reduzir": {
+            "pai": "principal",
+            "ordem_de_visita": 77,
+            "nivel": 2
+        },
+        "chamado": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 274,
+            "nivel": 2
+        },
+        "beneficiado": {
+            "pai": "economia",
+            "ordem_de_visita": 11,
+            "nivel": 1
+        },
+        "industrial": {
+            "pai": "economia",
+            "ordem_de_visita": 57,
+            "nivel": 1
+        },
+        "asfixiar": {
+            "pai": "reduzir",
+            "ordem_de_visita": 504,
+            "nivel": 3
+        },
+        "marca": {
+            "pai": "2020",
+            "ordem_de_visita": 372,
+            "nivel": 2
+        },
+        "juro": {
+            "pai": "principal",
+            "ordem_de_visita": 80,
+            "nivel": 2
+        },
+        "temporariamente": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 316,
+            "nivel": 2
+        },
+        "interno": {
+            "pai": "economia",
+            "ordem_de_visita": 49,
+            "nivel": 1
+        },
+        "perda": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 112,
+            "nivel": 2
+        },
+        "social": {
+            "pai": "economia",
+            "ordem_de_visita": 60,
+            "nivel": 1
+        },
+        "cobrar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 127,
+            "nivel": 2
+        },
+        "negócio": {
+            "pai": "2020",
+            "ordem_de_visita": 412,
+            "nivel": 2
+        },
+        "investidor": {
+            "pai": "principal",
+            "ordem_de_visita": 104,
+            "nivel": 2
+        },
+        "linha": {
+            "pai": "reduzir",
+            "ordem_de_visita": 510,
+            "nivel": 3
+        },
+        "favorecer": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 265,
+            "nivel": 2
+        },
+        "elevada": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 131,
+            "nivel": 2
+        },
+        "estatística": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 321,
+            "nivel": 2
+        },
+        "vínculo": {
+            "pai": "setor",
+            "ordem_de_visita": 488,
+            "nivel": 2
+        },
+        "complexo": {
+            "pai": "operar",
+            "ordem_de_visita": 455,
+            "nivel": 2
+        },
+        "público": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 271,
+            "nivel": 2
+        },
+        "comprador": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 209,
+            "nivel": 2
+        },
+        "história": {
+            "pai": "operar",
+            "ordem_de_visita": 466,
+            "nivel": 2
+        },
+        "nacional": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 197,
+            "nivel": 2
+        },
+        "alcançar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 110,
+            "nivel": 2
+        },
+        "alerta": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 294,
+            "nivel": 2
+        },
+        "discutir": {
+            "pai": "2020",
+            "ordem_de_visita": 406,
+            "nivel": 2
+        },
+        "cancelamento": {
+            "pai": "operar",
+            "ordem_de_visita": 445,
+            "nivel": 2
+        },
+        "primário": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 273,
+            "nivel": 2
+        },
+        "país": {
+            "pai": "economia",
+            "ordem_de_visita": 39,
+            "nivel": 1
+        },
+        "analista": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 199,
+            "nivel": 2
+        },
+        "força": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 327,
+            "nivel": 2
+        },
+        "executivo": {
+            "pai": "setor",
+            "ordem_de_visita": 484,
+            "nivel": 2
+        },
+        "crescimento": {
+            "pai": "economia",
+            "ordem_de_visita": 67,
+            "nivel": 1
+        },
+        "instituir": {
+            "pai": "setor",
+            "ordem_de_visita": 469,
+            "nivel": 2
+        },
+        "objetivo": {
+            "pai": "principal",
+            "ordem_de_visita": 85,
+            "nivel": 2
+        },
+        "produtivo": {
+            "pai": "principal",
+            "ordem_de_visita": 90,
+            "nivel": 2
+        },
+        "básico": {
+            "pai": "principal",
+            "ordem_de_visita": 79,
+            "nivel": 2
+        },
+        "crucial": {
+            "pai": "2020",
+            "ordem_de_visita": 418,
+            "nivel": 2
+        },
+        "competitividade": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 266,
+            "nivel": 2
+        },
+        "oficial": {
+            "pai": "2020",
+            "ordem_de_visita": 422,
+            "nivel": 2
+        },
+        "impacto": {
+            "pai": "economia",
+            "ordem_de_visita": 45,
+            "nivel": 1
+        },
+        "grande": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 211,
+            "nivel": 2
+        },
+        "segmento": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 326,
+            "nivel": 2
+        },
+        "paulo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 230,
+            "nivel": 2
+        },
+        "principal": {
+            "pai": "economia",
+            "ordem_de_visita": 3,
+            "nivel": 1
+        },
+        "manufaturar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 267,
+            "nivel": 2
+        },
+        "semestre": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 231,
+            "nivel": 2
+        },
+        "garantia": {
+            "pai": "reduzir",
+            "ordem_de_visita": 513,
+            "nivel": 3
+        },
+        "clima": {
+            "pai": "2020",
+            "ordem_de_visita": 388,
+            "nivel": 2
+        },
+        "externo": {
+            "pai": "economia",
+            "ordem_de_visita": 24,
+            "nivel": 1
+        },
+        "continuar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 130,
+            "nivel": 2
+        },
+        "fechar": {
+            "pai": "2020",
+            "ordem_de_visita": 423,
+            "nivel": 2
+        },
+        "cambial": {
+            "pai": "economia",
+            "ordem_de_visita": 38,
+            "nivel": 1
+        },
+        "início": {
+            "pai": "economia",
+            "ordem_de_visita": 72,
+            "nivel": 1
+        },
+        "valor": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 229,
+            "nivel": 2
+        },
+        "tijolo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 219,
+            "nivel": 2
+        },
+        "soja": {
+            "pai": "economia",
+            "ordem_de_visita": 25,
+            "nivel": 1
+        },
+        "alta": {
+            "pai": "2020",
+            "ordem_de_visita": 425,
+            "nivel": 2
+        },
+        "habitual": {
+            "pai": "operar",
+            "ordem_de_visita": 452,
+            "nivel": 2
+        },
+        "bancário": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 117,
+            "nivel": 2
+        },
+        "folha": {
+            "pai": "reduzir",
+            "ordem_de_visita": 525,
+            "nivel": 3
+        },
+        "fronteira": {
+            "pai": "operar",
+            "ordem_de_visita": 444,
+            "nivel": 2
+        },
+        "centro": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 345,
+            "nivel": 2
+        },
+        "entrega": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 352,
+            "nivel": 2
+        },
+        "auge": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 302,
+            "nivel": 2
+        },
+        "distribuição": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 185,
+            "nivel": 2
+        },
+        "porte": {
+            "pai": "reduzir",
+            "ordem_de_visita": 509,
+            "nivel": 3
+        },
+        "varejo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 196,
+            "nivel": 2
+        },
+        "retração": {
+            "pai": "economia",
+            "ordem_de_visita": 42,
+            "nivel": 1
+        },
+        "superar": {
+            "pai": "2020",
+            "ordem_de_visita": 371,
+            "nivel": 2
+        },
+        "refletir": {
+            "pai": "economia",
+            "ordem_de_visita": 53,
+            "nivel": 1
+        },
+        "definitivo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 343,
+            "nivel": 2
+        },
+        "decorrente": {
+            "pai": "2020",
+            "ordem_de_visita": 434,
+            "nivel": 2
+        },
+        "contingente": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 317,
+            "nivel": 2
+        },
+        "agrícola": {
+            "pai": "2020",
+            "ordem_de_visita": 436,
+            "nivel": 2
+        },
+        "desempenho": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 202,
+            "nivel": 2
+        },
+        "patrimonial": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 221,
+            "nivel": 2
+        },
+        "essencial": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 193,
+            "nivel": 2
+        },
+        "significativamente": {
+            "pai": "impacto",
+            "ordem_de_visita": 499,
+            "nivel": 2
+        },
+        "procurar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 314,
+            "nivel": 2
+        },
+        "proposta": {
+            "pai": "2020",
+            "ordem_de_visita": 407,
+            "nivel": 2
+        },
+        "urbano": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 346,
+            "nivel": 2
+        },
+        "especialmente": {
+            "pai": "economia",
+            "ordem_de_visita": 20,
+            "nivel": 1
+        },
+        "desvalorização": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 255,
+            "nivel": 2
+        },
+        "demanda": {
+            "pai": "2020",
+            "ordem_de_visita": 435,
+            "nivel": 2
+        },
+        "comprometer": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 132,
+            "nivel": 2
+        },
+        "bloqueio": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 176,
+            "nivel": 2
+        },
+        "alimento": {
+            "pai": "2020",
+            "ordem_de_visita": 427,
+            "nivel": 2
+        },
+        "prejuízo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 341,
+            "nivel": 2
+        },
+        "vulnerabilidade": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 324,
+            "nivel": 2
+        },
+        "gerar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 233,
+            "nivel": 2
+        },
+        "decorrer": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 171,
+            "nivel": 2
+        },
+        "salão": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 338,
+            "nivel": 2
+        },
+        "ação": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 225,
+            "nivel": 2
+        },
+        "refúgio": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 356,
+            "nivel": 2
+        },
+        "atrair": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 208,
+            "nivel": 2
+        },
+        "importação": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 262,
+            "nivel": 2
+        },
+        "consolidar se": {
+            "pai": "economia",
+            "ordem_de_visita": 2,
+            "nivel": 1
+        },
+        "noventa": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 292,
+            "nivel": 2
+        },
+        "individual": {
+            "pai": "impacto",
+            "ordem_de_visita": 497,
+            "nivel": 2
+        },
+        "projeção": {
+            "pai": "economia",
+            "ordem_de_visita": 66,
+            "nivel": 1
+        },
+        "jornada": {
+            "pai": "setor",
+            "ordem_de_visita": 477,
+            "nivel": 2
+        },
+        "risco": {
+            "pai": "principal",
+            "ordem_de_visita": 107,
+            "nivel": 2
+        },
+        "brasileiro": {
+            "pai": "economia",
+            "ordem_de_visita": 5,
+            "nivel": 1
+        },
+        "imóvel": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 210,
+            "nivel": 2
+        },
+        "deixar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 313,
+            "nivel": 2
+        },
+        "inflação": {
+            "pai": "2020",
+            "ordem_de_visita": 421,
+            "nivel": 2
+        },
+        "asiático": {
+            "pai": "economia",
+            "ordem_de_visita": 22,
+            "nivel": 1
+        },
+        "norte-americano": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 359,
+            "nivel": 2
+        },
+        "contrapartida": {
+            "pai": "setor",
+            "ordem_de_visita": 483,
+            "nivel": 2
+        },
+        "econômico": {
+            "pai": "economia",
+            "ordem_de_visita": 68,
+            "nivel": 1
+        },
+        "trabalho": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 213,
+            "nivel": 2
+        },
+        "completamente": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 311,
+            "nivel": 2
+        },
+        "postos": {
+            "pai": "2020",
+            "ordem_de_visita": 374,
+            "nivel": 2
+        },
+        "pressionar": {
+            "pai": "2020",
+            "ordem_de_visita": 424,
+            "nivel": 2
+        },
+        "influenciar": {
+            "pai": "principal",
+            "ordem_de_visita": 96,
+            "nivel": 2
+        },
+        "liderança": {
+            "pai": "2020",
+            "ordem_de_visita": 405,
+            "nivel": 2
+        },
+        "fluxo": {
+            "pai": "reduzir",
+            "ordem_de_visita": 520,
+            "nivel": 3
+        },
+        "garantidor": {
+            "pai": "reduzir",
+            "ordem_de_visita": 515,
+            "nivel": 3
+        },
+        "desaceleração": {
+            "pai": "principal",
+            "ordem_de_visita": 94,
+            "nivel": 2
+        },
+        "hora": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 152,
+            "nivel": 2
+        },
+        "móvel": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 187,
+            "nivel": 2
+        },
+        "aversão": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 256,
+            "nivel": 2
+        },
+        "socorrer": {
+            "pai": "reduzir",
+            "ordem_de_visita": 502,
+            "nivel": 3
+        },
+        "desempregado": {
+            "pai": "impacto",
+            "ordem_de_visita": 495,
+            "nivel": 2
+        },
+        "desaparecer": {
+            "pai": "operar",
+            "ordem_de_visita": 462,
+            "nivel": 2
+        },
+        "paralisação": {
+            "pai": "economia",
+            "ordem_de_visita": 54,
+            "nivel": 1
+        },
+        "emprego": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 322,
+            "nivel": 2
+        },
+        "potencializar": {
+            "pai": "2020",
+            "ordem_de_visita": 437,
+            "nivel": 2
+        },
+        "saúde": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 286,
+            "nivel": 2
+        },
+        "distanciamento": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 163,
+            "nivel": 2
+        },
+        "evento": {
+            "pai": "operar",
+            "ordem_de_visita": 460,
+            "nivel": 2
+        },
+        "companhia": {
+            "pai": "operar",
+            "ordem_de_visita": 448,
+            "nivel": 2
+        },
+        "proteção": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 220,
+            "nivel": 2
+        },
+        "representar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 328,
+            "nivel": 2
+        },
+        "faturamento": {
+            "pai": "reduzir",
+            "ordem_de_visita": 505,
+            "nivel": 3
+        },
+        "produto": {
+            "pai": "economia",
+            "ordem_de_visita": 48,
+            "nivel": 1
+        },
+        "complexidade": {
+            "pai": "2020",
+            "ordem_de_visita": 414,
+            "nivel": 2
+        },
+        "óleo": {
+            "pai": "2020",
+            "ordem_de_visita": 431,
+            "nivel": 2
+        },
+        "civil": {
+            "pai": "operar",
+            "ordem_de_visita": 442,
+            "nivel": 2
+        },
+        "ponta": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 128,
+            "nivel": 2
+        },
+        "fuga": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 361,
+            "nivel": 2
+        },
+        "novembro": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 141,
+            "nivel": 2
+        },
+        "agência": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 167,
+            "nivel": 2
+        },
+        "saltar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 290,
+            "nivel": 2
+        },
+        "habitacional": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 205,
+            "nivel": 2
+        },
+        "vigente": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 281,
+            "nivel": 2
+        },
+        "agronegócio": {
+            "pai": "economia",
+            "ordem_de_visita": 1,
+            "nivel": 1
+        },
+        "investimento": {
+            "pai": "principal",
+            "ordem_de_visita": 89,
+            "nivel": 2
+        },
+        "seguro-desemprego": {
+            "pai": "setor",
+            "ordem_de_visita": 486,
+            "nivel": 2
+        },
+        "laboral": {
+            "pai": "setor",
+            "ordem_de_visita": 482,
+            "nivel": 2
+        },
+        "bruto": {
+            "pai": "economia",
+            "ordem_de_visita": 50,
+            "nivel": 1
+        },
+        "pânico": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 232,
+            "nivel": 2
+        },
+        "eletrônico": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 162,
+            "nivel": 2
+        },
+        "fenômeno": {
+            "pai": "2020",
+            "ordem_de_visita": 433,
+            "nivel": 2
+        },
+        "taxa": {
+            "pai": "principal",
+            "ordem_de_visita": 78,
+            "nivel": 2
+        },
+        "inatividade": {
+            "pai": "2020",
+            "ordem_de_visita": 380,
+            "nivel": 2
+        },
+        "redução": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 259,
+            "nivel": 2
+        },
+        "receita": {
+            "pai": "economia",
+            "ordem_de_visita": 37,
+            "nivel": 1
+        },
+        "efeito": {
+            "pai": "impacto",
+            "ordem_de_visita": 491,
+            "nivel": 2
+        },
+        "ligar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 334,
+            "nivel": 2
+        },
+        "atenuar": {
+            "pai": "economia",
+            "ordem_de_visita": 34,
+            "nivel": 1
+        },
+        "direcionar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 215,
+            "nivel": 2
+        },
+        "central": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 137,
+            "nivel": 2
+        },
+        "incerteza": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 363,
+            "nivel": 2
+        },
+        "atípica": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 300,
+            "nivel": 2
+        },
+        "fechamento": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 248,
+            "nivel": 2
+        },
+        "hábito": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 189,
+            "nivel": 2
+        },
+        "déficit": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 272,
+            "nivel": 2
+        },
+        "encerramento": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 111,
+            "nivel": 2
+        },
+        "cartão": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 118,
+            "nivel": 2
+        },
+        "consolidar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 190,
+            "nivel": 2
+        },
+        "recorde": {
+            "pai": "economia",
+            "ordem_de_visita": 17,
+            "nivel": 1
+        },
+        "economia": {
+            "pai": null,
+            "ordem_de_visita": 0,
+            "nivel": 0
+        },
+        "empréstimo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 116,
+            "nivel": 2
+        },
+        "massa": {
+            "pai": "operar",
+            "ordem_de_visita": 446,
+            "nivel": 2
+        },
+        "acabar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 264,
+            "nivel": 2
+        },
+        "reestruturação": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 348,
+            "nivel": 2
+        },
+        "afetar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 332,
+            "nivel": 2
+        },
+        "melhorar": {
+            "pai": "2020",
+            "ordem_de_visita": 411,
+            "nivel": 2
+        },
+        "apresentar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 201,
             "nivel": 2
         },
         "tornar se": {
@@ -2618,24 +1958,684 @@
             "ordem_de_visita": 385,
             "nivel": 2
         },
-        "honrar": {
+        "transferência": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 144,
+            "nivel": 2
+        },
+        "índice": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 246,
+            "nivel": 2
+        },
+        "proteína": {
+            "pai": "economia",
+            "ordem_de_visita": 27,
+            "nivel": 1
+        },
+        "pib": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 330,
+            "nivel": 2
+        },
+        "compra": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 174,
+            "nivel": 2
+        },
+        "realizar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 173,
+            "nivel": 2
+        },
+        "disparar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 235,
+            "nivel": 2
+        },
+        "recolocação": {
+            "pai": "2020",
+            "ordem_de_visita": 383,
+            "nivel": 2
+        },
+        "permitir": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 146,
+            "nivel": 2
+        },
+        "breaker": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 238,
+            "nivel": 2
+        },
+        "retirar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 354,
+            "nivel": 2
+        },
+        "preço": {
+            "pai": "2020",
+            "ordem_de_visita": 426,
+            "nivel": 2
+        },
+        "família": {
+            "pai": "economia",
+            "ordem_de_visita": 63,
+            "nivel": 1
+        },
+        "empresário": {
             "pai": "reduzir",
-            "ordem_de_visita": 524,
+            "ordem_de_visita": 523,
             "nivel": 3
         },
-        "suspensão": {
+        "flutuação": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 299,
+            "nivel": 2
+        },
+        "consumo": {
+            "pai": "economia",
+            "ordem_de_visita": 62,
+            "nivel": 1
+        },
+        "implementar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 139,
+            "nivel": 2
+        },
+        "expansão": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 169,
+            "nivel": 2
+        },
+        "interromper": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 239,
+            "nivel": 2
+        },
+        "ibovespa": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 247,
+            "nivel": 2
+        },
+        "especial": {
+            "pai": "reduzir",
+            "ordem_de_visita": 511,
+            "nivel": 3
+        },
+        "acima": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 252,
+            "nivel": 2
+        },
+        "cesta": {
+            "pai": "2020",
+            "ordem_de_visita": 429,
+            "nivel": 2
+        },
+        "debate": {
+            "pai": "2020",
+            "ordem_de_visita": 394,
+            "nivel": 2
+        },
+        "baixar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 244,
+            "nivel": 2
+        },
+        "tradicional": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 224,
+            "nivel": 2
+        },
+        "quatorze": {
+            "pai": "2020",
+            "ordem_de_visita": 373,
+            "nivel": 2
+        },
+        "privado": {
             "pai": "setor",
-            "ordem_de_visita": 479,
+            "ordem_de_visita": 475,
             "nivel": 2
         },
-        "efeito": {
+        "duramente": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 331,
+            "nivel": 2
+        },
+        "programa": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 287,
+            "nivel": 2
+        },
+        "trabalhador": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 303,
+            "nivel": 2
+        },
+        "vulnerável": {
             "pai": "impacto",
-            "ordem_de_visita": 491,
+            "ordem_de_visita": 493,
             "nivel": 2
         },
-        "juro": {
+        "hotéis": {
+            "pai": "operar",
+            "ordem_de_visita": 459,
+            "nivel": 2
+        },
+        "pequeno": {
+            "pai": "reduzir",
+            "ordem_de_visita": 503,
+            "nivel": 3
+        },
+        "apontar": {
+            "pai": "2020",
+            "ordem_de_visita": 416,
+            "nivel": 2
+        },
+        "sustentar": {
+            "pai": "impacto",
+            "ordem_de_visita": 494,
+            "nivel": 2
+        },
+        "balanço": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 367,
+            "nivel": 2
+        },
+        "doméstico": {
+            "pai": "2020",
+            "ordem_de_visita": 439,
+            "nivel": 2
+        },
+        "circuit": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 237,
+            "nivel": 2
+        },
+        "recurso": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 216,
+            "nivel": 2
+        },
+        "atendimento": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 165,
+            "nivel": 2
+        },
+        "auxílio": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 320,
+            "nivel": 2
+        },
+        "imposto": {
+            "pai": "2020",
+            "ordem_de_visita": 409,
+            "nivel": 2
+        },
+        "real": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 218,
+            "nivel": 2
+        },
+        "cenário": {
             "pai": "principal",
-            "ordem_de_visita": 80,
+            "ordem_de_visita": 92,
+            "nivel": 2
+        },
+        "setorial": {
+            "pai": "operar",
+            "ordem_de_visita": 467,
+            "nivel": 2
+        },
+        "sustentação": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 195,
+            "nivel": 2
+        },
+        "empresas": {
+            "pai": "reduzir",
+            "ordem_de_visita": 508,
+            "nivel": 3
+        },
+        "trimestre": {
+            "pai": "economia",
+            "ordem_de_visita": 52,
+            "nivel": 1
+        },
+        "durante": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 301,
+            "nivel": 2
+        },
+        "vendedor": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 305,
+            "nivel": 2
+        },
+        "devastador": {
+            "pai": "operar",
+            "ordem_de_visita": 443,
+            "nivel": 2
+        },
+        "operar": {
+            "pai": "economia",
+            "ordem_de_visita": 7,
+            "nivel": 1
+        },
+        "rendimento": {
+            "pai": "principal",
+            "ordem_de_visita": 98,
+            "nivel": 2
+        },
+        "volume": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 355,
+            "nivel": 2
+        },
+        "impossibilidade": {
+            "pai": "2020",
+            "ordem_de_visita": 376,
+            "nivel": 2
+        },
+        "colapso": {
+            "pai": "impacto",
+            "ordem_de_visita": 500,
+            "nivel": 2
+        },
+        "longo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 206,
+            "nivel": 2
+        },
+        "expressiva": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 250,
+            "nivel": 2
+        },
+        "serviço": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 308,
+            "nivel": 2
+        },
+        "pós-crise": {
+            "pai": "2020",
+            "ordem_de_visita": 413,
+            "nivel": 2
+        },
+        "saída": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 257,
+            "nivel": 2
+        },
+        "alterar": {
+            "pai": "economia",
+            "ordem_de_visita": 64,
+            "nivel": 1
+        },
+        "alarmante": {
+            "pai": "2020",
+            "ordem_de_visita": 370,
+            "nivel": 2
+        },
+        "baixo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 125,
+            "nivel": 2
+        },
+        "movimento": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 360,
+            "nivel": 2
+        },
+        "ferramenta": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 145,
+            "nivel": 2
+        },
+        "enfrentar": {
+            "pai": "economia",
+            "ordem_de_visita": 41,
+            "nivel": 1
+        },
+        "aumento": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 282,
+            "nivel": 2
+        },
+        "varejisto": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 182,
+            "nivel": 2
+        },
+        "contar": {
+            "pai": "reduzir",
+            "ordem_de_visita": 512,
+            "nivel": 3
+        },
+        "entrave": {
+            "pai": "2020",
+            "ordem_de_visita": 417,
+            "nivel": 2
+        },
+        "prazo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 207,
+            "nivel": 2
+        },
+        "recebimento": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 319,
+            "nivel": 2
+        },
+        "dia": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 153,
+            "nivel": 2
+        },
+        "sobreviver": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 351,
+            "nivel": 2
+        },
+        "fração": {
+            "pai": "operar",
+            "ordem_de_visita": 450,
+            "nivel": 2
+        },
+        "empurrar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 121,
+            "nivel": 2
+        },
+        "restaurante": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 336,
+            "nivel": 2
+        },
+        "descolar": {
+            "pai": "economia",
+            "ordem_de_visita": 8,
+            "nivel": 1
+        },
+        "ano": {
+            "pai": "economia",
+            "ordem_de_visita": 40,
+            "nivel": 1
+        },
+        "manutenção": {
+            "pai": "setor",
+            "ordem_de_visita": 487,
+            "nivel": 2
+        },
+        "registrar": {
+            "pai": "economia",
+            "ordem_de_visita": 16,
+            "nivel": 1
+        },
+        "criar": {
+            "pai": "reduzir",
+            "ordem_de_visita": 506,
+            "nivel": 3
+        },
+        "esvaziar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 344,
+            "nivel": 2
+        },
+        "prestador": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 307,
+            "nivel": 2
+        },
+        "instituição": {
+            "pai": "reduzir",
+            "ordem_de_visita": 517,
+            "nivel": 3
+        },
+        "milhão": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 178,
+            "nivel": 2
+        },
+        "comercial": {
+            "pai": "economia",
+            "ordem_de_visita": 33,
+            "nivel": 1
+        },
+        "2020": {
+            "pai": "economia",
+            "ordem_de_visita": 6,
+            "nivel": 1
+        },
+        "socorro": {
+            "pai": "operar",
+            "ordem_de_visita": 456,
+            "nivel": 2
+        },
+        "necessidade": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 114,
+            "nivel": 2
+        },
+        "fonte": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 312,
+            "nivel": 2
+        },
+        "preservação": {
+            "pai": "setor",
+            "ordem_de_visita": 472,
+            "nivel": 2
+        },
+        "câmbio": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 249,
+            "nivel": 2
+        },
+        "mercado": {
+            "pai": "economia",
+            "ordem_de_visita": 21,
+            "nivel": 1
+        },
+        "emergencial": {
+            "pai": "setor",
+            "ordem_de_visita": 471,
+            "nivel": 2
+        },
+        "expansionista": {
+            "pai": "principal",
+            "ordem_de_visita": 84,
+            "nivel": 2
+        },
+        "aviação": {
+            "pai": "operar",
+            "ordem_de_visita": 441,
+            "nivel": 2
+        },
+        "microempresas": {
+            "pai": "reduzir",
+            "ordem_de_visita": 507,
+            "nivel": 3
+        },
+        "volatilidade": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 222,
+            "nivel": 2
+        },
+        "endividamento": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 109,
+            "nivel": 2
+        },
+        "sucessivo": {
+            "pai": "economia",
+            "ordem_de_visita": 18,
+            "nivel": 1
+        },
+        "apesar": {
+            "pai": "2020",
+            "ordem_de_visita": 420,
+            "nivel": 2
+        },
+        "simplificação": {
+            "pai": "2020",
+            "ordem_de_visita": 408,
+            "nivel": 2
+        },
+        "impulsionar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 160,
+            "nivel": 2
+        },
+        "desemprego": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 113,
+            "nivel": 2
+        },
+        "mínimas": {
+            "pai": "operar",
+            "ordem_de_visita": 451,
+            "nivel": 2
+        },
+        "beleza": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 339,
+            "nivel": 2
+        },
+        "viver": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 226,
+            "nivel": 2
+        },
+        "exportação": {
+            "pai": "economia",
+            "ordem_de_visita": 19,
+            "nivel": 1
+        },
+        "sobrevivência": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 194,
+            "nivel": 2
+        },
+        "digitalização": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 156,
+            "nivel": 2
+        },
+        "paralisia": {
+            "pai": "impacto",
+            "ordem_de_visita": 492,
+            "nivel": 2
+        },
+        "instantâneo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 148,
+            "nivel": 2
+        },
+        "acender": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 293,
+            "nivel": 2
+        },
+        "ambulante": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 306,
+            "nivel": 2
+        },
+        "incentivar": {
+            "pai": "principal",
+            "ordem_de_visita": 91,
+            "nivel": 2
+        },
+        "ganhar": {
+            "pai": "2020",
+            "ordem_de_visita": 398,
+            "nivel": 2
+        },
+        "gasto": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 284,
+            "nivel": 2
+        },
+        "commodities": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 268,
+            "nivel": 2
+        },
+        "acentuar": {
+            "pai": "economia",
+            "ordem_de_visita": 51,
+            "nivel": 1
+        },
+        "supersafra": {
+            "pai": "economia",
+            "ordem_de_visita": 12,
+            "nivel": 1
+        },
+        "milho": {
+            "pai": "economia",
+            "ordem_de_visita": 26,
+            "nivel": 1
+        },
+        "mobilidade": {
+            "pai": "impacto",
+            "ordem_de_visita": 501,
+            "nivel": 2
+        },
+        "autônoma": {
+            "pai": "2020",
+            "ordem_de_visita": 378,
+            "nivel": 2
+        },
+        "conter": {
+            "pai": "impacto",
+            "ordem_de_visita": 490,
+            "nivel": 2
+        },
+        "fundo": {
+            "pai": "reduzir",
+            "ordem_de_visita": 514,
+            "nivel": 3
+        },
+        "revolucionar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 142,
+            "nivel": 2
+        },
+        "fiscal": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 280,
+            "nivel": 2
+        },
+        "profundo": {
+            "pai": "2020",
+            "ordem_de_visita": 382,
+            "nivel": 2
+        },
+        "carne": {
+            "pai": "2020",
+            "ordem_de_visita": 432,
+            "nivel": 2
+        },
+        "evidenciar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 323,
+            "nivel": 2
+        },
+        "devolução": {
+            "pai": "operar",
+            "ordem_de_visita": 457,
+            "nivel": 2
+        },
+        "ter": {
+            "pai": "2020",
+            "ordem_de_visita": 402,
+            "nivel": 2
+        },
+        "pagamento": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 143,
             "nivel": 2
         }
     }
