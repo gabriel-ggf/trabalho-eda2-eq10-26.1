@@ -21,6 +21,8 @@ def load_words (path):
     return words
 
 def list_write(savement_path, data):
+    os.makedirs(os.path.dirname(savement_path), exist_ok=True)
+
     with open(savement_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
 

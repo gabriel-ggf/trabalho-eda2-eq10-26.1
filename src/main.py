@@ -5,27 +5,29 @@ from grafos import criar_grafo
 from algoritmos import bfs
 
 words_list = {}
-data_path = os.path.join('data', 'text')
-savement_path = "data/processed/words_list.json"
+base_dir = os.path.dirname(os.path.abspath(__file__))
+data_path = os.path.join(base_dir, 'data', 'text')
+processed_path = os.path.join(base_dir, 'data', 'processed')
+savement_path = os.path.join(processed_path, "words_list.json")
 
-for period in os.listdir(data_path):
+for period in sorted(os.listdir(data_path)):
 
     period_path = os.path.join(data_path, period)
 
-    if os.path.isdir(data_path):
+    if os.path.isdir(period_path):
 
         words_list[period] = []
-        for file in os.listdir(period_path):
-            if file.endswith("txt"):
+        for file in sorted(os.listdir(period_path)):
+            if file.endswith(".txt"):
 
                 file_path = os.path.join(period_path, file)
                 words = pdd.load_words(file_path)
         
-            frequency = {}
-            for word in words:
-                frequency[word] = frequency.get(word, 0) + 1
+                frequency = {}
+                for word in words:
+                    frequency[word] = frequency.get(word, 0) + 1
 
-            words_list[period].append(frequency)
+                words_list[period].append(frequency)
 
 pdd.list_write(savement_path, words_list)
 
@@ -38,24 +40,4 @@ for period, documentos in words_list.items():
 
 from algoritmos import kruskal_todas_epocas, salvar_todos_resultados
 resultados_kruskal = kruskal_todas_epocas(grafos_por_epoca)
-salvar_todos_resultados(resultados_kruskal)
-target_word = "economia" # palavra chave do bfs
-for target_period, target_graph in grafos_por_epoca.items():
-    if target_word in target_graph:
-        try:
-            bfs_result = bfs(target_graph, target_word)
-            total_words_found = sum(len(words) for words in bfs_result.values())
-            
-            save_data = {
-                "periodo": target_period,
-                "palavra_raiz": target_word,
-                "profundidade_arvore": len(bfs_result) - 1, 
-                "total_palavras": total_words_found,
-                "arvore_bfs": bfs_result 
-            }
-            
-            bfs_output_path = os.path.join("data", "processed", f"bfs_{target_period}_{target_word}.json")
-            pdd.list_write(bfs_output_path, save_data)
-            
-        except Exception as e:
-            print(f"Erro no periodo {target_period}: {e}")
+salvar_todos_resultados(resultados_kruskal, processed_path)
