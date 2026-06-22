@@ -1,18 +1,17 @@
 import os
-from processamento_de_dados import salvar_lista, salvar_todos_resultados
+from processamento_de_dados import salvar_lista, salvar_todos_resultados, coocorrencia
 from grafos import criar_grafo, criar_lista
 from algoritmos import kruskal_todas_epocas
 from algoritmos import bfs
 
 # Caminho de entrada pala gerar a lista de ocorrência.
 caminho_de_entrada = os.path.join('data', 'text')
-caminho_de_salvamento = "data/processed/words_list.json"
 
 # Primeira etapa do programa.
 # Gera uma lista de ocorrência com as palavras filtradas pela biblioteca Spacy
 print(f"Gerando Lista de Ocorrência...")
 lista_ocorrencia = criar_lista(caminho_de_entrada)
-salvar_lista(caminho_de_salvamento, lista_ocorrencia)
+salvar_lista("data/processed/words_list.json", lista_ocorrencia)
 
 print(f"\n------------------------------------------\n")
 
@@ -23,6 +22,7 @@ grafos_por_epoca = {}
 for period, documentos in lista_ocorrencia.items():
     grafos_por_epoca[period] = criar_grafo(documentos)
     print(f"Grafo {period}: {len(grafos_por_epoca[period])} vértices")
+salvar_lista("data/processed/graphs.json", grafos_por_epoca)
 
 print(f"\n------------------------------------------\n")
 
@@ -42,12 +42,11 @@ for periodo_alvo, grafo_alvo in grafos_por_epoca.items():
     if palavra_alvo in grafo_alvo:
         try:
             resultado_bfs = bfs(grafo_alvo, palavra_alvo)
-            palavras_encontradas = sum(len(palavras) for palavras in resultado_bfs.values())
+            palavras_encontradas = len(resultado_bfs)
             
             dados_de_salvamento = {
                 "periodo": periodo_alvo,
                 "palavra_raiz": palavra_alvo,
-                "profundidade_arvore": len(resultado_bfs) - 1, 
                 "total_palavras": palavras_encontradas,
                 "arvore_bfs": resultado_bfs 
             }
@@ -59,3 +58,6 @@ for periodo_alvo, grafo_alvo in grafos_por_epoca.items():
             print(f"Erro no periodo {periodo_alvo}: {e}")
 
 print(f"\n------------------------------------------\n")
+
+print("Matriz de coocorência de vértices em cada matriz:\n")
+coocorrencia('data/processed/graphs.json')

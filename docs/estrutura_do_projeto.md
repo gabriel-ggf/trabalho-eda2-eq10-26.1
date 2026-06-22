@@ -42,24 +42,64 @@ Esta pasta armazena os dados obtidos pelo programa, sendo atualizada toda vez qu
 }
 ```
 
+- **graphs.json**: Armazena todos os grafos de cada época criados pelo programa. O sistema salva os dados no formato ilustrado abaixo:
+
+```
+{
+    "grafo1":
+        {
+            "vertice1":
+                {
+                    verticevizinho1 : peso,
+                    verticevizinho2 : peso,
+                    ...
+                },
+            "vertice2":
+                {
+                    verticevizinho1 : peso,
+                    verticevizinho2 : peso,
+                    ...
+                },
+            ...
+        },
+    "grafo2":
+        {
+            "vertice1":
+                {
+                    verticevizinho1 : peso,
+                    verticevizinho2 : peso,
+                    ...
+                },
+            "vertice2":
+                {
+                    verticevizinho1 : peso,
+                    verticevizinho2 : peso,
+                    ...
+                },
+            ...
+        }
+        ...
+}
+```
+
 - **krukal_{ano}.json**: Resultado do algoritmo de Kruskal salvo por época. O sistema salva os dados no formato ilustrado abaixo:
 
 ```
-    {
-        "1980": {
-            "arestas": [
-                [vertice1, vertice2, peso],
-                [...]
-            ], 
-            "peso_total": ..., 
-            "num_componentes": ...
-        },
-        "1990": {...},
-        ...
-    }
+{
+    "1980": {
+        "arestas": [
+            [vertice1, vertice2, peso],
+            [...]
+        ], 
+        "peso_total": ..., 
+        "num_componentes": ...
+    },
+    "1990": {...},
+    ...
+}
 ```
 
-- **bfs_{ano}_economiajson**: Resultado do algoritmo BFS salvo por época. O sistema salva os dados no formato ilustrado abaixo:
+- **bfs_{ano}_{palavra-inicial}.json**: Resultado do algoritmo BFS salvo por época. O sistema salva os dados no formato ilustrado abaixo:
 
 ```
     {
@@ -68,9 +108,9 @@ Esta pasta armazena os dados obtidos pelo programa, sendo atualizada toda vez qu
         "profundidade_arvore": 3,
         "total_palavras": 500,
         "arvore_bfs": {
-            "nivel0": [vertice1],
-            "nivel1": [vertice1, vertice2, ...],
-            "nivelx": [...]
+            "vertice1": [verticepai, ordem-de-visita, nivel-na-arvore],
+            "vertice2": [verticepai, ordem-de-visita, nivel-na-arvore],
+            [...]
         }
     }
 ```

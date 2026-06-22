@@ -111,21 +111,31 @@ def bfs(grafo, palavra_inicial):
     if palavra_inicial not in grafo:
         raise KeyError(f"A palavra '{palavra_inicial}' não está presente no grafo.")
 
-    visitado = set()
+    visitado = {palavra_inicial}
     fila = [(palavra_inicial, 0)]
-    visitado.add(palavra_inicial)
-    niveis_arvore = {}
-
+    pais = {palavra_inicial: None}
+    ordem_visita = {}
+    niveis = {palavra_inicial: 0}
+    
+    contador = 0
     while fila:
         vertice_atual, nivel_atual = fila.pop(0)
-        if nivel_atual not in niveis_arvore:
-            niveis_arvore[nivel_atual] = []
-        
-        niveis_arvore[nivel_atual].append(vertice_atual)
+        ordem_visita[vertice_atual] = contador
+        contador += 1
 
         for vizinho in grafo.get(vertice_atual, {}):
             if vizinho not in visitado:
                 visitado.add(vizinho)
+                pais[vizinho] = vertice_atual
+                niveis[vizinho] = nivel_atual + 1
                 fila.append((vizinho, nivel_atual + 1))
+    
+    resultado = {}
+    for vertice in visitado:
+        resultado[vertice] = {
+            "pai": pais[vertice],
+            "ordem_de_visita": ordem_visita[vertice],
+            "nivel": niveis[vertice]
+        }
 
-    return niveis_arvore
+    return resultado

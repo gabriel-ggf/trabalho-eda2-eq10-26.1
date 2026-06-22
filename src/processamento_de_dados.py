@@ -29,7 +29,7 @@ def salvar_lista(caminho_de_salvamento, dados):
 
     '''
     Função simples de salvamento com arquivos ".json".
-    Recebe os dados e o caminho para salvar tudo lá.
+    Recebe os dados e o caminho de salvamento.
     '''
 
     with open(caminho_de_salvamento, 'w', encoding='utf-8') as f:
@@ -70,3 +70,21 @@ def salvar_todos_resultados(resultados_por_epoca, caminho="data/processed"):
     """
     for epoca, resultado in resultados_por_epoca.items():
         salvar_resultado_kruskal(resultado, epoca, caminho)
+
+def coocorrencia(caminho_arquivo):
+    '''
+    Apenas retorna uma matriz com coocorrência de vértices entre os grafos.
+    '''
+    with open(caminho_arquivo, 'r', encoding='utf-8') as f:
+        dados = json.load(f)
+    
+    nomes = list(dados.keys())
+    conjuntos = [set(dados[nome].keys()) for nome in nomes]
+    n = len(nomes)
+    
+    matriz = [[len(conjuntos[i].intersection(conjuntos[j])) for j in range(n)] for i in range(n)]
+    
+    print(f"{'':>10}" + "".join(f"{nome:>10}" for nome in nomes))
+    print("-" * (10 + n * 10))
+    for i, linha in enumerate(matriz):
+        print(f"{nomes[i]:>10}" + "".join(f"{val:>10}" for val in linha))

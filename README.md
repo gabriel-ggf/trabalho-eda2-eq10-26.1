@@ -15,15 +15,45 @@ O código foi desenvolvido em Python, utilizando apenas bibliotecas de Processam
 - Vitor Guilherme Lustosa de Carvalho - 232014342
 - Lara Souza Mota - 232021786
 
-
-
 ---
 
 ### Requerimentos
 
 - Python 3.12+
-- ...
+- *Modulo Python*: spaCy 3.8.14+
+- *Pipeline spaCy*: pt_core_news_sm (3.8.0)
+- Git 2.54+
 
 ### Como Rodar Localmente
 
-A definir.
+1. Certifique-se que Python está instalado na sua máquina.
+
+```
+python --version
+```
+
+2. Instale as dependencias. Utilize um ambiente virtual, caso necessário.
+
+```
+pip install spacy
+python -m spacy download pt_core_news_sm
+```
+
+```
+# Caso precise gerar um ambiente virtual, aplique esse código antes do anterior.
+python -m venv venv
+source venv/bin/activate #Linux/macOS
+```
+
+3. Clone o repositorio
+
+```
+git clone https://github.com/gabriel-ggf/trabalho-eda2-eq10-26.1.git
+```
+
+4. Entre no diretorio correto e rode a aplicação.
+
+```
+cd trabalho-eda2-eq10-26.1/src
+python main.py
+```
