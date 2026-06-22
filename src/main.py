@@ -5,7 +5,8 @@ from algoritmos import kruskal_todas_epocas
 from algoritmos import bfs
 
 # Caminho de entrada pala gerar a lista de ocorrência.
-caminho_de_entrada = os.path.join('data', 'text')
+base_dir = os.path.dirname(os.path.abspath(__file__))
+caminho_de_entrada = os.path.join(base_dir, 'data', 'text')
 
 # Primeira etapa do programa.
 # Gera uma lista de ocorrência com as palavras filtradas pela biblioteca Spacy
