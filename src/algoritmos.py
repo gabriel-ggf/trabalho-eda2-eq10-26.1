@@ -56,27 +56,21 @@ def kruskal(grafo):
 
     for vertice_a, vizinhos in grafo.items():
         for vertice_b, peso in vizinhos.items():
-            # Evita duplicatas (aresta A-B e B-A são a mesma)
             if vertice_a < vertice_b:
                 arestas.append((peso, vertice_a, vertice_b))
 
-    
-    arestas.sort()
+    arestas.sort(reverse=True)
 
-    
     pai, rank = criar_union_find(vertices)
 
-   
     floresta = []
     peso_total = 0
 
     for peso, vertice_a, vertice_b in arestas:
-        # Só adiciona a aresta se não formar ciclo
         if unir(pai, rank, vertice_a, vertice_b):
             floresta.append((vertice_a, vertice_b, peso))
             peso_total += peso
 
-    
     componentes = len(set(encontrar(pai, v) for v in vertices))
 
     return {

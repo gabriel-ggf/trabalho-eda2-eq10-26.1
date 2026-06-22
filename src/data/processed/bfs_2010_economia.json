@@ -3,594 +3,9 @@
     "palavra_raiz": "economia",
     "total_palavras": 487,
     "arvore_bfs": {
-        "banco": {
-            "pai": "economia",
-            "ordem_de_visita": 1,
-            "nivel": 1
-        },
-        "tecnologia": {
-            "pai": "2010",
-            "ordem_de_visita": 397,
-            "nivel": 2
-        },
-        "orçamento": {
-            "pai": "econômico",
-            "ordem_de_visita": 326,
-            "nivel": 2
-        },
-        "mão": {
-            "pai": "nacional",
-            "ordem_de_visita": 272,
-            "nivel": 2
-        },
-        "durável": {
-            "pai": "nacional",
-            "ordem_de_visita": 277,
-            "nivel": 2
-        },
-        "forte": {
-            "pai": "economia",
-            "ordem_de_visita": 55,
-            "nivel": 1
-        },
         "arrecadação": {
             "pai": "nacional",
             "ordem_de_visita": 260,
-            "nivel": 2
-        },
-        "financeiro": {
-            "pai": "economia",
-            "ordem_de_visita": 22,
-            "nivel": 1
-        },
-        "diretamente": {
-            "pai": "nacional",
-            "ordem_de_visita": 271,
-            "nivel": 2
-        },
-        "insumo": {
-            "pai": "economia",
-            "ordem_de_visita": 144,
-            "nivel": 1
-        },
-        "conceder": {
-            "pai": "2010",
-            "ordem_de_visita": 440,
-            "nivel": 2
-        },
-        "frente": {
-            "pai": "2010",
-            "ordem_de_visita": 371,
-            "nivel": 2
-        },
-        "eletrodoméstico": {
-            "pai": "nacional",
-            "ordem_de_visita": 206,
-            "nivel": 2
-        },
-        "encarecer": {
-            "pai": "econômico",
-            "ordem_de_visita": 296,
-            "nivel": 2
-        },
-        "buscar": {
-            "pai": "economia",
-            "ordem_de_visita": 32,
-            "nivel": 1
-        },
-        "superávit": {
-            "pai": "economia",
-            "ordem_de_visita": 136,
-            "nivel": 1
-        },
-        "amortecedor": {
-            "pai": "economia",
-            "ordem_de_visita": 91,
-            "nivel": 1
-        },
-        "venda": {
-            "pai": "economia",
-            "ordem_de_visita": 152,
-            "nivel": 1
-        },
-        "valorização": {
-            "pai": "2010",
-            "ordem_de_visita": 370,
-            "nivel": 2
-        },
-        "ativo": {
-            "pai": "2010",
-            "ordem_de_visita": 459,
-            "nivel": 2
-        },
-        "política": {
-            "pai": "economia",
-            "ordem_de_visita": 29,
-            "nivel": 1
-        },
-        "monetário": {
-            "pai": "nacional",
-            "ordem_de_visita": 222,
-            "nivel": 2
-        },
-        "formal": {
-            "pai": "nacional",
-            "ordem_de_visita": 194,
-            "nivel": 2
-        },
-        "atração": {
-            "pai": "economia",
-            "ordem_de_visita": 124,
-            "nivel": 1
-        },
-        "direto": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 329,
-            "nivel": 2
-        },
-        "demandar": {
-            "pai": "2010",
-            "ordem_de_visita": 417,
-            "nivel": 2
-        },
-        "trazer": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 361,
-            "nivel": 2
-        },
-        "consolidação": {
-            "pai": "economia",
-            "ordem_de_visita": 24,
-            "nivel": 1
-        },
-        "recuperação": {
-            "pai": "economia",
-            "ordem_de_visita": 62,
-            "nivel": 1
-        },
-        "iniciar": {
-            "pai": "economia",
-            "ordem_de_visita": 111,
-            "nivel": 1
-        },
-        "multinacional": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 338,
-            "nivel": 2
-        },
-        "entrada": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 328,
-            "nivel": 2
-        },
-        "contratação": {
-            "pai": "2010",
-            "ordem_de_visita": 412,
-            "nivel": 2
-        },
-        "visibilidade": {
-            "pai": "economia",
-            "ordem_de_visita": 126,
-            "nivel": 1
-        },
-        "ciclo": {
-            "pai": "economia",
-            "ordem_de_visita": 128,
-            "nivel": 1
-        },
-        "balança": {
-            "pai": "economia",
-            "ordem_de_visita": 132,
-            "nivel": 1
-        },
-        "desacelerar": {
-            "pai": "econômico",
-            "ordem_de_visita": 299,
-            "nivel": 2
-        },
-        "governamental": {
-            "pai": "2010",
-            "ordem_de_visita": 470,
-            "nivel": 2
-        },
-        "extraordinário": {
-            "pai": "economia",
-            "ordem_de_visita": 47,
-            "nivel": 1
-        },
-        "atividade": {
-            "pai": "econômico",
-            "ordem_de_visita": 287,
-            "nivel": 2
-        },
-        "físico": {
-            "pai": "econômico",
-            "ordem_de_visita": 314,
-            "nivel": 2
-        },
-        "internacional": {
-            "pai": "economia",
-            "ordem_de_visita": 38,
-            "nivel": 1
-        },
-        "motor": {
-            "pai": "econômico",
-            "ordem_de_visita": 309,
-            "nivel": 2
-        },
-        "disciplina": {
-            "pai": "2010",
-            "ordem_de_visita": 467,
-            "nivel": 2
-        },
-        "garantir": {
-            "pai": "economia",
-            "ordem_de_visita": 33,
-            "nivel": 1
-        },
-        "avanço": {
-            "pai": "economia",
-            "ordem_de_visita": 51,
-            "nivel": 1
-        },
-        "manufatureira": {
-            "pai": "2010",
-            "ordem_de_visita": 387,
-            "nivel": 2
-        },
-        "automotivo": {
-            "pai": "2010",
-            "ordem_de_visita": 429,
-            "nivel": 2
-        },
-        "produtos": {
-            "pai": "2010",
-            "ordem_de_visita": 438,
-            "nivel": 2
-        },
-        "setor": {
-            "pai": "economia",
-            "ordem_de_visita": 27,
-            "nivel": 1
-        },
-        "manufaturado": {
-            "pai": "2010",
-            "ordem_de_visita": 448,
-            "nivel": 2
-        },
-        "imobiliário": {
-            "pai": "2010",
-            "ordem_de_visita": 426,
-            "nivel": 2
-        },
-        "observar": {
-            "pai": "econômico",
-            "ordem_de_visita": 310,
-            "nivel": 2
-        },
-        "permanecer": {
-            "pai": "economia",
-            "ordem_de_visita": 79,
-            "nivel": 1
-        },
-        "colchão": {
-            "pai": "economia",
-            "ordem_de_visita": 90,
-            "nivel": 1
-        },
-        "médio": {
-            "pai": "2010",
-            "ordem_de_visita": 393,
-            "nivel": 2
-        },
-        "monetária": {
-            "pai": "econômico",
-            "ordem_de_visita": 289,
-            "nivel": 2
-        },
-        "olímpicos": {
-            "pai": "economia",
-            "ordem_de_visita": 104,
-            "nivel": 1
-        },
-        "mineral": {
-            "pai": "banco",
-            "ordem_de_visita": 161,
-            "nivel": 2
-        },
-        "atingir": {
-            "pai": "banco",
-            "ordem_de_visita": 162,
-            "nivel": 2
-        },
-        "alinhar": {
-            "pai": "econômico",
-            "ordem_de_visita": 300,
-            "nivel": 2
-        },
-        "estrutural": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 366,
-            "nivel": 2
-        },
-        "patamar": {
-            "pai": "banco",
-            "ordem_de_visita": 163,
-            "nivel": 2
-        },
-        "global": {
-            "pai": "economia",
-            "ordem_de_visita": 70,
-            "nivel": 1
-        },
-        "transição": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 344,
-            "nivel": 2
-        },
-        "funcionar": {
-            "pai": "economia",
-            "ordem_de_visita": 89,
-            "nivel": 1
-        },
-        "desempenhar": {
-            "pai": "economia",
-            "ordem_de_visita": 6,
-            "nivel": 1
-        },
-        "autossuficiência": {
-            "pai": "nacional",
-            "ordem_de_visita": 258,
-            "nivel": 2
-        },
-        "selic": {
-            "pai": "econômico",
-            "ordem_de_visita": 294,
-            "nivel": 2
-        },
-        "conta": {
-            "pai": "2010",
-            "ordem_de_visita": 452,
-            "nivel": 2
-        },
-        "contabilidade": {
-            "pai": "2010",
-            "ordem_de_visita": 458,
-            "nivel": 2
-        },
-        "estratégia": {
-            "pai": "economia",
-            "ordem_de_visita": 9,
-            "nivel": 1
-        },
-        "brasil": {
-            "pai": "economia",
-            "ordem_de_visita": 44,
-            "nivel": 1
-        },
-        "governo": {
-            "pai": "2010",
-            "ordem_de_visita": 441,
-            "nivel": 2
-        },
-        "incentivo": {
-            "pai": "2010",
-            "ordem_de_visita": 435,
-            "nivel": 2
-        },
-        "vigoroso": {
-            "pai": "economia",
-            "ordem_de_visita": 63,
-            "nivel": 1
-        },
-        "insaciável": {
-            "pai": "banco",
-            "ordem_de_visita": 166,
-            "nivel": 2
-        },
-        "anterior": {
-            "pai": "economia",
-            "ordem_de_visita": 138,
-            "nivel": 1
-        },
-        "federal": {
-            "pai": "2010",
-            "ordem_de_visita": 442,
-            "nivel": 2
-        },
-        "turista": {
-            "pai": "economia",
-            "ordem_de_visita": 125,
-            "nivel": 1
-        },
-        "fusão": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 334,
-            "nivel": 2
-        },
-        "aquecer": {
-            "pai": "2010",
-            "ordem_de_visita": 421,
-            "nivel": 2
-        },
-        "transformar": {
-            "pai": "nacional",
-            "ordem_de_visita": 208,
-            "nivel": 2
-        },
-        "comitê": {
-            "pai": "econômico",
-            "ordem_de_visita": 288,
-            "nivel": 2
-        },
-        "alto": {
-            "pai": "econômico",
-            "ordem_de_visita": 320,
-            "nivel": 2
-        },
-        "multiplicador": {
-            "pai": "nacional",
-            "ordem_de_visita": 275,
-            "nivel": 2
-        },
-        "medida": {
-            "pai": "econômico",
-            "ordem_de_visita": 302,
-            "nivel": 2
-        },
-        "bolsa": {
-            "pai": "nacional",
-            "ordem_de_visita": 246,
-            "nivel": 2
-        },
-        "comércio": {
-            "pai": "nacional",
-            "ordem_de_visita": 276,
-            "nivel": 2
-        },
-        "seguro": {
-            "pai": "economia",
-            "ordem_de_visita": 96,
-            "nivel": 1
-        },
-        "devido": {
-            "pai": "economia",
-            "ordem_de_visita": 139,
-            "nivel": 1
-        },
-        "milhar": {
-            "pai": "2010",
-            "ordem_de_visita": 418,
-            "nivel": 2
-        },
-        "principalmente": {
-            "pai": "nacional",
-            "ordem_de_visita": 226,
-            "nivel": 2
-        },
-        "classe": {
-            "pai": "nacional",
-            "ordem_de_visita": 186,
-            "nivel": 2
-        },
-        "dinheiro": {
-            "pai": "econômico",
-            "ordem_de_visita": 298,
-            "nivel": 2
-        },
-        "obra": {
-            "pai": "2010",
-            "ordem_de_visita": 416,
-            "nivel": 2
-        },
-        "emplacamento": {
-            "pai": "2010",
-            "ordem_de_visita": 432,
-            "nivel": 2
-        },
-        "china": {
-            "pai": "banco",
-            "ordem_de_visita": 169,
-            "nivel": 2
-        },
-        "fornecedor": {
-            "pai": "2010",
-            "ordem_de_visita": 423,
-            "nivel": 2
-        },
-        "dinamismo": {
-            "pai": "economia",
-            "ordem_de_visita": 58,
-            "nivel": 1
-        },
-        "sustentabilidade": {
-            "pai": "2010",
-            "ordem_de_visita": 469,
-            "nivel": 2
-        },
-        "promover": {
-            "pai": "econômico",
-            "ordem_de_visita": 290,
-            "nivel": 2
-        },
-        "político": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 345,
-            "nivel": 2
-        },
-        "severo": {
-            "pai": "economia",
-            "ordem_de_visita": 76,
-            "nivel": 1
-        },
-        "resposta": {
-            "pai": "econômico",
-            "ordem_de_visita": 284,
-            "nivel": 2
-        },
-        "solidez": {
-            "pai": "economia",
-            "ordem_de_visita": 84,
-            "nivel": 1
-        },
-        "elevar": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 330,
-            "nivel": 2
-        },
-        "divisa": {
-            "pai": "banco",
-            "ordem_de_visita": 179,
-            "nivel": 2
-        },
-        "finanças": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 337,
-            "nivel": 2
-        },
-        "salário": {
-            "pai": "nacional",
-            "ordem_de_visita": 189,
-            "nivel": 2
-        },
-        "injetar": {
-            "pai": "nacional",
-            "ordem_de_visita": 250,
-            "nivel": 2
-        },
-        "planejar": {
-            "pai": "econômico",
-            "ordem_de_visita": 318,
-            "nivel": 2
-        },
-        "último": {
-            "pai": "economia",
-            "ordem_de_visita": 52,
-            "nivel": 1
-        },
-        "meta": {
-            "pai": "nacional",
-            "ordem_de_visita": 220,
-            "nivel": 2
-        },
-        "posto": {
-            "pai": "2010",
-            "ordem_de_visita": 419,
-            "nivel": 2
-        },
-        "evitar": {
-            "pai": "nacional",
-            "ordem_de_visita": 235,
-            "nivel": 2
-        },
-        "consumidor": {
-            "pai": "economia",
-            "ordem_de_visita": 87,
-            "nivel": 1
-        },
-        "crédito": {
-            "pai": "econômico",
-            "ordem_de_visita": 307,
             "nivel": 2
         },
         "expectativa": {
@@ -598,504 +13,24 @@
             "ordem_de_visita": 123,
             "nivel": 1
         },
-        "atrativo": {
-            "pai": "econômico",
-            "ordem_de_visita": 304,
-            "nivel": 2
-        },
-        "expressivo": {
-            "pai": "2010",
-            "ordem_de_visita": 390,
-            "nivel": 2
-        },
-        "realização": {
-            "pai": "economia",
-            "ordem_de_visita": 100,
-            "nivel": 1
-        },
-        "viagem": {
-            "pai": "2010",
-            "ordem_de_visita": 382,
-            "nivel": 2
-        },
-        "exigir": {
-            "pai": "nacional",
-            "ordem_de_visita": 231,
-            "nivel": 2
-        },
-        "marcar": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 343,
-            "nivel": 2
-        },
-        "renda": {
-            "pai": "nacional",
-            "ordem_de_visita": 264,
-            "nivel": 2
-        },
-        "reforma": {
-            "pai": "economia",
-            "ordem_de_visita": 113,
-            "nivel": 1
-        },
-        "bilionário": {
-            "pai": "economia",
-            "ordem_de_visita": 19,
-            "nivel": 1
-        },
-        "alertar": {
-            "pai": "2010",
-            "ordem_de_visita": 465,
-            "nivel": 2
-        },
-        "situação": {
-            "pai": "2010",
-            "ordem_de_visita": 383,
-            "nivel": 2
-        },
-        "bem": {
-            "pai": "economia",
-            "ordem_de_visita": 143,
-            "nivel": 1
-        },
-        "estrangeiro": {
-            "pai": "economia",
-            "ordem_de_visita": 146,
-            "nivel": 1
-        },
-        "dólar": {
-            "pai": "2010",
-            "ordem_de_visita": 372,
-            "nivel": 2
-        },
-        "aquecimento": {
-            "pai": "nacional",
-            "ordem_de_visita": 229,
-            "nivel": 2
-        },
-        "interiorização": {
-            "pai": "nacional",
-            "ordem_de_visita": 278,
-            "nivel": 2
-        },
-        "boom": {
-            "pai": "2010",
-            "ordem_de_visita": 411,
-            "nivel": 2
-        },
-        "fortalecer": {
-            "pai": "banco",
-            "ordem_de_visita": 180,
-            "nivel": 2
-        },
-        "vaga": {
-            "pai": "2010",
-            "ordem_de_visita": 478,
-            "nivel": 2
-        },
-        "despesa": {
-            "pai": "2010",
-            "ordem_de_visita": 454,
-            "nivel": 2
-        },
-        "estabilidade": {
-            "pai": "nacional",
-            "ordem_de_visita": 192,
-            "nivel": 2
-        },
-        "apetite": {
-            "pai": "economia",
-            "ordem_de_visita": 142,
-            "nivel": 1
-        },
-        "puxar": {
-            "pai": "2010",
-            "ordem_de_visita": 391,
-            "nivel": 2
-        },
-        "papel": {
-            "pai": "economia",
-            "ordem_de_visita": 7,
-            "nivel": 1
-        },
-        "futuro": {
-            "pai": "nacional",
-            "ordem_de_visita": 237,
-            "nivel": 2
-        },
-        "acelerar": {
-            "pai": "economia",
-            "ordem_de_visita": 140,
-            "nivel": 1
-        },
-        "cidadão": {
-            "pai": "nacional",
-            "ordem_de_visita": 199,
-            "nivel": 2
-        },
-        "período": {
-            "pai": "nacional",
-            "ordem_de_visita": 217,
-            "nivel": 2
-        },
-        "aquisição": {
-            "pai": "econômico",
-            "ordem_de_visita": 319,
-            "nivel": 2
-        },
-        "parcela": {
-            "pai": "econômico",
-            "ordem_de_visita": 324,
-            "nivel": 2
-        },
-        "exportadora": {
-            "pai": "2010",
-            "ordem_de_visita": 388,
-            "nivel": 2
-        },
-        "exploração": {
-            "pai": "nacional",
-            "ordem_de_visita": 253,
-            "nivel": 2
-        },
-        "aceleração": {
-            "pai": "nacional",
-            "ordem_de_visita": 216,
-            "nivel": 2
-        },
-        "presidência": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 346,
-            "nivel": 2
-        },
-        "pessoa": {
-            "pai": "econômico",
-            "ordem_de_visita": 313,
-            "nivel": 2
-        },
-        "financiamento": {
-            "pai": "economia",
-            "ordem_de_visita": 15,
-            "nivel": 1
-        },
-        "histórico": {
-            "pai": "2010",
-            "ordem_de_visita": 472,
-            "nivel": 2
-        },
-        "americano": {
-            "pai": "2010",
-            "ordem_de_visita": 373,
-            "nivel": 2
-        },
-        "capital": {
-            "pai": "economia",
-            "ordem_de_visita": 97,
-            "nivel": 1
-        },
-        "estratégico": {
-            "pai": "economia",
-            "ordem_de_visita": 28,
-            "nivel": 1
-        },
-        "construção": {
-            "pai": "economia",
-            "ordem_de_visita": 114,
-            "nivel": 1
-        },
-        "estimular": {
-            "pai": "econômico",
-            "ordem_de_visita": 316,
-            "nivel": 2
-        },
-        "nível": {
-            "pai": "2010",
-            "ordem_de_visita": 475,
-            "nivel": 2
-        },
-        "carteira": {
-            "pai": "2010",
-            "ordem_de_visita": 479,
-            "nivel": 2
-        },
-        "recorrer": {
-            "pai": "2010",
-            "ordem_de_visita": 456,
-            "nivel": 2
-        },
-        "copa": {
-            "pai": "economia",
-            "ordem_de_visita": 101,
-            "nivel": 1
-        },
-        "desafio": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 362,
-            "nivel": 2
-        },
-        "guerra": {
-            "pai": "2010",
-            "ordem_de_visita": 374,
-            "nivel": 2
-        },
-        "destaque": {
-            "pai": "economia",
-            "ordem_de_visita": 68,
-            "nivel": 1
-        },
-        "pendente": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 367,
-            "nivel": 2
-        },
-        "escassez": {
-            "pai": "2010",
-            "ordem_de_visita": 485,
-            "nivel": 2
-        },
-        "jurídica": {
-            "pai": "econômico",
-            "ordem_de_visita": 315,
-            "nivel": 2
-        },
-        "operarar": {
-            "pai": "2010",
-            "ordem_de_visita": 401,
-            "nivel": 2
-        },
-        "crise": {
-            "pai": "economia",
-            "ordem_de_visita": 65,
-            "nivel": 1
-        },
-        "região": {
-            "pai": "nacional",
-            "ordem_de_visita": 267,
-            "nivel": 2
-        },
-        "altisto": {
-            "pai": "nacional",
-            "ordem_de_visita": 224,
-            "nivel": 2
-        },
-        "chamado": {
-            "pai": "economia",
-            "ordem_de_visita": 25,
-            "nivel": 1
-        },
-        "industrial": {
-            "pai": "economia",
-            "ordem_de_visita": 145,
-            "nivel": 1
-        },
-        "seguinte": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 352,
-            "nivel": 2
-        },
-        "marca": {
-            "pai": "2010",
-            "ordem_de_visita": 471,
-            "nivel": 2
-        },
-        "juro": {
-            "pai": "economia",
-            "ordem_de_visita": 30,
-            "nivel": 1
-        },
-        "base": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 340,
-            "nivel": 2
-        },
-        "interno": {
-            "pai": "economia",
-            "ordem_de_visita": 42,
-            "nivel": 1
-        },
-        "crítico": {
-            "pai": "2010",
-            "ordem_de_visita": 463,
-            "nivel": 2
-        },
-        "social": {
-            "pai": "economia",
-            "ordem_de_visita": 5,
-            "nivel": 1
-        },
-        "negócio": {
-            "pai": "economia",
-            "ordem_de_visita": 129,
-            "nivel": 1
-        },
-        "afrouxamento": {
-            "pai": "2010",
-            "ordem_de_visita": 466,
-            "nivel": 2
-        },
-        "investidor": {
-            "pai": "nacional",
-            "ordem_de_visita": 249,
-            "nivel": 2
-        },
-        "facilidade": {
-            "pai": "2010",
-            "ordem_de_visita": 443,
-            "nivel": 2
-        },
-        "consórcio": {
-            "pai": "economia",
-            "ordem_de_visita": 108,
-            "nivel": 1
-        },
-        "necessário": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 365,
-            "nivel": 2
-        },
-        "pressão": {
-            "pai": "nacional",
-            "ordem_de_visita": 223,
-            "nivel": 2
-        },
-        "linha": {
-            "pai": "econômico",
-            "ordem_de_visita": 312,
-            "nivel": 2
-        },
-        "favorecer": {
-            "pai": "banco",
-            "ordem_de_visita": 176,
-            "nivel": 2
-        },
-        "reflexo": {
-            "pai": "economia",
-            "ordem_de_visita": 64,
-            "nivel": 1
-        },
-        "telecomunicação": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 335,
-            "nivel": 2
-        },
-        "cotação": {
-            "pai": "2010",
-            "ordem_de_visita": 378,
-            "nivel": 2
-        },
         "energy": {
             "pai": "macroeconômico",
             "ordem_de_visita": 336,
             "nivel": 2
         },
-        "estabelecer": {
+        "venda": {
+            "pai": "economia",
+            "ordem_de_visita": 152,
+            "nivel": 1
+        },
+        "equilibrar": {
             "pai": "macroeconômico",
-            "ordem_de_visita": 339,
+            "ordem_de_visita": 363,
             "nivel": 2
         },
-        "brasileira": {
-            "pai": "economia",
-            "ordem_de_visita": 134,
-            "nivel": 1
-        },
-        "público": {
-            "pai": "economia",
-            "ordem_de_visita": 109,
-            "nivel": 1
-        },
-        "mínimo": {
-            "pai": "nacional",
-            "ordem_de_visita": 190,
-            "nivel": 2
-        },
-        "nacional": {
-            "pai": "economia",
-            "ordem_de_visita": 2,
-            "nivel": 1
-        },
-        "país": {
-            "pai": "economia",
-            "ordem_de_visita": 60,
-            "nivel": 1
-        },
-        "primário": {
-            "pai": "2010",
-            "ordem_de_visita": 462,
-            "nivel": 2
-        },
-        "autoridade": {
-            "pai": "nacional",
-            "ordem_de_visita": 234,
-            "nivel": 2
-        },
-        "analista": {
-            "pai": "2010",
-            "ordem_de_visita": 464,
-            "nivel": 2
-        },
-        "crescimento": {
-            "pai": "economia",
-            "ordem_de_visita": 46,
-            "nivel": 1
-        },
-        "assinar": {
-            "pai": "2010",
-            "ordem_de_visita": 480,
-            "nivel": 2
-        },
-        "estabelecir": {
-            "pai": "econômico",
-            "ordem_de_visita": 301,
-            "nivel": 2
-        },
-        "pleno": {
-            "pai": "2010",
-            "ordem_de_visita": 483,
-            "nivel": 2
-        },
-        "dificuldade": {
-            "pai": "2010",
-            "ordem_de_visita": 447,
-            "nivel": 2
-        },
-        "produtivo": {
-            "pai": "economia",
-            "ordem_de_visita": 98,
-            "nivel": 1
-        },
-        "básico": {
-            "pai": "econômico",
-            "ordem_de_visita": 293,
-            "nivel": 2
-        },
-        "risco-país": {
-            "pai": "economia",
-            "ordem_de_visita": 93,
-            "nivel": 1
-        },
-        "criação": {
-            "pai": "2010",
-            "ordem_de_visita": 477,
-            "nivel": 2
-        },
-        "competitividade": {
-            "pai": "2010",
-            "ordem_de_visita": 385,
-            "nivel": 2
-        },
-        "oficial": {
-            "pai": "nacional",
-            "ordem_de_visita": 213,
-            "nivel": 2
-        },
-        "impacto": {
-            "pai": "economia",
-            "ordem_de_visita": 82,
-            "nivel": 1
-        },
-        "facilitar": {
-            "pai": "nacional",
-            "ordem_de_visita": 204,
+        "seguinte": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 352,
             "nivel": 2
         },
         "grande": {
@@ -1103,964 +38,9 @@
             "ordem_de_visita": 50,
             "nivel": 1
         },
-        "inflacionário": {
-            "pai": "econômico",
-            "ordem_de_visita": 285,
-            "nivel": 2
-        },
-        "segmento": {
+        "qualificado": {
             "pai": "2010",
-            "ordem_de_visita": 402,
-            "nivel": 2
-        },
-        "veículo": {
-            "pai": "2010",
-            "ordem_de_visita": 433,
-            "nivel": 2
-        },
-        "disparidade": {
-            "pai": "nacional",
-            "ordem_de_visita": 281,
-            "nivel": 2
-        },
-        "principal": {
-            "pai": "economia",
-            "ordem_de_visita": 13,
-            "nivel": 1
-        },
-        "elevado": {
-            "pai": "banco",
-            "ordem_de_visita": 170,
-            "nivel": 2
-        },
-        "cadeia": {
-            "pai": "2010",
-            "ordem_de_visita": 422,
-            "nivel": 2
-        },
-        "projeto": {
-            "pai": "economia",
-            "ordem_de_visita": 112,
-            "nivel": 1
-        },
-        "açúcar": {
-            "pai": "banco",
-            "ordem_de_visita": 175,
-            "nivel": 2
-        },
-        "custo": {
-            "pai": "econômico",
-            "ordem_de_visita": 297,
-            "nivel": 2
-        },
-        "infraestrutura": {
-            "pai": "economia",
-            "ordem_de_visita": 36,
-            "nivel": 1
-        },
-        "isolar": {
-            "pai": "economia",
-            "ordem_de_visita": 81,
-            "nivel": 1
-        },
-        "acesso": {
-            "pai": "nacional",
-            "ordem_de_visita": 203,
-            "nivel": 2
-        },
-        "externo": {
-            "pai": "economia",
-            "ordem_de_visita": 153,
-            "nivel": 1
-        },
-        "ascensão": {
-            "pai": "nacional",
-            "ordem_de_visita": 185,
-            "nivel": 2
-        },
-        "valor": {
-            "pai": "nacional",
-            "ordem_de_visita": 247,
-            "nivel": 2
-        },
-        "cambial": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 357,
-            "nivel": 2
-        },
-        "transporte": {
-            "pai": "2010",
-            "ordem_de_visita": 396,
-            "nivel": 2
-        },
-        "movimentar": {
-            "pai": "economia",
-            "ordem_de_visita": 106,
-            "nivel": 1
-        },
-        "casa": {
-            "pai": "2010",
-            "ordem_de_visita": 414,
-            "nivel": 2
-        },
-        "soja": {
-            "pai": "banco",
-            "ordem_de_visita": 174,
-            "nivel": 2
-        },
-        "alta": {
-            "pai": "2010",
-            "ordem_de_visita": 375,
-            "nivel": 2
-        },
-        "fortalecimento": {
-            "pai": "2010",
-            "ordem_de_visita": 444,
-            "nivel": 2
-        },
-        "emergente": {
-            "pai": "economia",
-            "ordem_de_visita": 72,
-            "nivel": 1
-        },
-        "turbulência": {
-            "pai": "banco",
-            "ordem_de_visita": 181,
-            "nivel": 2
-        },
-        "bancário": {
-            "pai": "econômico",
-            "ordem_de_visita": 308,
-            "nivel": 2
-        },
-        "aeroporto": {
-            "pai": "economia",
-            "ordem_de_visita": 118,
-            "nivel": 1
-        },
-        "mitigar": {
-            "pai": "nacional",
-            "ordem_de_visita": 280,
-            "nivel": 2
-        },
-        "centro": {
-            "pai": "nacional",
-            "ordem_de_visita": 219,
-            "nivel": 2
-        },
-        "pré-sal": {
-            "pai": "nacional",
-            "ordem_de_visita": 240,
-            "nivel": 2
-        },
-        "auge": {
-            "pai": "nacional",
-            "ordem_de_visita": 183,
-            "nivel": 2
-        },
-        "informação": {
-            "pai": "2010",
-            "ordem_de_visita": 398,
-            "nivel": 2
-        },
-        "moeda": {
-            "pai": "2010",
-            "ordem_de_visita": 379,
-            "nivel": 2
-        },
-        "superar": {
-            "pai": "economia",
-            "ordem_de_visita": 150,
-            "nivel": 1
-        },
-        "varejo": {
-            "pai": "nacional",
-            "ordem_de_visita": 210,
-            "nivel": 2
-        },
-        "aço": {
-            "pai": "2010",
-            "ordem_de_visita": 425,
-            "nivel": 2
-        },
-        "refletir": {
-            "pai": "economia",
-            "ordem_de_visita": 155,
-            "nivel": 1
-        },
-        "decorrente": {
-            "pai": "econômico",
-            "ordem_de_visita": 286,
-            "nivel": 2
-        },
-        "manobra": {
-            "pai": "2010",
-            "ordem_de_visita": 457,
-            "nivel": 2
-        },
-        "contingente": {
-            "pai": "nacional",
-            "ordem_de_visita": 200,
-            "nivel": 2
-        },
-        "dívida": {
-            "pai": "economia",
-            "ordem_de_visita": 77,
-            "nivel": 1
-        },
-        "agrícola": {
-            "pai": "banco",
-            "ordem_de_visita": 160,
-            "nivel": 2
-        },
-        "minério": {
-            "pai": "banco",
-            "ordem_de_visita": 172,
-            "nivel": 2
-        },
-        "desempenho": {
-            "pai": "2010",
-            "ordem_de_visita": 434,
-            "nivel": 2
-        },
-        "favorecir": {
-            "pai": "2010",
-            "ordem_de_visita": 381,
-            "nivel": 2
-        },
-        "significativamente": {
-            "pai": "nacional",
-            "ordem_de_visita": 196,
-            "nivel": 2
-        },
-        "vida": {
-            "pai": "2010",
-            "ordem_de_visita": 415,
-            "nivel": 2
-        },
-        "urbano": {
-            "pai": "economia",
-            "ordem_de_visita": 121,
-            "nivel": 1
-        },
-        "corrente": {
-            "pai": "2010",
-            "ordem_de_visita": 455,
-            "nivel": 2
-        },
-        "regional": {
-            "pai": "nacional",
-            "ordem_de_visita": 282,
-            "nivel": 2
-        },
-        "especialmente": {
-            "pai": "banco",
-            "ordem_de_visita": 168,
-            "nivel": 2
-        },
-        "expandir": {
-            "pai": "nacional",
-            "ordem_de_visita": 195,
-            "nivel": 2
-        },
-        "cidade": {
-            "pai": "2010",
-            "ordem_de_visita": 407,
-            "nivel": 2
-        },
-        "regular": {
-            "pai": "nacional",
-            "ordem_de_visita": 270,
-            "nivel": 2
-        },
-        "demanda": {
-            "pai": "banco",
-            "ordem_de_visita": 165,
-            "nivel": 2
-        },
-        "colocar": {
-            "pai": "economia",
-            "ordem_de_visita": 67,
-            "nivel": 1
-        },
-        "alimento": {
-            "pai": "nacional",
-            "ordem_de_visita": 227,
-            "nivel": 2
-        },
-        "agregado": {
-            "pai": "nacional",
-            "ordem_de_visita": 283,
-            "nivel": 2
-        },
-        "contínuo": {
-            "pai": "banco",
-            "ordem_de_visita": 178,
-            "nivel": 2
-        },
-        "fundamental": {
-            "pai": "2010",
-            "ordem_de_visita": 403,
-            "nivel": 2
-        },
-        "campeã": {
-            "pai": "economia",
-            "ordem_de_visita": 26,
-            "nivel": 1
-        },
-        "gerar": {
-            "pai": "economia",
-            "ordem_de_visita": 127,
-            "nivel": 1
-        },
-        "automotor": {
-            "pai": "2010",
-            "ordem_de_visita": 445,
-            "nivel": 2
-        },
-        "composição": {
-            "pai": "2010",
-            "ordem_de_visita": 389,
-            "nivel": 2
-        },
-        "atrair": {
-            "pai": "nacional",
-            "ordem_de_visita": 248,
-            "nivel": 2
-        },
-        "geração": {
-            "pai": "2010",
-            "ordem_de_visita": 405,
-            "nivel": 2
-        },
-        "2010": {
-            "pai": "economia",
-            "ordem_de_visita": 11,
-            "nivel": 1
-        },
-        "importação": {
-            "pai": "economia",
-            "ordem_de_visita": 141,
-            "nivel": 1
-        },
-        "petrolífero": {
-            "pai": "nacional",
-            "ordem_de_visita": 252,
-            "nivel": 2
-        },
-        "risco": {
-            "pai": "2010",
-            "ordem_de_visita": 468,
-            "nivel": 2
-        },
-        "brasileiro": {
-            "pai": "economia",
-            "ordem_de_visita": 40,
-            "nivel": 1
-        },
-        "demonstrar": {
-            "pai": "economia",
-            "ordem_de_visita": 61,
-            "nivel": 1
-        },
-        "dinâmica": {
-            "pai": "nacional",
-            "ordem_de_visita": 209,
-            "nivel": 2
-        },
-        "inflação": {
-            "pai": "nacional",
-            "ordem_de_visita": 212,
-            "nivel": 2
-        },
-        "asiático": {
-            "pai": "banco",
-            "ordem_de_visita": 167,
-            "nivel": 2
-        },
-        "econômico": {
-            "pai": "economia",
-            "ordem_de_visita": 4,
-            "nivel": 1
-        },
-        "trabalho": {
-            "pai": "2010",
-            "ordem_de_visita": 420,
-            "nivel": 2
-        },
-        "desenvolver": {
-            "pai": "economia",
-            "ordem_de_visita": 73,
-            "nivel": 1
-        },
-        "pressionar": {
-            "pai": "2010",
-            "ordem_de_visita": 377,
-            "nivel": 2
-        },
-        "subsidiado": {
-            "pai": "economia",
-            "ordem_de_visita": 31,
-            "nivel": 1
-        },
-        "percepção": {
-            "pai": "economia",
-            "ordem_de_visita": 92,
-            "nivel": 1
-        },
-        "liderança": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 360,
-            "nivel": 2
-        },
-        "marco": {
-            "pai": "nacional",
-            "ordem_de_visita": 238,
-            "nivel": 2
-        },
-        "fluxo": {
-            "pai": "banco",
-            "ordem_de_visita": 177,
-            "nivel": 2
-        },
-        "diverso": {
-            "pai": "econômico",
-            "ordem_de_visita": 327,
-            "nivel": 2
-        },
-        "provedor": {
-            "pai": "economia",
-            "ordem_de_visita": 14,
-            "nivel": 1
-        },
-        "energético": {
-            "pai": "nacional",
-            "ordem_de_visita": 259,
-            "nivel": 2
-        },
-        "trajetória": {
-            "pai": "nacional",
-            "ordem_de_visita": 215,
-            "nivel": 2
-        },
-        "ferro": {
-            "pai": "banco",
-            "ordem_de_visita": 173,
-            "nivel": 2
-        },
-        "equilibrar": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 363,
-            "nivel": 2
-        },
-        "alongamento": {
-            "pai": "econômico",
-            "ordem_de_visita": 321,
-            "nivel": 2
-        },
-        "emprego": {
-            "pai": "nacional",
-            "ordem_de_visita": 193,
-            "nivel": 2
-        },
-        "metropolitano": {
-            "pai": "2010",
-            "ordem_de_visita": 428,
-            "nivel": 2
-        },
-        "potencializar": {
-            "pai": "economia",
-            "ordem_de_visita": 147,
-            "nivel": 1
-        },
-        "aporte": {
-            "pai": "economia",
-            "ordem_de_visita": 18,
-            "nivel": 1
-        },
-        "começar": {
-            "pai": "economia",
-            "ordem_de_visita": 105,
-            "nivel": 1
-        },
-        "vigilante": {
-            "pai": "nacional",
-            "ordem_de_visita": 233,
-            "nivel": 2
-        },
-        "hotelaria": {
-            "pai": "economia",
-            "ordem_de_visita": 130,
-            "nivel": 1
-        },
-        "prejudicar": {
-            "pai": "2010",
-            "ordem_de_visita": 384,
-            "nivel": 2
-        },
-        "robustez": {
-            "pai": "economia",
-            "ordem_de_visita": 85,
-            "nivel": 1
-        },
-        "cumprir": {
-            "pai": "2010",
-            "ordem_de_visita": 461,
-            "nivel": 2
-        },
-        "contribuir": {
-            "pai": "nacional",
-            "ordem_de_visita": 279,
-            "nivel": 2
-        },
-        "responsabilidade": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 358,
-            "nivel": 2
-        },
-        "produto": {
-            "pai": "economia",
-            "ordem_de_visita": 41,
-            "nivel": 1
-        },
-        "civil": {
-            "pai": "2010",
-            "ordem_de_visita": 408,
-            "nivel": 2
-        },
-        "valorizado": {
-            "pai": "economia",
-            "ordem_de_visita": 149,
-            "nivel": 1
-        },
-        "habitacional": {
-            "pai": "2010",
-            "ordem_de_visita": 413,
-            "nivel": 2
-        },
-        "investimento": {
-            "pai": "economia",
-            "ordem_de_visita": 34,
-            "nivel": 1
-        },
-        "contaminação": {
-            "pai": "nacional",
-            "ordem_de_visita": 236,
-            "nivel": 2
-        },
-        "bruto": {
-            "pai": "economia",
-            "ordem_de_visita": 43,
-            "nivel": 1
-        },
-        "couber": {
-            "pai": "econômico",
-            "ordem_de_visita": 325,
-            "nivel": 2
-        },
-        "corporação": {
-            "pai": "economia",
-            "ordem_de_visita": 39,
-            "nivel": 1
-        },
-        "fenômeno": {
-            "pai": "nacional",
-            "ordem_de_visita": 184,
-            "nivel": 2
-        },
-        "eletrônico": {
-            "pai": "nacional",
-            "ordem_de_visita": 207,
-            "nivel": 2
-        },
-        "taxa": {
-            "pai": "econômico",
-            "ordem_de_visita": 292,
-            "nivel": 2
-        },
-        "injeção": {
-            "pai": "nacional",
-            "ordem_de_visita": 269,
-            "nivel": 2
-        },
-        "redução": {
-            "pai": "2010",
-            "ordem_de_visita": 436,
-            "nivel": 2
-        },
-        "melhoria": {
-            "pai": "economia",
-            "ordem_de_visita": 119,
-            "nivel": 1
-        },
-        "efeito": {
-            "pai": "nacional",
-            "ordem_de_visita": 274,
-            "nivel": 2
-        },
-        "receita": {
-            "pai": "2010",
-            "ordem_de_visita": 460,
-            "nivel": 2
-        },
-        "economicamente": {
-            "pai": "nacional",
-            "ordem_de_visita": 268,
-            "nivel": 2
-        },
-        "ligar": {
-            "pai": "2010",
-            "ordem_de_visita": 395,
-            "nivel": 2
-        },
-        "direcionar": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 333,
-            "nivel": 2
-        },
-        "regulatório": {
-            "pai": "nacional",
-            "ordem_de_visita": 239,
-            "nivel": 2
-        },
-        "europa": {
-            "pai": "economia",
-            "ordem_de_visita": 74,
-            "nivel": 1
-        },
-        "atuar": {
-            "pai": "economia",
-            "ordem_de_visita": 12,
-            "nivel": 1
-        },
-        "central": {
-            "pai": "economia",
-            "ordem_de_visita": 8,
-            "nivel": 1
-        },
-        "encerramento": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 342,
-            "nivel": 2
-        },
-        "sinal": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 353,
-            "nivel": 2
-        },
-        "cidades-sede": {
-            "pai": "economia",
-            "ordem_de_visita": 122,
-            "nivel": 1
-        },
-        "consolidar": {
-            "pai": "economia",
-            "ordem_de_visita": 49,
-            "nivel": 1
-        },
-        "recorde": {
-            "pai": "banco",
-            "ordem_de_visita": 164,
-            "nivel": 2
-        },
-        "economia": {
-            "pai": null,
-            "ordem_de_visita": 0,
-            "nivel": 0
-        },
-        "empresariado": {
-            "pai": "2010",
-            "ordem_de_visita": 481,
-            "nivel": 2
-        },
-        "resultar": {
-            "pai": "2010",
-            "ordem_de_visita": 484,
-            "nivel": 2
-        },
-        "esportivo": {
-            "pai": "economia",
-            "ordem_de_visita": 116,
-            "nivel": 1
-        },
-        "afetar": {
-            "pai": "2010",
-            "ordem_de_visita": 450,
-            "nivel": 2
-        },
-        "apresentar": {
-            "pai": "nacional",
-            "ordem_de_visita": 214,
-            "nivel": 2
-        },
-        "positivo": {
-            "pai": "economia",
-            "ordem_de_visita": 137,
-            "nivel": 1
-        },
-        "transferência": {
-            "pai": "nacional",
-            "ordem_de_visita": 263,
-            "nivel": 2
-        },
-        "índice": {
-            "pai": "nacional",
-            "ordem_de_visita": 211,
-            "nivel": 2
-        },
-        "compra": {
-            "pai": "nacional",
-            "ordem_de_visita": 197,
-            "nivel": 2
-        },
-        "série": {
-            "pai": "2010",
-            "ordem_de_visita": 476,
-            "nivel": 2
-        },
-        "encerrar": {
-            "pai": "economia",
-            "ordem_de_visita": 135,
-            "nivel": 1
-        },
-        "saldo": {
-            "pai": "economia",
-            "ordem_de_visita": 154,
-            "nivel": 1
-        },
-        "arbitragem": {
-            "pai": "econômico",
-            "ordem_de_visita": 306,
-            "nivel": 2
-        },
-        "permitir": {
-            "pai": "econômico",
-            "ordem_de_visita": 323,
-            "nivel": 2
-        },
-        "rumo": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 350,
-            "nivel": 2
-        },
-        "mega-capitalização": {
-            "pai": "nacional",
-            "ordem_de_visita": 241,
-            "nivel": 2
-        },
-        "oportunidade": {
-            "pai": "2010",
-            "ordem_de_visita": 376,
-            "nivel": 2
-        },
-        "preço": {
-            "pai": "banco",
-            "ordem_de_visita": 171,
-            "nivel": 2
-        },
-        "residencial": {
-            "pai": "2010",
-            "ordem_de_visita": 427,
-            "nivel": 2
-        },
-        "família": {
-            "pai": "economia",
-            "ordem_de_visita": 57,
-            "nivel": 1
-        },
-        "relativamente": {
-            "pai": "economia",
-            "ordem_de_visita": 80,
-            "nivel": 1
-        },
-        "desenvolvimento": {
-            "pai": "economia",
-            "ordem_de_visita": 3,
-            "nivel": 1
-        },
-        "flutuação": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 356,
-            "nivel": 2
-        },
-        "consumo": {
-            "pai": "economia",
-            "ordem_de_visita": 56,
-            "nivel": 1
-        },
-        "otimismo": {
-            "pai": "nacional",
-            "ordem_de_visita": 257,
-            "nivel": 2
-        },
-        "expansão": {
-            "pai": "economia",
-            "ordem_de_visita": 37,
-            "nivel": 1
-        },
-        "ritmo": {
-            "pai": "economia",
-            "ordem_de_visita": 151,
-            "nivel": 1
-        },
-        "acima": {
-            "pai": "nacional",
-            "ordem_de_visita": 218,
-            "nivel": 2
-        },
-        "vir": {
-            "pai": "nacional",
-            "ordem_de_visita": 225,
-            "nivel": 2
-        },
-        "postura": {
-            "pai": "nacional",
-            "ordem_de_visita": 232,
-            "nivel": 2
-        },
-        "debate": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 349,
-            "nivel": 2
-        },
-        "agur": {
-            "pai": "economia",
-            "ordem_de_visita": 83,
-            "nivel": 1
-        },
-        "confiança": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 331,
-            "nivel": 2
-        },
-        "privado": {
-            "pai": "economia",
-            "ordem_de_visita": 110,
-            "nivel": 1
-        },
-        "tradicional": {
-            "pai": "2010",
-            "ordem_de_visita": 449,
-            "nivel": 2
-        },
-        "royaltie": {
-            "pai": "nacional",
-            "ordem_de_visita": 261,
-            "nivel": 2
-        },
-        "bebida": {
-            "pai": "nacional",
-            "ordem_de_visita": 228,
-            "nivel": 2
-        },
-        "programa": {
-            "pai": "nacional",
-            "ordem_de_visita": 262,
-            "nivel": 2
-        },
-        "trabalhador": {
-            "pai": "2010",
-            "ordem_de_visita": 394,
-            "nivel": 2
-        },
-        "durávei": {
-            "pai": "nacional",
-            "ordem_de_visita": 205,
-            "nivel": 2
-        },
-        "amplamente": {
-            "pai": "nacional",
-            "ordem_de_visita": 265,
-            "nivel": 2
-        },
-        "pequeno": {
-            "pai": "2010",
-            "ordem_de_visita": 474,
-            "nivel": 2
-        },
-        "cimento": {
-            "pai": "2010",
-            "ordem_de_visita": 424,
-            "nivel": 2
-        },
-        "apontar": {
-            "pai": "2010",
-            "ordem_de_visita": 482,
-            "nivel": 2
-        },
-        "captação": {
-            "pai": "nacional",
-            "ordem_de_visita": 244,
-            "nivel": 2
-        },
-        "sustentar": {
-            "pai": "2010",
-            "ordem_de_visita": 404,
-            "nivel": 2
-        },
-        "de esse": {
-            "pai": "nacional",
-            "ordem_de_visita": 254,
-            "nivel": 2
-        },
-        "passar": {
-            "pai": "nacional",
-            "ordem_de_visita": 201,
-            "nivel": 2
-        },
-        "doméstico": {
-            "pai": "economia",
-            "ordem_de_visita": 88,
-            "nivel": 1
-        },
-        "imenso": {
-            "pai": "nacional",
-            "ordem_de_visita": 255,
-            "nivel": 2
-        },
-        "prestar": {
-            "pai": "2010",
-            "ordem_de_visita": 400,
-            "nivel": 2
-        },
-        "recurso": {
-            "pai": "nacional",
-            "ordem_de_visita": 245,
-            "nivel": 2
-        },
-        "reserva": {
-            "pai": "economia",
-            "ordem_de_visita": 86,
-            "nivel": 1
-        },
-        "jogos": {
-            "pai": "economia",
-            "ordem_de_visita": 103,
-            "nivel": 1
-        },
-        "soberano": {
-            "pai": "economia",
-            "ordem_de_visita": 78,
-            "nivel": 1
-        },
-        "intenso": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 348,
-            "nivel": 2
-        },
-        "década": {
-            "pai": "economia",
-            "ordem_de_visita": 53,
-            "nivel": 1
-        },
-        "macroeconômico": {
-            "pai": "economia",
-            "ordem_de_visita": 10,
-            "nivel": 1
-        },
-        "imposto": {
-            "pai": "2010",
-            "ordem_de_visita": 437,
+            "ordem_de_visita": 486,
             "nivel": 2
         },
         "real": {
@@ -2068,189 +48,19 @@
             "ordem_de_visita": 148,
             "nivel": 1
         },
-        "cenário": {
-            "pai": "economia",
-            "ordem_de_visita": 69,
-            "nivel": 1
-        },
-        "preparativo": {
-            "pai": "economia",
-            "ordem_de_visita": 99,
-            "nivel": 1
-        },
-        "especulativo": {
-            "pai": "econômico",
-            "ordem_de_visita": 305,
-            "nivel": 2
-        },
-        "resultado": {
-            "pai": "economia",
-            "ordem_de_visita": 66,
-            "nivel": 1
-        },
-        "eixo": {
-            "pai": "economia",
-            "ordem_de_visita": 157,
-            "nivel": 1
-        },
-        "destino": {
-            "pai": "economia",
-            "ordem_de_visita": 95,
-            "nivel": 1
-        },
-        "durante": {
-            "pai": "econômico",
-            "ordem_de_visita": 295,
-            "nivel": 2
-        },
-        "declinar": {
-            "pai": "economia",
-            "ordem_de_visita": 94,
-            "nivel": 1
-        },
-        "rendimento": {
-            "pai": "2010",
-            "ordem_de_visita": 392,
-            "nivel": 2
-        },
-        "petrobras": {
+        "recurso": {
             "pai": "nacional",
-            "ordem_de_visita": 242,
+            "ordem_de_visita": 245,
             "nivel": 2
         },
-        "caracterizar": {
+        "começar": {
+            "pai": "economia",
+            "ordem_de_visita": 105,
+            "nivel": 1
+        },
+        "pequeno": {
             "pai": "2010",
-            "ordem_de_visita": 453,
-            "nivel": 2
-        },
-        "volume": {
-            "pai": "economia",
-            "ordem_de_visita": 107,
-            "nivel": 1
-        },
-        "compensar": {
-            "pai": "2010",
-            "ordem_de_visita": 446,
-            "nivel": 2
-        },
-        "controle": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 355,
-            "nivel": 2
-        },
-        "longo": {
-            "pai": "economia",
-            "ordem_de_visita": 16,
-            "nivel": 1
-        },
-        "serviço": {
-            "pai": "nacional",
-            "ordem_de_visita": 230,
-            "nivel": 2
-        },
-        "circulação": {
-            "pai": "2010",
-            "ordem_de_visita": 406,
-            "nivel": 2
-        },
-        "república": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 347,
-            "nivel": 2
-        },
-        "industrializados": {
-            "pai": "2010",
-            "ordem_de_visita": 439,
-            "nivel": 2
-        },
-        "baixo": {
-            "pai": "nacional",
-            "ordem_de_visita": 273,
-            "nivel": 2
-        },
-        "pesar": {
-            "pai": "economia",
-            "ordem_de_visita": 35,
-            "nivel": 1
-        },
-        "enfrentar": {
-            "pai": "economia",
-            "ordem_de_visita": 75,
-            "nivel": 1
-        },
-        "aumento": {
-            "pai": "nacional",
-            "ordem_de_visita": 188,
-            "nivel": 2
-        },
-        "prazo": {
-            "pai": "economia",
-            "ordem_de_visita": 17,
-            "nivel": 1
-        },
-        "execução": {
-            "pai": "2010",
-            "ordem_de_visita": 451,
-            "nivel": 2
-        },
-        "tesouro": {
-            "pai": "economia",
-            "ordem_de_visita": 20,
-            "nivel": 1
-        },
-        "estipular": {
-            "pai": "nacional",
-            "ordem_de_visita": 221,
-            "nivel": 2
-        },
-        "ano": {
-            "pai": "economia",
-            "ordem_de_visita": 48,
-            "nivel": 1
-        },
-        "manutenção": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 364,
-            "nivel": 2
-        },
-        "registrar": {
-            "pai": "economia",
-            "ordem_de_visita": 45,
-            "nivel": 1
-        },
-        "produção": {
-            "pai": "2010",
-            "ordem_de_visita": 431,
-            "nivel": 2
-        },
-        "c": {
-            "pai": "nacional",
-            "ordem_de_visita": 187,
-            "nivel": 2
-        },
-        "instituição": {
-            "pai": "economia",
-            "ordem_de_visita": 21,
-            "nivel": 1
-        },
-        "milhão": {
-            "pai": "nacional",
-            "ordem_de_visita": 198,
-            "nivel": 2
-        },
-        "comercial": {
-            "pai": "economia",
-            "ordem_de_visita": 133,
-            "nivel": 1
-        },
-        "nação": {
-            "pai": "economia",
-            "ordem_de_visita": 71,
-            "nivel": 1
-        },
-        "câmbio": {
-            "pai": "2010",
-            "ordem_de_visita": 368,
+            "ordem_de_visita": 474,
             "nivel": 2
         },
         "mercado": {
@@ -2258,19 +68,49 @@
             "ordem_de_visita": 59,
             "nivel": 1
         },
-        "endividamento": {
-            "pai": "econômico",
-            "ordem_de_visita": 317,
+        "commodities": {
+            "pai": "banco",
+            "ordem_de_visita": 159,
             "nivel": 2
         },
-        "sucessivo": {
+        "aquisição": {
+            "pai": "econômico",
+            "ordem_de_visita": 319,
+            "nivel": 2
+        },
+        "de esse": {
+            "pai": "nacional",
+            "ordem_de_visita": 254,
+            "nivel": 2
+        },
+        "financiamento": {
+            "pai": "economia",
+            "ordem_de_visita": 15,
+            "nivel": 1
+        },
+        "refletir": {
+            "pai": "economia",
+            "ordem_de_visita": 155,
+            "nivel": 1
+        },
+        "isolar": {
+            "pai": "economia",
+            "ordem_de_visita": 81,
+            "nivel": 1
+        },
+        "acima": {
+            "pai": "nacional",
+            "ordem_de_visita": 218,
+            "nivel": 2
+        },
+        "milhão": {
+            "pai": "nacional",
+            "ordem_de_visita": 198,
+            "nivel": 2
+        },
+        "facilidade": {
             "pai": "2010",
-            "ordem_de_visita": 430,
-            "nivel": 2
-        },
-        "manter": {
-            "pai": "econômico",
-            "ordem_de_visita": 303,
+            "ordem_de_visita": 443,
             "nivel": 2
         },
         "indústria": {
@@ -2278,144 +118,264 @@
             "ordem_de_visita": 386,
             "nivel": 2
         },
-        "impulsionar": {
-            "pai": "economia",
-            "ordem_de_visita": 54,
-            "nivel": 1
-        },
-        "desemprego": {
-            "pai": "2010",
-            "ordem_de_visita": 473,
-            "nivel": 2
-        },
-        "processo": {
-            "pai": "nacional",
-            "ordem_de_visita": 243,
-            "nivel": 2
-        },
-        "viver": {
-            "pai": "2010",
-            "ordem_de_visita": 409,
-            "nivel": 2
-        },
-        "engenharia": {
-            "pai": "economia",
-            "ordem_de_visita": 131,
-            "nivel": 1
-        },
-        "verdadeiro": {
-            "pai": "2010",
-            "ordem_de_visita": 410,
-            "nivel": 2
-        },
-        "exportação": {
+        "especialmente": {
             "pai": "banco",
-            "ordem_de_visita": 158,
+            "ordem_de_visita": 168,
             "nivel": 2
         },
-        "fundamento": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 332,
-            "nivel": 2
-        },
-        "elevação": {
+        "inflacionário": {
             "pai": "econômico",
-            "ordem_de_visita": 291,
+            "ordem_de_visita": 285,
             "nivel": 2
         },
-        "tel": {
+        "dificuldade": {
+            "pai": "2010",
+            "ordem_de_visita": 447,
+            "nivel": 2
+        },
+        "brasileiro": {
+            "pai": "economia",
+            "ordem_de_visita": 40,
+            "nivel": 1
+        },
+        "capital": {
+            "pai": "economia",
+            "ordem_de_visita": 97,
+            "nivel": 1
+        },
+        "investidor": {
             "pai": "nacional",
-            "ordem_de_visita": 202,
+            "ordem_de_visita": 249,
             "nivel": 2
         },
-        "pujante": {
+        "casa": {
+            "pai": "2010",
+            "ordem_de_visita": 414,
+            "nivel": 2
+        },
+        "cidade": {
+            "pai": "2010",
+            "ordem_de_visita": 407,
+            "nivel": 2
+        },
+        "facilitar": {
+            "pai": "nacional",
+            "ordem_de_visita": 204,
+            "nivel": 2
+        },
+        "primário": {
+            "pai": "2010",
+            "ordem_de_visita": 462,
+            "nivel": 2
+        },
+        "alta": {
+            "pai": "2010",
+            "ordem_de_visita": 375,
+            "nivel": 2
+        },
+        "chamado": {
+            "pai": "economia",
+            "ordem_de_visita": 25,
+            "nivel": 1
+        },
+        "família": {
+            "pai": "economia",
+            "ordem_de_visita": 57,
+            "nivel": 1
+        },
+        "extraordinário": {
+            "pai": "economia",
+            "ordem_de_visita": 47,
+            "nivel": 1
+        },
+        "externo": {
+            "pai": "economia",
+            "ordem_de_visita": 153,
+            "nivel": 1
+        },
+        "agur": {
+            "pai": "economia",
+            "ordem_de_visita": 83,
+            "nivel": 1
+        },
+        "câmbio": {
+            "pai": "2010",
+            "ordem_de_visita": 368,
+            "nivel": 2
+        },
+        "contaminação": {
+            "pai": "nacional",
+            "ordem_de_visita": 236,
+            "nivel": 2
+        },
+        "aeroporto": {
+            "pai": "economia",
+            "ordem_de_visita": 118,
+            "nivel": 1
+        },
+        "positivo": {
+            "pai": "economia",
+            "ordem_de_visita": 137,
+            "nivel": 1
+        },
+        "contribuir": {
+            "pai": "nacional",
+            "ordem_de_visita": 279,
+            "nivel": 2
+        },
+        "execução": {
+            "pai": "2010",
+            "ordem_de_visita": 451,
+            "nivel": 2
+        },
+        "principalmente": {
+            "pai": "nacional",
+            "ordem_de_visita": 226,
+            "nivel": 2
+        },
+        "encerrar": {
+            "pai": "economia",
+            "ordem_de_visita": 135,
+            "nivel": 1
+        },
+        "testemunhar": {
+            "pai": "nacional",
+            "ordem_de_visita": 182,
+            "nivel": 2
+        },
+        "sustentar": {
+            "pai": "2010",
+            "ordem_de_visita": 404,
+            "nivel": 2
+        },
+        "global": {
+            "pai": "economia",
+            "ordem_de_visita": 70,
+            "nivel": 1
+        },
+        "investimento": {
+            "pai": "economia",
+            "ordem_de_visita": 34,
+            "nivel": 1
+        },
+        "transição": {
             "pai": "macroeconômico",
-            "ordem_de_visita": 341,
+            "ordem_de_visita": 344,
             "nivel": 2
         },
-        "commodities": {
+        "apresentar": {
+            "pai": "nacional",
+            "ordem_de_visita": 214,
+            "nivel": 2
+        },
+        "diretamente": {
+            "pai": "nacional",
+            "ordem_de_visita": 271,
+            "nivel": 2
+        },
+        "vir": {
+            "pai": "nacional",
+            "ordem_de_visita": 225,
+            "nivel": 2
+        },
+        "prazo": {
+            "pai": "economia",
+            "ordem_de_visita": 17,
+            "nivel": 1
+        },
+        "imposto": {
+            "pai": "2010",
+            "ordem_de_visita": 437,
+            "nivel": 2
+        },
+        "provedor": {
+            "pai": "economia",
+            "ordem_de_visita": 14,
+            "nivel": 1
+        },
+        "anterior": {
+            "pai": "economia",
+            "ordem_de_visita": 138,
+            "nivel": 1
+        },
+        "observar": {
+            "pai": "econômico",
+            "ordem_de_visita": 310,
+            "nivel": 2
+        },
+        "turbulência": {
             "pai": "banco",
-            "ordem_de_visita": 159,
+            "ordem_de_visita": 181,
             "nivel": 2
         },
-        "bilhão": {
+        "multiplicador": {
             "pai": "nacional",
-            "ordem_de_visita": 251,
+            "ordem_de_visita": 275,
             "nivel": 2
-        },
-        "arena": {
-            "pai": "economia",
-            "ordem_de_visita": 115,
-            "nivel": 1
-        },
-        "mudança": {
-            "pai": "economia",
-            "ordem_de_visita": 156,
-            "nivel": 1
-        },
-        "perceptível": {
-            "pai": "nacional",
-            "ordem_de_visita": 266,
-            "nivel": 2
-        },
-        "condução": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 351,
-            "nivel": 2
-        },
-        "mobilidade": {
-            "pai": "economia",
-            "ordem_de_visita": 120,
-            "nivel": 1
-        },
-        "fomentar": {
-            "pai": "economia",
-            "ordem_de_visita": 23,
-            "nivel": 1
-        },
-        "continuidade": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 354,
-            "nivel": 2
-        },
-        "fiscal": {
-            "pai": "macroeconômico",
-            "ordem_de_visita": 359,
-            "nivel": 2
-        },
-        "profundo": {
-            "pai": "nacional",
-            "ordem_de_visita": 256,
-            "nivel": 2
-        },
-        "persistente": {
-            "pai": "2010",
-            "ordem_de_visita": 369,
-            "nivel": 2
-        },
-        "mundo": {
-            "pai": "economia",
-            "ordem_de_visita": 102,
-            "nivel": 1
-        },
-        "bancos": {
-            "pai": "econômico",
-            "ordem_de_visita": 311,
-            "nivel": 2
-        },
-        "qualificado": {
-            "pai": "2010",
-            "ordem_de_visita": 486,
-            "nivel": 2
-        },
-        "modernização": {
-            "pai": "economia",
-            "ordem_de_visita": 117,
-            "nivel": 1
         },
         "comunicação": {
             "pai": "2010",
             "ordem_de_visita": 399,
+            "nivel": 2
+        },
+        "2010": {
+            "pai": "economia",
+            "ordem_de_visita": 11,
+            "nivel": 1
+        },
+        "econômico": {
+            "pai": "economia",
+            "ordem_de_visita": 4,
+            "nivel": 1
+        },
+        "aceleração": {
+            "pai": "nacional",
+            "ordem_de_visita": 216,
+            "nivel": 2
+        },
+        "debate": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 349,
+            "nivel": 2
+        },
+        "consolidação": {
+            "pai": "economia",
+            "ordem_de_visita": 24,
+            "nivel": 1
+        },
+        "crítico": {
+            "pai": "2010",
+            "ordem_de_visita": 463,
+            "nivel": 2
+        },
+        "superávit": {
+            "pai": "economia",
+            "ordem_de_visita": 136,
+            "nivel": 1
+        },
+        "saldo": {
+            "pai": "economia",
+            "ordem_de_visita": 154,
+            "nivel": 1
+        },
+        "reforma": {
+            "pai": "economia",
+            "ordem_de_visita": 113,
+            "nivel": 1
+        },
+        "petrolífero": {
+            "pai": "nacional",
+            "ordem_de_visita": 252,
+            "nivel": 2
+        },
+        "desafio": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 362,
+            "nivel": 2
+        },
+        "cumprir": {
+            "pai": "2010",
+            "ordem_de_visita": 461,
             "nivel": 2
         },
         "combinar": {
@@ -2423,19 +383,2059 @@
             "ordem_de_visita": 191,
             "nivel": 2
         },
+        "pujante": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 341,
+            "nivel": 2
+        },
+        "manobra": {
+            "pai": "2010",
+            "ordem_de_visita": 457,
+            "nivel": 2
+        },
+        "histórico": {
+            "pai": "2010",
+            "ordem_de_visita": 472,
+            "nivel": 2
+        },
+        "demandar": {
+            "pai": "2010",
+            "ordem_de_visita": 417,
+            "nivel": 2
+        },
+        "cotação": {
+            "pai": "2010",
+            "ordem_de_visita": 378,
+            "nivel": 2
+        },
+        "demanda": {
+            "pai": "banco",
+            "ordem_de_visita": 165,
+            "nivel": 2
+        },
+        "automotivo": {
+            "pai": "2010",
+            "ordem_de_visita": 429,
+            "nivel": 2
+        },
+        "direto": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 329,
+            "nivel": 2
+        },
+        "composição": {
+            "pai": "2010",
+            "ordem_de_visita": 389,
+            "nivel": 2
+        },
+        "último": {
+            "pai": "economia",
+            "ordem_de_visita": 52,
+            "nivel": 1
+        },
+        "pendente": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 367,
+            "nivel": 2
+        },
+        "melhoria": {
+            "pai": "economia",
+            "ordem_de_visita": 119,
+            "nivel": 1
+        },
+        "condução": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 351,
+            "nivel": 2
+        },
+        "ferro": {
+            "pai": "banco",
+            "ordem_de_visita": 173,
+            "nivel": 2
+        },
+        "despesa": {
+            "pai": "2010",
+            "ordem_de_visita": 454,
+            "nivel": 2
+        },
+        "economia": {
+            "pai": null,
+            "ordem_de_visita": 0,
+            "nivel": 0
+        },
+        "reflexo": {
+            "pai": "economia",
+            "ordem_de_visita": 64,
+            "nivel": 1
+        },
+        "arena": {
+            "pai": "economia",
+            "ordem_de_visita": 115,
+            "nivel": 1
+        },
+        "marcar": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 343,
+            "nivel": 2
+        },
+        "china": {
+            "pai": "banco",
+            "ordem_de_visita": 169,
+            "nivel": 2
+        },
+        "emergente": {
+            "pai": "economia",
+            "ordem_de_visita": 72,
+            "nivel": 1
+        },
+        "forte": {
+            "pai": "economia",
+            "ordem_de_visita": 55,
+            "nivel": 1
+        },
+        "imenso": {
+            "pai": "nacional",
+            "ordem_de_visita": 255,
+            "nivel": 2
+        },
+        "série": {
+            "pai": "2010",
+            "ordem_de_visita": 476,
+            "nivel": 2
+        },
+        "robustez": {
+            "pai": "economia",
+            "ordem_de_visita": 85,
+            "nivel": 1
+        },
+        "estratégia": {
+            "pai": "economia",
+            "ordem_de_visita": 9,
+            "nivel": 1
+        },
+        "arbitragem": {
+            "pai": "econômico",
+            "ordem_de_visita": 306,
+            "nivel": 2
+        },
+        "tesouro": {
+            "pai": "economia",
+            "ordem_de_visita": 20,
+            "nivel": 1
+        },
+        "recorde": {
+            "pai": "banco",
+            "ordem_de_visita": 164,
+            "nivel": 2
+        },
+        "compra": {
+            "pai": "nacional",
+            "ordem_de_visita": 197,
+            "nivel": 2
+        },
+        "consolidar": {
+            "pai": "economia",
+            "ordem_de_visita": 49,
+            "nivel": 1
+        },
+        "bilhão": {
+            "pai": "nacional",
+            "ordem_de_visita": 251,
+            "nivel": 2
+        },
+        "confiança": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 331,
+            "nivel": 2
+        },
+        "trabalhador": {
+            "pai": "2010",
+            "ordem_de_visita": 394,
+            "nivel": 2
+        },
+        "competitividade": {
+            "pai": "2010",
+            "ordem_de_visita": 385,
+            "nivel": 2
+        },
+        "produtos": {
+            "pai": "2010",
+            "ordem_de_visita": 438,
+            "nivel": 2
+        },
+        "estrangeiro": {
+            "pai": "economia",
+            "ordem_de_visita": 146,
+            "nivel": 1
+        },
+        "finanças": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 337,
+            "nivel": 2
+        },
+        "asiático": {
+            "pai": "banco",
+            "ordem_de_visita": 167,
+            "nivel": 2
+        },
+        "macroeconômico": {
+            "pai": "economia",
+            "ordem_de_visita": 10,
+            "nivel": 1
+        },
+        "pesar": {
+            "pai": "economia",
+            "ordem_de_visita": 35,
+            "nivel": 1
+        },
+        "ritmo": {
+            "pai": "economia",
+            "ordem_de_visita": 151,
+            "nivel": 1
+        },
+        "automotor": {
+            "pai": "2010",
+            "ordem_de_visita": 445,
+            "nivel": 2
+        },
+        "parcela": {
+            "pai": "econômico",
+            "ordem_de_visita": 324,
+            "nivel": 2
+        },
+        "responsabilidade": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 358,
+            "nivel": 2
+        },
+        "orçamento": {
+            "pai": "econômico",
+            "ordem_de_visita": 326,
+            "nivel": 2
+        },
+        "exigir": {
+            "pai": "nacional",
+            "ordem_de_visita": 231,
+            "nivel": 2
+        },
+        "disciplina": {
+            "pai": "2010",
+            "ordem_de_visita": 467,
+            "nivel": 2
+        },
+        "alongamento": {
+            "pai": "econômico",
+            "ordem_de_visita": 321,
+            "nivel": 2
+        },
+        "c": {
+            "pai": "nacional",
+            "ordem_de_visita": 187,
+            "nivel": 2
+        },
+        "direcionar": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 333,
+            "nivel": 2
+        },
+        "potencializar": {
+            "pai": "economia",
+            "ordem_de_visita": 147,
+            "nivel": 1
+        },
+        "privado": {
+            "pai": "economia",
+            "ordem_de_visita": 110,
+            "nivel": 1
+        },
+        "consumidor": {
+            "pai": "economia",
+            "ordem_de_visita": 87,
+            "nivel": 1
+        },
+        "desempenho": {
+            "pai": "2010",
+            "ordem_de_visita": 434,
+            "nivel": 2
+        },
+        "elevado": {
+            "pai": "banco",
+            "ordem_de_visita": 170,
+            "nivel": 2
+        },
+        "crescimento": {
+            "pai": "economia",
+            "ordem_de_visita": 46,
+            "nivel": 1
+        },
+        "monetário": {
+            "pai": "nacional",
+            "ordem_de_visita": 222,
+            "nivel": 2
+        },
+        "fenômeno": {
+            "pai": "nacional",
+            "ordem_de_visita": 184,
+            "nivel": 2
+        },
+        "resposta": {
+            "pai": "econômico",
+            "ordem_de_visita": 284,
+            "nivel": 2
+        },
+        "custo": {
+            "pai": "econômico",
+            "ordem_de_visita": 297,
+            "nivel": 2
+        },
+        "balança": {
+            "pai": "economia",
+            "ordem_de_visita": 132,
+            "nivel": 1
+        },
+        "estabelecer": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 339,
+            "nivel": 2
+        },
+        "injetar": {
+            "pai": "nacional",
+            "ordem_de_visita": 250,
+            "nivel": 2
+        },
+        "declinar": {
+            "pai": "economia",
+            "ordem_de_visita": 94,
+            "nivel": 1
+        },
+        "situação": {
+            "pai": "2010",
+            "ordem_de_visita": 383,
+            "nivel": 2
+        },
+        "prestar": {
+            "pai": "2010",
+            "ordem_de_visita": 400,
+            "nivel": 2
+        },
+        "mínimo": {
+            "pai": "nacional",
+            "ordem_de_visita": 190,
+            "nivel": 2
+        },
+        "mundo": {
+            "pai": "economia",
+            "ordem_de_visita": 102,
+            "nivel": 1
+        },
+        "favorecir": {
+            "pai": "2010",
+            "ordem_de_visita": 381,
+            "nivel": 2
+        },
+        "efeito": {
+            "pai": "nacional",
+            "ordem_de_visita": 274,
+            "nivel": 2
+        },
+        "corrente": {
+            "pai": "2010",
+            "ordem_de_visita": 455,
+            "nivel": 2
+        },
+        "registrar": {
+            "pai": "economia",
+            "ordem_de_visita": 45,
+            "nivel": 1
+        },
+        "principal": {
+            "pai": "economia",
+            "ordem_de_visita": 13,
+            "nivel": 1
+        },
+        "longo": {
+            "pai": "economia",
+            "ordem_de_visita": 16,
+            "nivel": 1
+        },
+        "altisto": {
+            "pai": "nacional",
+            "ordem_de_visita": 224,
+            "nivel": 2
+        },
+        "financeiro": {
+            "pai": "economia",
+            "ordem_de_visita": 22,
+            "nivel": 1
+        },
+        "estrutural": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 366,
+            "nivel": 2
+        },
+        "bolsa": {
+            "pai": "nacional",
+            "ordem_de_visita": 246,
+            "nivel": 2
+        },
+        "captação": {
+            "pai": "nacional",
+            "ordem_de_visita": 244,
+            "nivel": 2
+        },
+        "vida": {
+            "pai": "2010",
+            "ordem_de_visita": 415,
+            "nivel": 2
+        },
+        "assinar": {
+            "pai": "2010",
+            "ordem_de_visita": 480,
+            "nivel": 2
+        },
+        "tel": {
+            "pai": "nacional",
+            "ordem_de_visita": 202,
+            "nivel": 2
+        },
+        "informação": {
+            "pai": "2010",
+            "ordem_de_visita": 398,
+            "nivel": 2
+        },
+        "petrobras": {
+            "pai": "nacional",
+            "ordem_de_visita": 242,
+            "nivel": 2
+        },
+        "transferência": {
+            "pai": "nacional",
+            "ordem_de_visita": 263,
+            "nivel": 2
+        },
+        "enfrentar": {
+            "pai": "economia",
+            "ordem_de_visita": 75,
+            "nivel": 1
+        },
+        "impulsionar": {
+            "pai": "economia",
+            "ordem_de_visita": 54,
+            "nivel": 1
+        },
+        "medida": {
+            "pai": "econômico",
+            "ordem_de_visita": 302,
+            "nivel": 2
+        },
+        "oportunidade": {
+            "pai": "2010",
+            "ordem_de_visita": 376,
+            "nivel": 2
+        },
+        "soja": {
+            "pai": "banco",
+            "ordem_de_visita": 174,
+            "nivel": 2
+        },
+        "subsidiado": {
+            "pai": "economia",
+            "ordem_de_visita": 31,
+            "nivel": 1
+        },
+        "classe": {
+            "pai": "nacional",
+            "ordem_de_visita": 186,
+            "nivel": 2
+        },
+        "valorizado": {
+            "pai": "economia",
+            "ordem_de_visita": 149,
+            "nivel": 1
+        },
+        "valor": {
+            "pai": "nacional",
+            "ordem_de_visita": 247,
+            "nivel": 2
+        },
+        "vigoroso": {
+            "pai": "economia",
+            "ordem_de_visita": 63,
+            "nivel": 1
+        },
+        "durante": {
+            "pai": "econômico",
+            "ordem_de_visita": 295,
+            "nivel": 2
+        },
+        "ano": {
+            "pai": "economia",
+            "ordem_de_visita": 48,
+            "nivel": 1
+        },
+        "interiorização": {
+            "pai": "nacional",
+            "ordem_de_visita": 278,
+            "nivel": 2
+        },
+        "encerramento": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 342,
+            "nivel": 2
+        },
+        "compensar": {
+            "pai": "2010",
+            "ordem_de_visita": 446,
+            "nivel": 2
+        },
+        "fornecedor": {
+            "pai": "2010",
+            "ordem_de_visita": 423,
+            "nivel": 2
+        },
+        "comércio": {
+            "pai": "nacional",
+            "ordem_de_visita": 276,
+            "nivel": 2
+        },
+        "inflação": {
+            "pai": "nacional",
+            "ordem_de_visita": 212,
+            "nivel": 2
+        },
+        "programa": {
+            "pai": "nacional",
+            "ordem_de_visita": 262,
+            "nivel": 2
+        },
+        "selic": {
+            "pai": "econômico",
+            "ordem_de_visita": 294,
+            "nivel": 2
+        },
+        "período": {
+            "pai": "nacional",
+            "ordem_de_visita": 217,
+            "nivel": 2
+        },
+        "telecomunicação": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 335,
+            "nivel": 2
+        },
+        "multinacional": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 338,
+            "nivel": 2
+        },
+        "exportação": {
+            "pai": "banco",
+            "ordem_de_visita": 158,
+            "nivel": 2
+        },
+        "central": {
+            "pai": "economia",
+            "ordem_de_visita": 8,
+            "nivel": 1
+        },
+        "dinamismo": {
+            "pai": "economia",
+            "ordem_de_visita": 58,
+            "nivel": 1
+        },
+        "elevação": {
+            "pai": "econômico",
+            "ordem_de_visita": 291,
+            "nivel": 2
+        },
+        "atrair": {
+            "pai": "nacional",
+            "ordem_de_visita": 248,
+            "nivel": 2
+        },
+        "pleno": {
+            "pai": "2010",
+            "ordem_de_visita": 483,
+            "nivel": 2
+        },
+        "empresariado": {
+            "pai": "2010",
+            "ordem_de_visita": 481,
+            "nivel": 2
+        },
+        "continuidade": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 354,
+            "nivel": 2
+        },
+        "solidez": {
+            "pai": "economia",
+            "ordem_de_visita": 84,
+            "nivel": 1
+        },
+        "eletrônico": {
+            "pai": "nacional",
+            "ordem_de_visita": 207,
+            "nivel": 2
+        },
+        "dívida": {
+            "pai": "economia",
+            "ordem_de_visita": 77,
+            "nivel": 1
+        },
+        "acelerar": {
+            "pai": "economia",
+            "ordem_de_visita": 140,
+            "nivel": 1
+        },
+        "autoridade": {
+            "pai": "nacional",
+            "ordem_de_visita": 234,
+            "nivel": 2
+        },
+        "residencial": {
+            "pai": "2010",
+            "ordem_de_visita": 427,
+            "nivel": 2
+        },
+        "jurídica": {
+            "pai": "econômico",
+            "ordem_de_visita": 315,
+            "nivel": 2
+        },
+        "nação": {
+            "pai": "economia",
+            "ordem_de_visita": 71,
+            "nivel": 1
+        },
+        "segmento": {
+            "pai": "2010",
+            "ordem_de_visita": 402,
+            "nivel": 2
+        },
+        "impacto": {
+            "pai": "economia",
+            "ordem_de_visita": 82,
+            "nivel": 1
+        },
+        "desemprego": {
+            "pai": "2010",
+            "ordem_de_visita": 473,
+            "nivel": 2
+        },
+        "regional": {
+            "pai": "nacional",
+            "ordem_de_visita": 282,
+            "nivel": 2
+        },
+        "colocar": {
+            "pai": "economia",
+            "ordem_de_visita": 67,
+            "nivel": 1
+        },
+        "contínuo": {
+            "pai": "banco",
+            "ordem_de_visita": 178,
+            "nivel": 2
+        },
+        "açúcar": {
+            "pai": "banco",
+            "ordem_de_visita": 175,
+            "nivel": 2
+        },
+        "conceder": {
+            "pai": "2010",
+            "ordem_de_visita": 440,
+            "nivel": 2
+        },
+        "entrada": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 328,
+            "nivel": 2
+        },
+        "instituição": {
+            "pai": "economia",
+            "ordem_de_visita": 21,
+            "nivel": 1
+        },
+        "expansão": {
+            "pai": "economia",
+            "ordem_de_visita": 37,
+            "nivel": 1
+        },
+        "ciclo": {
+            "pai": "economia",
+            "ordem_de_visita": 128,
+            "nivel": 1
+        },
+        "visibilidade": {
+            "pai": "economia",
+            "ordem_de_visita": 126,
+            "nivel": 1
+        },
+        "prejudicar": {
+            "pai": "2010",
+            "ordem_de_visita": 384,
+            "nivel": 2
+        },
+        "setor": {
+            "pai": "economia",
+            "ordem_de_visita": 27,
+            "nivel": 1
+        },
+        "expressivo": {
+            "pai": "2010",
+            "ordem_de_visita": 390,
+            "nivel": 2
+        },
+        "comercial": {
+            "pai": "economia",
+            "ordem_de_visita": 133,
+            "nivel": 1
+        },
+        "crédito": {
+            "pai": "econômico",
+            "ordem_de_visita": 307,
+            "nivel": 2
+        },
+        "oficial": {
+            "pai": "nacional",
+            "ordem_de_visita": 213,
+            "nivel": 2
+        },
+        "meta": {
+            "pai": "nacional",
+            "ordem_de_visita": 220,
+            "nivel": 2
+        },
+        "relativamente": {
+            "pai": "economia",
+            "ordem_de_visita": 80,
+            "nivel": 1
+        },
+        "intenso": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 348,
+            "nivel": 2
+        },
+        "preço": {
+            "pai": "banco",
+            "ordem_de_visita": 171,
+            "nivel": 2
+        },
+        "sustentabilidade": {
+            "pai": "2010",
+            "ordem_de_visita": 469,
+            "nivel": 2
+        },
+        "região": {
+            "pai": "nacional",
+            "ordem_de_visita": 267,
+            "nivel": 2
+        },
+        "turista": {
+            "pai": "economia",
+            "ordem_de_visita": 125,
+            "nivel": 1
+        },
+        "brasil": {
+            "pai": "economia",
+            "ordem_de_visita": 44,
+            "nivel": 1
+        },
+        "industrial": {
+            "pai": "economia",
+            "ordem_de_visita": 145,
+            "nivel": 1
+        },
+        "vigilante": {
+            "pai": "nacional",
+            "ordem_de_visita": 233,
+            "nivel": 2
+        },
+        "fomentar": {
+            "pai": "economia",
+            "ordem_de_visita": 23,
+            "nivel": 1
+        },
+        "corporação": {
+            "pai": "economia",
+            "ordem_de_visita": 39,
+            "nivel": 1
+        },
+        "olímpicos": {
+            "pai": "economia",
+            "ordem_de_visita": 104,
+            "nivel": 1
+        },
+        "carteira": {
+            "pai": "2010",
+            "ordem_de_visita": 479,
+            "nivel": 2
+        },
+        "juro": {
+            "pai": "economia",
+            "ordem_de_visita": 30,
+            "nivel": 1
+        },
+        "encarecer": {
+            "pai": "econômico",
+            "ordem_de_visita": 296,
+            "nivel": 2
+        },
+        "produto": {
+            "pai": "economia",
+            "ordem_de_visita": 41,
+            "nivel": 1
+        },
+        "taxa": {
+            "pai": "econômico",
+            "ordem_de_visita": 292,
+            "nivel": 2
+        },
+        "estratégico": {
+            "pai": "economia",
+            "ordem_de_visita": 28,
+            "nivel": 1
+        },
+        "governo": {
+            "pai": "2010",
+            "ordem_de_visita": 441,
+            "nivel": 2
+        },
+        "analista": {
+            "pai": "2010",
+            "ordem_de_visita": 464,
+            "nivel": 2
+        },
+        "transporte": {
+            "pai": "2010",
+            "ordem_de_visita": 396,
+            "nivel": 2
+        },
+        "criação": {
+            "pai": "2010",
+            "ordem_de_visita": 477,
+            "nivel": 2
+        },
+        "preparativo": {
+            "pai": "economia",
+            "ordem_de_visita": 99,
+            "nivel": 1
+        },
+        "rumo": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 350,
+            "nivel": 2
+        },
+        "redução": {
+            "pai": "2010",
+            "ordem_de_visita": 436,
+            "nivel": 2
+        },
+        "divisa": {
+            "pai": "banco",
+            "ordem_de_visita": 179,
+            "nivel": 2
+        },
+        "centro": {
+            "pai": "nacional",
+            "ordem_de_visita": 219,
+            "nivel": 2
+        },
+        "tecnologia": {
+            "pai": "2010",
+            "ordem_de_visita": 397,
+            "nivel": 2
+        },
+        "otimismo": {
+            "pai": "nacional",
+            "ordem_de_visita": 257,
+            "nivel": 2
+        },
+        "afetar": {
+            "pai": "2010",
+            "ordem_de_visita": 450,
+            "nivel": 2
+        },
+        "básico": {
+            "pai": "econômico",
+            "ordem_de_visita": 293,
+            "nivel": 2
+        },
+        "frente": {
+            "pai": "2010",
+            "ordem_de_visita": 371,
+            "nivel": 2
+        },
+        "crise": {
+            "pai": "economia",
+            "ordem_de_visita": 65,
+            "nivel": 1
+        },
+        "milhar": {
+            "pai": "2010",
+            "ordem_de_visita": 418,
+            "nivel": 2
+        },
+        "regular": {
+            "pai": "nacional",
+            "ordem_de_visita": 270,
+            "nivel": 2
+        },
+        "ativo": {
+            "pai": "2010",
+            "ordem_de_visita": 459,
+            "nivel": 2
+        },
+        "contingente": {
+            "pai": "nacional",
+            "ordem_de_visita": 200,
+            "nivel": 2
+        },
+        "fiscal": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 359,
+            "nivel": 2
+        },
         "ter": {
             "pai": "2010",
             "ordem_de_visita": 380,
             "nivel": 2
+        },
+        "rendimento": {
+            "pai": "2010",
+            "ordem_de_visita": 392,
+            "nivel": 2
+        },
+        "país": {
+            "pai": "economia",
+            "ordem_de_visita": 60,
+            "nivel": 1
+        },
+        "monetária": {
+            "pai": "econômico",
+            "ordem_de_visita": 289,
+            "nivel": 2
+        },
+        "atividade": {
+            "pai": "econômico",
+            "ordem_de_visita": 287,
+            "nivel": 2
+        },
+        "permanecer": {
+            "pai": "economia",
+            "ordem_de_visita": 79,
+            "nivel": 1
+        },
+        "fluxo": {
+            "pai": "banco",
+            "ordem_de_visita": 177,
+            "nivel": 2
+        },
+        "construção": {
+            "pai": "economia",
+            "ordem_de_visita": 114,
+            "nivel": 1
+        },
+        "patamar": {
+            "pai": "banco",
+            "ordem_de_visita": 163,
+            "nivel": 2
+        },
+        "eixo": {
+            "pai": "economia",
+            "ordem_de_visita": 157,
+            "nivel": 1
+        },
+        "habitacional": {
+            "pai": "2010",
+            "ordem_de_visita": 413,
+            "nivel": 2
+        },
+        "aporte": {
+            "pai": "economia",
+            "ordem_de_visita": 18,
+            "nivel": 1
+        },
+        "agregado": {
+            "pai": "nacional",
+            "ordem_de_visita": 283,
+            "nivel": 2
+        },
+        "campeã": {
+            "pai": "economia",
+            "ordem_de_visita": 26,
+            "nivel": 1
+        },
+        "garantir": {
+            "pai": "economia",
+            "ordem_de_visita": 33,
+            "nivel": 1
+        },
+        "trabalho": {
+            "pai": "2010",
+            "ordem_de_visita": 420,
+            "nivel": 2
+        },
+        "exportadora": {
+            "pai": "2010",
+            "ordem_de_visita": 388,
+            "nivel": 2
+        },
+        "liderança": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 360,
+            "nivel": 2
+        },
+        "governamental": {
+            "pai": "2010",
+            "ordem_de_visita": 470,
+            "nivel": 2
+        },
+        "atrativo": {
+            "pai": "econômico",
+            "ordem_de_visita": 304,
+            "nivel": 2
+        },
+        "manter": {
+            "pai": "econômico",
+            "ordem_de_visita": 303,
+            "nivel": 2
+        },
+        "amortecedor": {
+            "pai": "economia",
+            "ordem_de_visita": 91,
+            "nivel": 1
+        },
+        "copa": {
+            "pai": "economia",
+            "ordem_de_visita": 101,
+            "nivel": 1
+        },
+        "marca": {
+            "pai": "2010",
+            "ordem_de_visita": 471,
+            "nivel": 2
+        },
+        "moeda": {
+            "pai": "2010",
+            "ordem_de_visita": 379,
+            "nivel": 2
+        },
+        "sucessivo": {
+            "pai": "2010",
+            "ordem_de_visita": 430,
+            "nivel": 2
+        },
+        "aquecer": {
+            "pai": "2010",
+            "ordem_de_visita": 421,
+            "nivel": 2
+        },
+        "viagem": {
+            "pai": "2010",
+            "ordem_de_visita": 382,
+            "nivel": 2
+        },
+        "salário": {
+            "pai": "nacional",
+            "ordem_de_visita": 189,
+            "nivel": 2
+        },
+        "consórcio": {
+            "pai": "economia",
+            "ordem_de_visita": 108,
+            "nivel": 1
+        },
+        "volume": {
+            "pai": "economia",
+            "ordem_de_visita": 107,
+            "nivel": 1
+        },
+        "emprego": {
+            "pai": "nacional",
+            "ordem_de_visita": 193,
+            "nivel": 2
+        },
+        "ligar": {
+            "pai": "2010",
+            "ordem_de_visita": 395,
+            "nivel": 2
+        },
+        "urbano": {
+            "pai": "economia",
+            "ordem_de_visita": 121,
+            "nivel": 1
+        },
+        "baixo": {
+            "pai": "nacional",
+            "ordem_de_visita": 273,
+            "nivel": 2
+        },
+        "manufatureira": {
+            "pai": "2010",
+            "ordem_de_visita": 387,
+            "nivel": 2
+        },
+        "severo": {
+            "pai": "economia",
+            "ordem_de_visita": 76,
+            "nivel": 1
+        },
+        "público": {
+            "pai": "economia",
+            "ordem_de_visita": 109,
+            "nivel": 1
+        },
+        "fortalecimento": {
+            "pai": "2010",
+            "ordem_de_visita": 444,
+            "nivel": 2
+        },
+        "contabilidade": {
+            "pai": "2010",
+            "ordem_de_visita": 458,
+            "nivel": 2
+        },
+        "acesso": {
+            "pai": "nacional",
+            "ordem_de_visita": 203,
+            "nivel": 2
+        },
+        "dólar": {
+            "pai": "2010",
+            "ordem_de_visita": 372,
+            "nivel": 2
+        },
+        "cidadão": {
+            "pai": "nacional",
+            "ordem_de_visita": 199,
+            "nivel": 2
+        },
+        "dinâmica": {
+            "pai": "nacional",
+            "ordem_de_visita": 209,
+            "nivel": 2
+        },
+        "geração": {
+            "pai": "2010",
+            "ordem_de_visita": 405,
+            "nivel": 2
+        },
+        "durávei": {
+            "pai": "nacional",
+            "ordem_de_visita": 205,
+            "nivel": 2
+        },
+        "passar": {
+            "pai": "nacional",
+            "ordem_de_visita": 201,
+            "nivel": 2
+        },
+        "futuro": {
+            "pai": "nacional",
+            "ordem_de_visita": 237,
+            "nivel": 2
+        },
+        "realização": {
+            "pai": "economia",
+            "ordem_de_visita": 100,
+            "nivel": 1
+        },
+        "operarar": {
+            "pai": "2010",
+            "ordem_de_visita": 401,
+            "nivel": 2
+        },
+        "negócio": {
+            "pai": "economia",
+            "ordem_de_visita": 129,
+            "nivel": 1
+        },
+        "receita": {
+            "pai": "2010",
+            "ordem_de_visita": 460,
+            "nivel": 2
+        },
+        "energético": {
+            "pai": "nacional",
+            "ordem_de_visita": 259,
+            "nivel": 2
+        },
+        "jogos": {
+            "pai": "economia",
+            "ordem_de_visita": 103,
+            "nivel": 1
+        },
+        "mineral": {
+            "pai": "banco",
+            "ordem_de_visita": 161,
+            "nivel": 2
+        },
+        "gerar": {
+            "pai": "economia",
+            "ordem_de_visita": 127,
+            "nivel": 1
+        },
+        "fortalecer": {
+            "pai": "banco",
+            "ordem_de_visita": 180,
+            "nivel": 2
+        },
+        "brasileira": {
+            "pai": "economia",
+            "ordem_de_visita": 134,
+            "nivel": 1
+        },
+        "bebida": {
+            "pai": "nacional",
+            "ordem_de_visita": 228,
+            "nivel": 2
+        },
+        "destaque": {
+            "pai": "economia",
+            "ordem_de_visita": 68,
+            "nivel": 1
+        },
+        "recorrer": {
+            "pai": "2010",
+            "ordem_de_visita": 456,
+            "nivel": 2
+        },
+        "importação": {
+            "pai": "economia",
+            "ordem_de_visita": 141,
+            "nivel": 1
+        },
+        "incentivo": {
+            "pai": "2010",
+            "ordem_de_visita": 435,
+            "nivel": 2
+        },
+        "pressionar": {
+            "pai": "2010",
+            "ordem_de_visita": 377,
+            "nivel": 2
+        },
+        "serviço": {
+            "pai": "nacional",
+            "ordem_de_visita": 230,
+            "nivel": 2
+        },
+        "manufaturado": {
+            "pai": "2010",
+            "ordem_de_visita": 448,
+            "nivel": 2
+        },
+        "trazer": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 361,
+            "nivel": 2
+        },
+        "fusão": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 334,
+            "nivel": 2
+        },
+        "marco": {
+            "pai": "nacional",
+            "ordem_de_visita": 238,
+            "nivel": 2
+        },
+        "decorrente": {
+            "pai": "econômico",
+            "ordem_de_visita": 286,
+            "nivel": 2
+        },
+        "elevar": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 330,
+            "nivel": 2
+        },
+        "alertar": {
+            "pai": "2010",
+            "ordem_de_visita": 465,
+            "nivel": 2
+        },
+        "processo": {
+            "pai": "nacional",
+            "ordem_de_visita": 243,
+            "nivel": 2
+        },
+        "manutenção": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 364,
+            "nivel": 2
+        },
+        "infraestrutura": {
+            "pai": "economia",
+            "ordem_de_visita": 36,
+            "nivel": 1
+        },
+        "alinhar": {
+            "pai": "econômico",
+            "ordem_de_visita": 300,
+            "nivel": 2
+        },
+        "injeção": {
+            "pai": "nacional",
+            "ordem_de_visita": 269,
+            "nivel": 2
+        },
+        "flutuação": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 356,
+            "nivel": 2
+        },
+        "endividamento": {
+            "pai": "econômico",
+            "ordem_de_visita": 317,
+            "nivel": 2
+        },
+        "economicamente": {
+            "pai": "nacional",
+            "ordem_de_visita": 268,
+            "nivel": 2
+        },
+        "ascensão": {
+            "pai": "nacional",
+            "ordem_de_visita": 185,
+            "nivel": 2
+        },
+        "federal": {
+            "pai": "2010",
+            "ordem_de_visita": 442,
+            "nivel": 2
+        },
+        "papel": {
+            "pai": "economia",
+            "ordem_de_visita": 7,
+            "nivel": 1
+        },
+        "república": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 347,
+            "nivel": 2
+        },
+        "produtivo": {
+            "pai": "economia",
+            "ordem_de_visita": 98,
+            "nivel": 1
+        },
+        "permitir": {
+            "pai": "econômico",
+            "ordem_de_visita": 323,
+            "nivel": 2
+        },
+        "obra": {
+            "pai": "2010",
+            "ordem_de_visita": 416,
+            "nivel": 2
+        },
+        "produção": {
+            "pai": "2010",
+            "ordem_de_visita": 431,
+            "nivel": 2
+        },
+        "necessário": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 365,
+            "nivel": 2
+        },
+        "mega-capitalização": {
+            "pai": "nacional",
+            "ordem_de_visita": 241,
+            "nivel": 2
+        },
+        "civil": {
+            "pai": "2010",
+            "ordem_de_visita": 408,
+            "nivel": 2
+        },
+        "resultar": {
+            "pai": "2010",
+            "ordem_de_visita": 484,
+            "nivel": 2
+        },
+        "especulativo": {
+            "pai": "econômico",
+            "ordem_de_visita": 305,
+            "nivel": 2
+        },
+        "emplacamento": {
+            "pai": "2010",
+            "ordem_de_visita": 432,
+            "nivel": 2
+        },
+        "recuperação": {
+            "pai": "economia",
+            "ordem_de_visita": 62,
+            "nivel": 1
+        },
+        "estabilidade": {
+            "pai": "nacional",
+            "ordem_de_visita": 192,
+            "nivel": 2
+        },
+        "tradicional": {
+            "pai": "2010",
+            "ordem_de_visita": 449,
+            "nivel": 2
+        },
+        "amplamente": {
+            "pai": "nacional",
+            "ordem_de_visita": 265,
+            "nivel": 2
+        },
+        "alto": {
+            "pai": "econômico",
+            "ordem_de_visita": 320,
+            "nivel": 2
+        },
+        "verdadeiro": {
+            "pai": "2010",
+            "ordem_de_visita": 410,
+            "nivel": 2
+        },
+        "controle": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 355,
+            "nivel": 2
+        },
+        "autossuficiência": {
+            "pai": "nacional",
+            "ordem_de_visita": 258,
+            "nivel": 2
+        },
+        "mão": {
+            "pai": "nacional",
+            "ordem_de_visita": 272,
+            "nivel": 2
+        },
+        "escassez": {
+            "pai": "2010",
+            "ordem_de_visita": 485,
+            "nivel": 2
+        },
+        "insumo": {
+            "pai": "economia",
+            "ordem_de_visita": 144,
+            "nivel": 1
+        },
+        "minério": {
+            "pai": "banco",
+            "ordem_de_visita": 172,
+            "nivel": 2
+        },
+        "desempenhar": {
+            "pai": "economia",
+            "ordem_de_visita": 6,
+            "nivel": 1
+        },
+        "royaltie": {
+            "pai": "nacional",
+            "ordem_de_visita": 261,
+            "nivel": 2
+        },
+        "superar": {
+            "pai": "economia",
+            "ordem_de_visita": 150,
+            "nivel": 1
+        },
+        "insaciável": {
+            "pai": "banco",
+            "ordem_de_visita": 166,
+            "nivel": 2
+        },
+        "circulação": {
+            "pai": "2010",
+            "ordem_de_visita": 406,
+            "nivel": 2
+        },
+        "americano": {
+            "pai": "2010",
+            "ordem_de_visita": 373,
+            "nivel": 2
+        },
+        "comitê": {
+            "pai": "econômico",
+            "ordem_de_visita": 288,
+            "nivel": 2
+        },
+        "devido": {
+            "pai": "economia",
+            "ordem_de_visita": 139,
+            "nivel": 1
+        },
+        "mudança": {
+            "pai": "economia",
+            "ordem_de_visita": 156,
+            "nivel": 1
+        },
+        "imobiliário": {
+            "pai": "2010",
+            "ordem_de_visita": 426,
+            "nivel": 2
+        },
+        "profundo": {
+            "pai": "nacional",
+            "ordem_de_visita": 256,
+            "nivel": 2
+        },
+        "trajetória": {
+            "pai": "nacional",
+            "ordem_de_visita": 215,
+            "nivel": 2
+        },
+        "renda": {
+            "pai": "nacional",
+            "ordem_de_visita": 264,
+            "nivel": 2
+        },
+        "mitigar": {
+            "pai": "nacional",
+            "ordem_de_visita": 280,
+            "nivel": 2
+        },
+        "aumento": {
+            "pai": "nacional",
+            "ordem_de_visita": 188,
+            "nivel": 2
+        },
+        "puxar": {
+            "pai": "2010",
+            "ordem_de_visita": 391,
+            "nivel": 2
+        },
+        "bilionário": {
+            "pai": "economia",
+            "ordem_de_visita": 19,
+            "nivel": 1
+        },
+        "veículo": {
+            "pai": "2010",
+            "ordem_de_visita": 433,
+            "nivel": 2
+        },
+        "pressão": {
+            "pai": "nacional",
+            "ordem_de_visita": 223,
+            "nivel": 2
+        },
+        "desenvolvimento": {
+            "pai": "economia",
+            "ordem_de_visita": 3,
+            "nivel": 1
+        },
+        "persistente": {
+            "pai": "2010",
+            "ordem_de_visita": 369,
+            "nivel": 2
+        },
+        "médio": {
+            "pai": "2010",
+            "ordem_de_visita": 393,
+            "nivel": 2
+        },
+        "pessoa": {
+            "pai": "econômico",
+            "ordem_de_visita": 313,
+            "nivel": 2
+        },
+        "cenário": {
+            "pai": "economia",
+            "ordem_de_visita": 69,
+            "nivel": 1
+        },
+        "modernização": {
+            "pai": "economia",
+            "ordem_de_visita": 117,
+            "nivel": 1
+        },
+        "bancário": {
+            "pai": "econômico",
+            "ordem_de_visita": 308,
+            "nivel": 2
+        },
+        "viver": {
+            "pai": "2010",
+            "ordem_de_visita": 409,
+            "nivel": 2
+        },
+        "atuar": {
+            "pai": "economia",
+            "ordem_de_visita": 12,
+            "nivel": 1
+        },
+        "couber": {
+            "pai": "econômico",
+            "ordem_de_visita": 325,
+            "nivel": 2
+        },
+        "sinal": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 353,
+            "nivel": 2
+        },
+        "percepção": {
+            "pai": "economia",
+            "ordem_de_visita": 92,
+            "nivel": 1
+        },
+        "demonstrar": {
+            "pai": "economia",
+            "ordem_de_visita": 61,
+            "nivel": 1
+        },
+        "reserva": {
+            "pai": "economia",
+            "ordem_de_visita": 86,
+            "nivel": 1
+        },
+        "vaga": {
+            "pai": "2010",
+            "ordem_de_visita": 478,
+            "nivel": 2
+        },
+        "pré-sal": {
+            "pai": "nacional",
+            "ordem_de_visita": 240,
+            "nivel": 2
+        },
+        "doméstico": {
+            "pai": "economia",
+            "ordem_de_visita": 88,
+            "nivel": 1
+        },
+        "conta": {
+            "pai": "2010",
+            "ordem_de_visita": 452,
+            "nivel": 2
+        },
+        "engenharia": {
+            "pai": "economia",
+            "ordem_de_visita": 131,
+            "nivel": 1
+        },
+        "auge": {
+            "pai": "nacional",
+            "ordem_de_visita": 183,
+            "nivel": 2
+        },
+        "bancos": {
+            "pai": "econômico",
+            "ordem_de_visita": 311,
+            "nivel": 2
+        },
+        "índice": {
+            "pai": "nacional",
+            "ordem_de_visita": 211,
+            "nivel": 2
+        },
+        "soberano": {
+            "pai": "economia",
+            "ordem_de_visita": 78,
+            "nivel": 1
+        },
+        "contratação": {
+            "pai": "2010",
+            "ordem_de_visita": 412,
+            "nivel": 2
+        },
+        "bruto": {
+            "pai": "economia",
+            "ordem_de_visita": 43,
+            "nivel": 1
+        },
+        "varejo": {
+            "pai": "nacional",
+            "ordem_de_visita": 210,
+            "nivel": 2
+        },
+        "significativamente": {
+            "pai": "nacional",
+            "ordem_de_visita": 196,
+            "nivel": 2
+        },
+        "cambial": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 357,
+            "nivel": 2
+        },
+        "posto": {
+            "pai": "2010",
+            "ordem_de_visita": 419,
+            "nivel": 2
+        },
+        "desacelerar": {
+            "pai": "econômico",
+            "ordem_de_visita": 299,
+            "nivel": 2
+        },
+        "físico": {
+            "pai": "econômico",
+            "ordem_de_visita": 314,
+            "nivel": 2
+        },
+        "durável": {
+            "pai": "nacional",
+            "ordem_de_visita": 277,
+            "nivel": 2
+        },
+        "caracterizar": {
+            "pai": "2010",
+            "ordem_de_visita": 453,
+            "nivel": 2
+        },
+        "política": {
+            "pai": "economia",
+            "ordem_de_visita": 29,
+            "nivel": 1
+        },
+        "regulatório": {
+            "pai": "nacional",
+            "ordem_de_visita": 239,
+            "nivel": 2
+        },
+        "risco": {
+            "pai": "2010",
+            "ordem_de_visita": 468,
+            "nivel": 2
+        },
+        "dinheiro": {
+            "pai": "econômico",
+            "ordem_de_visita": 298,
+            "nivel": 2
+        },
+        "buscar": {
+            "pai": "economia",
+            "ordem_de_visita": 32,
+            "nivel": 1
+        },
+        "cadeia": {
+            "pai": "2010",
+            "ordem_de_visita": 422,
+            "nivel": 2
+        },
+        "presidência": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 346,
+            "nivel": 2
+        },
+        "seguro": {
+            "pai": "economia",
+            "ordem_de_visita": 96,
+            "nivel": 1
+        },
+        "base": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 340,
+            "nivel": 2
+        },
+        "mobilidade": {
+            "pai": "economia",
+            "ordem_de_visita": 120,
+            "nivel": 1
+        },
+        "avanço": {
+            "pai": "economia",
+            "ordem_de_visita": 51,
+            "nivel": 1
+        },
+        "metropolitano": {
+            "pai": "2010",
+            "ordem_de_visita": 428,
+            "nivel": 2
+        },
+        "agrícola": {
+            "pai": "banco",
+            "ordem_de_visita": 160,
+            "nivel": 2
+        },
+        "exploração": {
+            "pai": "nacional",
+            "ordem_de_visita": 253,
+            "nivel": 2
+        },
+        "estimular": {
+            "pai": "econômico",
+            "ordem_de_visita": 316,
+            "nivel": 2
+        },
+        "aquecimento": {
+            "pai": "nacional",
+            "ordem_de_visita": 229,
+            "nivel": 2
+        },
+        "hotelaria": {
+            "pai": "economia",
+            "ordem_de_visita": 130,
+            "nivel": 1
+        },
+        "iniciar": {
+            "pai": "economia",
+            "ordem_de_visita": 111,
+            "nivel": 1
+        },
+        "planejar": {
+            "pai": "econômico",
+            "ordem_de_visita": 318,
+            "nivel": 2
+        },
+        "guerra": {
+            "pai": "2010",
+            "ordem_de_visita": 374,
+            "nivel": 2
+        },
+        "transformar": {
+            "pai": "nacional",
+            "ordem_de_visita": 208,
+            "nivel": 2
+        },
+        "motor": {
+            "pai": "econômico",
+            "ordem_de_visita": 309,
+            "nivel": 2
+        },
+        "fundamento": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 332,
+            "nivel": 2
+        },
+        "apontar": {
+            "pai": "2010",
+            "ordem_de_visita": 482,
+            "nivel": 2
+        },
+        "internacional": {
+            "pai": "economia",
+            "ordem_de_visita": 38,
+            "nivel": 1
+        },
+        "perceptível": {
+            "pai": "nacional",
+            "ordem_de_visita": 266,
+            "nivel": 2
+        },
+        "resultado": {
+            "pai": "economia",
+            "ordem_de_visita": 66,
+            "nivel": 1
+        },
+        "movimentar": {
+            "pai": "economia",
+            "ordem_de_visita": 106,
+            "nivel": 1
+        },
+        "linha": {
+            "pai": "econômico",
+            "ordem_de_visita": 312,
+            "nivel": 2
+        },
+        "banco": {
+            "pai": "economia",
+            "ordem_de_visita": 1,
+            "nivel": 1
+        },
+        "postura": {
+            "pai": "nacional",
+            "ordem_de_visita": 232,
+            "nivel": 2
+        },
+        "nível": {
+            "pai": "2010",
+            "ordem_de_visita": 475,
+            "nivel": 2
+        },
+        "nacional": {
+            "pai": "economia",
+            "ordem_de_visita": 2,
+            "nivel": 1
+        },
+        "cidades-sede": {
+            "pai": "economia",
+            "ordem_de_visita": 122,
+            "nivel": 1
+        },
+        "político": {
+            "pai": "macroeconômico",
+            "ordem_de_visita": 345,
+            "nivel": 2
+        },
+        "eletrodoméstico": {
+            "pai": "nacional",
+            "ordem_de_visita": 206,
+            "nivel": 2
+        },
+        "expandir": {
+            "pai": "nacional",
+            "ordem_de_visita": 195,
+            "nivel": 2
+        },
+        "risco-país": {
+            "pai": "economia",
+            "ordem_de_visita": 93,
+            "nivel": 1
+        },
+        "atingir": {
+            "pai": "banco",
+            "ordem_de_visita": 162,
+            "nivel": 2
+        },
+        "estabelecir": {
+            "pai": "econômico",
+            "ordem_de_visita": 301,
+            "nivel": 2
+        },
+        "consumo": {
+            "pai": "economia",
+            "ordem_de_visita": 56,
+            "nivel": 1
+        },
+        "esportivo": {
+            "pai": "economia",
+            "ordem_de_visita": 116,
+            "nivel": 1
+        },
+        "favorecer": {
+            "pai": "banco",
+            "ordem_de_visita": 176,
+            "nivel": 2
+        },
+        "bem": {
+            "pai": "economia",
+            "ordem_de_visita": 143,
+            "nivel": 1
+        },
+        "interno": {
+            "pai": "economia",
+            "ordem_de_visita": 42,
+            "nivel": 1
         },
         "pagamento": {
             "pai": "econômico",
             "ordem_de_visita": 322,
             "nivel": 2
         },
-        "testemunhar": {
+        "formal": {
             "pai": "nacional",
-            "ordem_de_visita": 182,
+            "ordem_de_visita": 194,
+            "nivel": 2
+        },
+        "diverso": {
+            "pai": "econômico",
+            "ordem_de_visita": 327,
+            "nivel": 2
+        },
+        "destino": {
+            "pai": "economia",
+            "ordem_de_visita": 95,
+            "nivel": 1
+        },
+        "europa": {
+            "pai": "economia",
+            "ordem_de_visita": 74,
+            "nivel": 1
+        },
+        "fundamental": {
+            "pai": "2010",
+            "ordem_de_visita": 403,
+            "nivel": 2
+        },
+        "colchão": {
+            "pai": "economia",
+            "ordem_de_visita": 90,
+            "nivel": 1
+        },
+        "social": {
+            "pai": "economia",
+            "ordem_de_visita": 5,
+            "nivel": 1
+        },
+        "cimento": {
+            "pai": "2010",
+            "ordem_de_visita": 424,
+            "nivel": 2
+        },
+        "evitar": {
+            "pai": "nacional",
+            "ordem_de_visita": 235,
+            "nivel": 2
+        },
+        "apetite": {
+            "pai": "economia",
+            "ordem_de_visita": 142,
+            "nivel": 1
+        },
+        "funcionar": {
+            "pai": "economia",
+            "ordem_de_visita": 89,
+            "nivel": 1
+        },
+        "afrouxamento": {
+            "pai": "2010",
+            "ordem_de_visita": 466,
+            "nivel": 2
+        },
+        "atração": {
+            "pai": "economia",
+            "ordem_de_visita": 124,
+            "nivel": 1
+        },
+        "valorização": {
+            "pai": "2010",
+            "ordem_de_visita": 370,
+            "nivel": 2
+        },
+        "disparidade": {
+            "pai": "nacional",
+            "ordem_de_visita": 281,
+            "nivel": 2
+        },
+        "década": {
+            "pai": "economia",
+            "ordem_de_visita": 53,
+            "nivel": 1
+        },
+        "desenvolver": {
+            "pai": "economia",
+            "ordem_de_visita": 73,
+            "nivel": 1
+        },
+        "estipular": {
+            "pai": "nacional",
+            "ordem_de_visita": 221,
+            "nivel": 2
+        },
+        "aço": {
+            "pai": "2010",
+            "ordem_de_visita": 425,
+            "nivel": 2
+        },
+        "industrializados": {
+            "pai": "2010",
+            "ordem_de_visita": 439,
+            "nivel": 2
+        },
+        "projeto": {
+            "pai": "economia",
+            "ordem_de_visita": 112,
+            "nivel": 1
+        },
+        "alimento": {
+            "pai": "nacional",
+            "ordem_de_visita": 227,
+            "nivel": 2
+        },
+        "promover": {
+            "pai": "econômico",
+            "ordem_de_visita": 290,
+            "nivel": 2
+        },
+        "boom": {
+            "pai": "2010",
+            "ordem_de_visita": 411,
             "nivel": 2
         }
     }
