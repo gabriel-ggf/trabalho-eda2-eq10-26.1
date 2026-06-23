@@ -1,0 +1,2717 @@
+{
+    "periodo": "1990",
+    "palavra_raiz": "economia",
+    "total_palavras": 542,
+    "arvore_bfs": {
+        "eclosão": {
+            "pai": "decorrente",
+            "ordem_de_visita": 264,
+            "nivel": 2
+        },
+        "evidenciar": {
+            "pai": "economia",
+            "ordem_de_visita": 129,
+            "nivel": 1
+        },
+        "janeiro": {
+            "pai": "liquidez",
+            "ordem_de_visita": 288,
+            "nivel": 2
+        },
+        "complexo": {
+            "pai": "severo",
+            "ordem_de_visita": 155,
+            "nivel": 2
+        },
+        "confisco": {
+            "pai": "economia",
+            "ordem_de_visita": 60,
+            "nivel": 1
+        },
+        "autarquia": {
+            "pai": "impacto",
+            "ordem_de_visita": 218,
+            "nivel": 2
+        },
+        "grande": {
+            "pai": "economia",
+            "ordem_de_visita": 43,
+            "nivel": 1
+        },
+        "manufaturar": {
+            "pai": "1990",
+            "ordem_de_visita": 502,
+            "nivel": 2
+        },
+        "real": {
+            "pai": "liquidez",
+            "ordem_de_visita": 299,
+            "nivel": 2
+        },
+        "recurso": {
+            "pai": "decorrente",
+            "ordem_de_visita": 238,
+            "nivel": 2
+        },
+        "começar": {
+            "pai": "impacto",
+            "ordem_de_visita": 193,
+            "nivel": 2
+        },
+        "privatização": {
+            "pai": "severo",
+            "ordem_de_visita": 167,
+            "nivel": 2
+        },
+        "plano": {
+            "pai": "economia",
+            "ordem_de_visita": 8,
+            "nivel": 1
+        },
+        "incerteza": {
+            "pai": "decorrente",
+            "ordem_de_visita": 254,
+            "nivel": 2
+        },
+        "iniciativa": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 378,
+            "nivel": 2
+        },
+        "defensivo": {
+            "pai": "decorrente",
+            "ordem_de_visita": 251,
+            "nivel": 2
+        },
+        "evolução": {
+            "pai": "empurrar",
+            "ordem_de_visita": 344,
+            "nivel": 2
+        },
+        "mercado": {
+            "pai": "impacto",
+            "ordem_de_visita": 179,
+            "nivel": 2
+        },
+        "justificava-se": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 386,
+            "nivel": 2
+        },
+        "aquisição": {
+            "pai": "decorrente",
+            "ordem_de_visita": 249,
+            "nivel": 2
+        },
+        "abandonar": {
+            "pai": "estabilização",
+            "ordem_de_visita": 319,
+            "nivel": 2
+        },
+        "população": {
+            "pai": "empurrar",
+            "ordem_de_visita": 366,
+            "nivel": 2
+        },
+        "prática": {
+            "pai": "economia",
+            "ordem_de_visita": 82,
+            "nivel": 1
+        },
+        "guinado": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 374,
+            "nivel": 2
+        },
+        "financiamento": {
+            "pai": "decorrente",
+            "ordem_de_visita": 236,
+            "nivel": 2
+        },
+        "refletir": {
+            "pai": "economia",
+            "ordem_de_visita": 22,
+            "nivel": 1
+        },
+        "subsistência": {
+            "pai": "empurrar",
+            "ordem_de_visita": 363,
+            "nivel": 2
+        },
+        "indústria": {
+            "pai": "economia",
+            "ordem_de_visita": 30,
+            "nivel": 1
+        },
+        "modelo": {
+            "pai": "severo",
+            "ordem_de_visita": 140,
+            "nivel": 2
+        },
+        "inflacionário": {
+            "pai": "economia",
+            "ordem_de_visita": 94,
+            "nivel": 1
+        },
+        "empurrar": {
+            "pai": "economia",
+            "ordem_de_visita": 10,
+            "nivel": 1
+        },
+        "dificuldade": {
+            "pai": "severo",
+            "ordem_de_visita": 142,
+            "nivel": 2
+        },
+        "brasileiro": {
+            "pai": "economia",
+            "ordem_de_visita": 11,
+            "nivel": 1
+        },
+        "capital": {
+            "pai": "impacto",
+            "ordem_de_visita": 198,
+            "nivel": 2
+        },
+        "significativo": {
+            "pai": "empurrar",
+            "ordem_de_visita": 350,
+            "nivel": 2
+        },
+        "blindar": {
+            "pai": "1990",
+            "ordem_de_visita": 479,
+            "nivel": 2
+        },
+        "impor": {
+            "pai": "economia",
+            "ordem_de_visita": 7,
+            "nivel": 1
+        },
+        "investidor": {
+            "pai": "liquidez",
+            "ordem_de_visita": 305,
+            "nivel": 2
+        },
+        "incluír": {
+            "pai": "severo",
+            "ordem_de_visita": 161,
+            "nivel": 2
+        },
+        "cidade": {
+            "pai": "economia",
+            "ordem_de_visita": 37,
+            "nivel": 1
+        },
+        "moratória": {
+            "pai": "longo",
+            "ordem_de_visita": 426,
+            "nivel": 2
+        },
+        "estatal": {
+            "pai": "severo",
+            "ordem_de_visita": 157,
+            "nivel": 2
+        },
+        "pânico": {
+            "pai": "liquidez",
+            "ordem_de_visita": 291,
+            "nivel": 2
+        },
+        "negativo": {
+            "pai": "empurrar",
+            "ordem_de_visita": 345,
+            "nivel": 2
+        },
+        "estoque": {
+            "pai": "impacto",
+            "ordem_de_visita": 186,
+            "nivel": 2
+        },
+        "volatilidade": {
+            "pai": "liquidez",
+            "ordem_de_visita": 290,
+            "nivel": 2
+        },
+        "noventa": {
+            "pai": "nacional",
+            "ordem_de_visita": 527,
+            "nivel": 2
+        },
+        "deficit": {
+            "pai": "impacto",
+            "ordem_de_visita": 210,
+            "nivel": 2
+        },
+        "família": {
+            "pai": "economia",
+            "ordem_de_visita": 25,
+            "nivel": 1
+        },
+        "paulo": {
+            "pai": "liquidez",
+            "ordem_de_visita": 286,
+            "nivel": 2
+        },
+        "comercialização": {
+            "pai": "decorrente",
+            "ordem_de_visita": 252,
+            "nivel": 2
+        },
+        "externo": {
+            "pai": "impacto",
+            "ordem_de_visita": 196,
+            "nivel": 2
+        },
+        "mecanismo": {
+            "pai": "economia",
+            "ordem_de_visita": 80,
+            "nivel": 1
+        },
+        "giro": {
+            "pai": "decorrente",
+            "ordem_de_visita": 245,
+            "nivel": 2
+        },
+        "fonte": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 411,
+            "nivel": 2
+        },
+        "estabilização": {
+            "pai": "economia",
+            "ordem_de_visita": 9,
+            "nivel": 1
+        },
+        "ganho": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 414,
+            "nivel": 2
+        },
+        "ocioso": {
+            "pai": "severo",
+            "ordem_de_visita": 160,
+            "nivel": 2
+        },
+        "liberalização": {
+            "pai": "1990",
+            "ordem_de_visita": 503,
+            "nivel": 2
+        },
+        "lançamento": {
+            "pai": "longo",
+            "ordem_de_visita": 452,
+            "nivel": 2
+        },
+        "anúncio": {
+            "pai": "liquidez",
+            "ordem_de_visita": 292,
+            "nivel": 2
+        },
+        "constituir": {
+            "pai": "longo",
+            "ordem_de_visita": 449,
+            "nivel": 2
+        },
+        "persistência": {
+            "pai": "economia",
+            "ordem_de_visita": 79,
+            "nivel": 1
+        },
+        "salarial": {
+            "pai": "decorrente",
+            "ordem_de_visita": 276,
+            "nivel": 2
+        },
+        "investimento": {
+            "pai": "economia",
+            "ordem_de_visita": 27,
+            "nivel": 1
+        },
+        "dever": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 383,
+            "nivel": 2
+        },
+        "global": {
+            "pai": "1990",
+            "ordem_de_visita": 485,
+            "nivel": 2
+        },
+        "reconfiguração": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 395,
+            "nivel": 2
+        },
+        "prazo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 404,
+            "nivel": 2
+        },
+        "imposto": {
+            "pai": "economia",
+            "ordem_de_visita": 87,
+            "nivel": 1
+        },
+        "haver": {
+            "pai": "1990",
+            "ordem_de_visita": 494,
+            "nivel": 2
+        },
+        "reajuste": {
+            "pai": "economia",
+            "ordem_de_visita": 116,
+            "nivel": 1
+        },
+        "compromisso": {
+            "pai": "liquidez",
+            "ordem_de_visita": 310,
+            "nivel": 2
+        },
+        "dezena": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 380,
+            "nivel": 2
+        },
+        "objetivo": {
+            "pai": "impacto",
+            "ordem_de_visita": 208,
+            "nivel": 2
+        },
+        "liberal": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 375,
+            "nivel": 2
+        },
+        "matérias-prima": {
+            "pai": "1990",
+            "ordem_de_visita": 522,
+            "nivel": 2
+        },
+        "econômico": {
+            "pai": "decorrente",
+            "ordem_de_visita": 241,
+            "nivel": 2
+        },
+        "completo": {
+            "pai": "economia",
+            "ordem_de_visita": 132,
+            "nivel": 1
+        },
+        "forçado": {
+            "pai": "liquidez",
+            "ordem_de_visita": 303,
+            "nivel": 2
+        },
+        "referente": {
+            "pai": "longo",
+            "ordem_de_visita": 417,
+            "nivel": 2
+        },
+        "debate": {
+            "pai": "economia",
+            "ordem_de_visita": 72,
+            "nivel": 1
+        },
+        "abertura": {
+            "pai": "1990",
+            "ordem_de_visita": 490,
+            "nivel": 2
+        },
+        "entrar": {
+            "pai": "longo",
+            "ordem_de_visita": 448,
+            "nivel": 2
+        },
+        "denominar se": {
+            "pai": "nacional",
+            "ordem_de_visita": 532,
+            "nivel": 2
+        },
+        "completamente": {
+            "pai": "longo",
+            "ordem_de_visita": 451,
+            "nivel": 2
+        },
+        "saldo": {
+            "pai": "longo",
+            "ordem_de_visita": 462,
+            "nivel": 2
+        },
+        "reforma": {
+            "pai": "impacto",
+            "ordem_de_visita": 203,
+            "nivel": 2
+        },
+        "enorme": {
+            "pai": "economia",
+            "ordem_de_visita": 32,
+            "nivel": 1
+        },
+        "oitenta": {
+            "pai": "economia",
+            "ordem_de_visita": 54,
+            "nivel": 1
+        },
+        "greve": {
+            "pai": "decorrente",
+            "ordem_de_visita": 266,
+            "nivel": 2
+        },
+        "desorganização": {
+            "pai": "economia",
+            "ordem_de_visita": 133,
+            "nivel": 1
+        },
+        "receber": {
+            "pai": "1990",
+            "ordem_de_visita": 466,
+            "nivel": 2
+        },
+        "resistência": {
+            "pai": "economia",
+            "ordem_de_visita": 105,
+            "nivel": 1
+        },
+        "combinar": {
+            "pai": "impacto",
+            "ordem_de_visita": 176,
+            "nivel": 2
+        },
+        "março": {
+            "pai": "economia",
+            "ordem_de_visita": 42,
+            "nivel": 1
+        },
+        "histórico": {
+            "pai": "economia",
+            "ordem_de_visita": 41,
+            "nivel": 1
+        },
+        "demanda": {
+            "pai": "severo",
+            "ordem_de_visita": 151,
+            "nivel": 2
+        },
+        "paralisação": {
+            "pai": "decorrente",
+            "ordem_de_visita": 272,
+            "nivel": 2
+        },
+        "desabamento": {
+            "pai": "economia",
+            "ordem_de_visita": 23,
+            "nivel": 1
+        },
+        "direto": {
+            "pai": "longo",
+            "ordem_de_visita": 435,
+            "nivel": 2
+        },
+        "contração": {
+            "pai": "economia",
+            "ordem_de_visita": 5,
+            "nivel": 1
+        },
+        "dominar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 399,
+            "nivel": 2
+        },
+        "linear": {
+            "pai": "1990",
+            "ordem_de_visita": 498,
+            "nivel": 2
+        },
+        "oscilação": {
+            "pai": "impacto",
+            "ordem_de_visita": 172,
+            "nivel": 2
+        },
+        "combinação": {
+            "pai": "empurrar",
+            "ordem_de_visita": 367,
+            "nivel": 2
+        },
+        "condução": {
+            "pai": "impacto",
+            "ordem_de_visita": 199,
+            "nivel": 2
+        },
+        "envolver": {
+            "pai": "impacto",
+            "ordem_de_visita": 222,
+            "nivel": 2
+        },
+        "definitivo": {
+            "pai": "longo",
+            "ordem_de_visita": 443,
+            "nivel": 2
+        },
+        "alteração": {
+            "pai": "nacional",
+            "ordem_de_visita": 528,
+            "nivel": 2
+        },
+        "dificultar": {
+            "pai": "longo",
+            "ordem_de_visita": 441,
+            "nivel": 2
+        },
+        "depósito": {
+            "pai": "economia",
+            "ordem_de_visita": 55,
+            "nivel": 1
+        },
+        "implementação": {
+            "pai": "economia",
+            "ordem_de_visita": 46,
+            "nivel": 1
+        },
+        "metálico": {
+            "pai": "severo",
+            "ordem_de_visita": 154,
+            "nivel": 2
+        },
+        "economia": {
+            "pai": null,
+            "ordem_de_visita": 0,
+            "nivel": 0
+        },
+        "outro": {
+            "pai": "impacto",
+            "ordem_de_visita": 188,
+            "nivel": 2
+        },
+        "denominação": {
+            "pai": "nacional",
+            "ordem_de_visita": 534,
+            "nivel": 2
+        },
+        "marcar": {
+            "pai": "1990",
+            "ordem_de_visita": 488,
+            "nivel": 2
+        },
+        "agropecuário": {
+            "pai": "decorrente",
+            "ordem_de_visita": 232,
+            "nivel": 2
+        },
+        "forte": {
+            "pai": "economia",
+            "ordem_de_visita": 104,
+            "nivel": 1
+        },
+        "imenso": {
+            "pai": "1990",
+            "ordem_de_visita": 510,
+            "nivel": 2
+        },
+        "importante": {
+            "pai": "impacto",
+            "ordem_de_visita": 173,
+            "nivel": 2
+        },
+        "surgimento": {
+            "pai": "1990",
+            "ordem_de_visita": 520,
+            "nivel": 2
+        },
+        "estratégia": {
+            "pai": "nacional",
+            "ordem_de_visita": 541,
+            "nivel": 2
+        },
+        "negociação": {
+            "pai": "longo",
+            "ordem_de_visita": 416,
+            "nivel": 2
+        },
+        "compra": {
+            "pai": "economia",
+            "ordem_de_visita": 122,
+            "nivel": 1
+        },
+        "muito": {
+            "pai": "economia",
+            "ordem_de_visita": 29,
+            "nivel": 1
+        },
+        "fixar": {
+            "pai": "estabilização",
+            "ordem_de_visita": 322,
+            "nivel": 2
+        },
+        "confiança": {
+            "pai": "nacional",
+            "ordem_de_visita": 535,
+            "nivel": 2
+        },
+        "trabalhador": {
+            "pai": "decorrente",
+            "ordem_de_visita": 267,
+            "nivel": 2
+        },
+        "informalidade": {
+            "pai": "empurrar",
+            "ordem_de_visita": 353,
+            "nivel": 2
+        },
+        "determinar": {
+            "pai": "decorrente",
+            "ordem_de_visita": 240,
+            "nivel": 2
+        },
+        "lista": {
+            "pai": "severo",
+            "ordem_de_visita": 162,
+            "nivel": 2
+        },
+        "estrangeiro": {
+            "pai": "impacto",
+            "ordem_de_visita": 192,
+            "nivel": 2
+        },
+        "desafiar": {
+            "pai": "nacional",
+            "ordem_de_visita": 540,
+            "nivel": 2
+        },
+        "adotar": {
+            "pai": "estabilização",
+            "ordem_de_visita": 312,
+            "nivel": 2
+        },
+        "flertar": {
+            "pai": "economia",
+            "ordem_de_visita": 112,
+            "nivel": 1
+        },
+        "rotina": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 400,
+            "nivel": 2
+        },
+        "desindexar": {
+            "pai": "economia",
+            "ordem_de_visita": 99,
+            "nivel": 1
+        },
+        "macroeconômico": {
+            "pai": "economia",
+            "ordem_de_visita": 131,
+            "nivel": 1
+        },
+        "ritmo": {
+            "pai": "economia",
+            "ordem_de_visita": 34,
+            "nivel": 1
+        },
+        "tecnologicamente": {
+            "pai": "1990",
+            "ordem_de_visita": 474,
+            "nivel": 2
+        },
+        "automotor": {
+            "pai": "severo",
+            "ordem_de_visita": 148,
+            "nivel": 2
+        },
+        "siderúrgico": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 381,
+            "nivel": 2
+        },
+        "fertilizante": {
+            "pai": "decorrente",
+            "ordem_de_visita": 250,
+            "nivel": 2
+        },
+        "posição": {
+            "pai": "liquidez",
+            "ordem_de_visita": 307,
+            "nivel": 2
+        },
+        "parcela": {
+            "pai": "empurrar",
+            "ordem_de_visita": 349,
+            "nivel": 2
+        },
+        "diário": {
+            "pai": "economia",
+            "ordem_de_visita": 125,
+            "nivel": 1
+        },
+        "dia": {
+            "pai": "economia",
+            "ordem_de_visita": 123,
+            "nivel": 1
+        },
+        "sucessiva": {
+            "pai": "decorrente",
+            "ordem_de_visita": 265,
+            "nivel": 2
+        },
+        "reestruturação": {
+            "pai": "longo",
+            "ordem_de_visita": 419,
+            "nivel": 2
+        },
+        "local": {
+            "pai": "1990",
+            "ordem_de_visita": 481,
+            "nivel": 2
+        },
+        "galopante": {
+            "pai": "economia",
+            "ordem_de_visita": 111,
+            "nivel": 1
+        },
+        "perda": {
+            "pai": "decorrente",
+            "ordem_de_visita": 275,
+            "nivel": 2
+        },
+        "residual": {
+            "pai": "decorrente",
+            "ordem_de_visita": 277,
+            "nivel": 2
+        },
+        "privado": {
+            "pai": "decorrente",
+            "ordem_de_visita": 268,
+            "nivel": 2
+        },
+        "consumidor": {
+            "pai": "impacto",
+            "ordem_de_visita": 180,
+            "nivel": 2
+        },
+        "desempenho": {
+            "pai": "impacto",
+            "ordem_de_visita": 169,
+            "nivel": 2
+        },
+        "descontrole": {
+            "pai": "economia",
+            "ordem_de_visita": 130,
+            "nivel": 1
+        },
+        "monetário": {
+            "pai": "estabilização",
+            "ordem_de_visita": 325,
+            "nivel": 2
+        },
+        "concorrência": {
+            "pai": "1990",
+            "ordem_de_visita": 501,
+            "nivel": 2
+        },
+        "premente": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 388,
+            "nivel": 2
+        },
+        "habitação": {
+            "pai": "longo",
+            "ordem_de_visita": 444,
+            "nivel": 2
+        },
+        "rio": {
+            "pai": "liquidez",
+            "ordem_de_visita": 287,
+            "nivel": 2
+        },
+        "balança": {
+            "pai": "impacto",
+            "ordem_de_visita": 170,
+            "nivel": 2
+        },
+        "overnight": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 398,
+            "nivel": 2
+        },
+        "busco": {
+            "pai": "1990",
+            "ordem_de_visita": 484,
+            "nivel": 2
+        },
+        "proteção": {
+            "pai": "1990",
+            "ordem_de_visita": 478,
+            "nivel": 2
+        },
+        "drástica": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 413,
+            "nivel": 2
+        },
+        "corrente": {
+            "pai": "economia",
+            "ordem_de_visita": 57,
+            "nivel": 1
+        },
+        "registrar": {
+            "pai": "economia",
+            "ordem_de_visita": 19,
+            "nivel": 1
+        },
+        "rural": {
+            "pai": "decorrente",
+            "ordem_de_visita": 237,
+            "nivel": 2
+        },
+        "flutuante": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 415,
+            "nivel": 2
+        },
+        "longo": {
+            "pai": "economia",
+            "ordem_de_visita": 14,
+            "nivel": 1
+        },
+        "principal": {
+            "pai": "decorrente",
+            "ordem_de_visita": 257,
+            "nivel": 2
+        },
+        "decorrer": {
+            "pai": "impacto",
+            "ordem_de_visita": 174,
+            "nivel": 2
+        },
+        "financeiro": {
+            "pai": "economia",
+            "ordem_de_visita": 63,
+            "nivel": 1
+        },
+        "estrutural": {
+            "pai": "economia",
+            "ordem_de_visita": 106,
+            "nivel": 1
+        },
+        "bolsa": {
+            "pai": "liquidez",
+            "ordem_de_visita": 284,
+            "nivel": 2
+        },
+        "vida": {
+            "pai": "empurrar",
+            "ordem_de_visita": 341,
+            "nivel": 2
+        },
+        "alcançar": {
+            "pai": "economia",
+            "ordem_de_visita": 117,
+            "nivel": 1
+        },
+        "substituição": {
+            "pai": "1990",
+            "ordem_de_visita": 492,
+            "nivel": 2
+        },
+        "disponibilidade": {
+            "pai": "impacto",
+            "ordem_de_visita": 228,
+            "nivel": 2
+        },
+        "classificar": {
+            "pai": "1990",
+            "ordem_de_visita": 471,
+            "nivel": 2
+        },
+        "varejista": {
+            "pai": "1990",
+            "ordem_de_visita": 508,
+            "nivel": 2
+        },
+        "drasticamente": {
+            "pai": "severo",
+            "ordem_de_visita": 150,
+            "nivel": 2
+        },
+        "gestão": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 376,
+            "nivel": 2
+        },
+        "enfrentar": {
+            "pai": "economia",
+            "ordem_de_visita": 108,
+            "nivel": 1
+        },
+        "medida": {
+            "pai": "economia",
+            "ordem_de_visita": 48,
+            "nivel": 1
+        },
+        "continuar": {
+            "pai": "longo",
+            "ordem_de_visita": 422,
+            "nivel": 2
+        },
+        "profur": {
+            "pai": "1990",
+            "ordem_de_visita": 489,
+            "nivel": 2
+        },
+        "urgente": {
+            "pai": "nacional",
+            "ordem_de_visita": 525,
+            "nivel": 2
+        },
+        "produtor": {
+            "pai": "decorrente",
+            "ordem_de_visita": 243,
+            "nivel": 2
+        },
+        "classe": {
+            "pai": "longo",
+            "ordem_de_visita": 447,
+            "nivel": 2
+        },
+        "supermercado": {
+            "pai": "economia",
+            "ordem_de_visita": 126,
+            "nivel": 1
+        },
+        "força": {
+            "pai": "empurrar",
+            "ordem_de_visita": 351,
+            "nivel": 2
+        },
+        "valor": {
+            "pai": "liquidez",
+            "ordem_de_visita": 285,
+            "nivel": 2
+        },
+        "mensal": {
+            "pai": "economia",
+            "ordem_de_visita": 119,
+            "nivel": 1
+        },
+        "durante": {
+            "pai": "empurrar",
+            "ordem_de_visita": 347,
+            "nivel": 2
+        },
+        "ano": {
+            "pai": "empurrar",
+            "ordem_de_visita": 348,
+            "nivel": 2
+        },
+        "tentativa": {
+            "pai": "economia",
+            "ordem_de_visita": 98,
+            "nivel": 1
+        },
+        "inercial": {
+            "pai": "economia",
+            "ordem_de_visita": 110,
+            "nivel": 1
+        },
+        "demissão": {
+            "pai": "impacto",
+            "ordem_de_visita": 223,
+            "nivel": 2
+        },
+        "comércio": {
+            "pai": "empurrar",
+            "ordem_de_visita": 357,
+            "nivel": 2
+        },
+        "inflação": {
+            "pai": "economia",
+            "ordem_de_visita": 76,
+            "nivel": 1
+        },
+        "programa": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 371,
+            "nivel": 2
+        },
+        "rotineiro": {
+            "pai": "economia",
+            "ordem_de_visita": 127,
+            "nivel": 1
+        },
+        "tabelamento": {
+            "pai": "1990",
+            "ordem_de_visita": 514,
+            "nivel": 2
+        },
+        "servidor": {
+            "pai": "impacto",
+            "ordem_de_visita": 225,
+            "nivel": 2
+        },
+        "recessão": {
+            "pai": "economia",
+            "ordem_de_visita": 12,
+            "nivel": 1
+        },
+        "exportação": {
+            "pai": "impacto",
+            "ordem_de_visita": 184,
+            "nivel": 2
+        },
+        "central": {
+            "pai": "decorrente",
+            "ordem_de_visita": 269,
+            "nivel": 2
+        },
+        "cruzado": {
+            "pai": "nacional",
+            "ordem_de_visita": 530,
+            "nivel": 2
+        },
+        "corroer": {
+            "pai": "economia",
+            "ordem_de_visita": 121,
+            "nivel": 1
+        },
+        "metalúrgico": {
+            "pai": "severo",
+            "ordem_de_visita": 137,
+            "nivel": 2
+        },
+        "alfandegário": {
+            "pai": "1990",
+            "ordem_de_visita": 499,
+            "nivel": 2
+        },
+        "incluir": {
+            "pai": "impacto",
+            "ordem_de_visita": 202,
+            "nivel": 2
+        },
+        "atrair": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 390,
+            "nivel": 2
+        },
+        "expor": {
+            "pai": "1990",
+            "ordem_de_visita": 500,
+            "nivel": 2
+        },
+        "forçar": {
+            "pai": "impacto",
+            "ordem_de_visita": 182,
+            "nivel": 2
+        },
+        "violento": {
+            "pai": "economia",
+            "ordem_de_visita": 4,
+            "nivel": 1
+        },
+        "dívida": {
+            "pai": "longo",
+            "ordem_de_visita": 421,
+            "nivel": 2
+        },
+        "residencial": {
+            "pai": "longo",
+            "ordem_de_visita": 453,
+            "nivel": 2
+        },
+        "autoridade": {
+            "pai": "estabilização",
+            "ordem_de_visita": 324,
+            "nivel": 2
+        },
+        "barreira": {
+            "pai": "1990",
+            "ordem_de_visita": 476,
+            "nivel": 2
+        },
+        "impacto": {
+            "pai": "economia",
+            "ordem_de_visita": 2,
+            "nivel": 1
+        },
+        "poupança": {
+            "pai": "economia",
+            "ordem_de_visita": 59,
+            "nivel": 1
+        },
+        "perplexidade": {
+            "pai": "economia",
+            "ordem_de_visita": 66,
+            "nivel": 1
+        },
+        "início": {
+            "pai": "economia",
+            "ordem_de_visita": 115,
+            "nivel": 1
+        },
+        "entrada": {
+            "pai": "impacto",
+            "ordem_de_visita": 190,
+            "nivel": 2
+        },
+        "instituição": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 410,
+            "nivel": 2
+        },
+        "setor": {
+            "pai": "severo",
+            "ordem_de_visita": 136,
+            "nivel": 2
+        },
+        "expressivo": {
+            "pai": "decorrente",
+            "ordem_de_visita": 281,
+            "nivel": 2
+        },
+        "comercial": {
+            "pai": "economia",
+            "ordem_de_visita": 36,
+            "nivel": 1
+        },
+        "extinção": {
+            "pai": "impacto",
+            "ordem_de_visita": 215,
+            "nivel": 2
+        },
+        "crédito": {
+            "pai": "decorrente",
+            "ordem_de_visita": 235,
+            "nivel": 2
+        },
+        "clima": {
+            "pai": "economia",
+            "ordem_de_visita": 65,
+            "nivel": 1
+        },
+        "gôndola": {
+            "pai": "1990",
+            "ordem_de_visita": 519,
+            "nivel": 2
+        },
+        "desabar": {
+            "pai": "liquidez",
+            "ordem_de_visita": 296,
+            "nivel": 2
+        },
+        "intenso": {
+            "pai": "decorrente",
+            "ordem_de_visita": 261,
+            "nivel": 2
+        },
+        "preço": {
+            "pai": "economia",
+            "ordem_de_visita": 90,
+            "nivel": 1
+        },
+        "história": {
+            "pai": "economia",
+            "ordem_de_visita": 45,
+            "nivel": 1
+        },
+        "acadêmico": {
+            "pai": "economia",
+            "ordem_de_visita": 73,
+            "nivel": 1
+        },
+        "sinalizar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 373,
+            "nivel": 2
+        },
+        "crônico": {
+            "pai": "impacto",
+            "ordem_de_visita": 212,
+            "nivel": 2
+        },
+        "brasil": {
+            "pai": "economia",
+            "ordem_de_visita": 77,
+            "nivel": 1
+        },
+        "industrial": {
+            "pai": "severo",
+            "ordem_de_visita": 156,
+            "nivel": 2
+        },
+        "batalha": {
+            "pai": "impacto",
+            "ordem_de_visita": 230,
+            "nivel": 2
+        },
+        "operacional": {
+            "pai": "severo",
+            "ordem_de_visita": 143,
+            "nivel": 2
+        },
+        "hiperinflação": {
+            "pai": "economia",
+            "ordem_de_visita": 114,
+            "nivel": 1
+        },
+        "curtíssimo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 403,
+            "nivel": 2
+        },
+        "juro": {
+            "pai": "longo",
+            "ordem_de_visita": 427,
+            "nivel": 2
+        },
+        "crítica": {
+            "pai": "1990",
+            "ordem_de_visita": 468,
+            "nivel": 2
+        },
+        "produto": {
+            "pai": "economia",
+            "ordem_de_visita": 16,
+            "nivel": 1
+        },
+        "operar": {
+            "pai": "economia",
+            "ordem_de_visita": 31,
+            "nivel": 1
+        },
+        "pública": {
+            "pai": "impacto",
+            "ordem_de_visita": 206,
+            "nivel": 2
+        },
+        "governo": {
+            "pai": "impacto",
+            "ordem_de_visita": 213,
+            "nivel": 2
+        },
+        "construtora": {
+            "pai": "longo",
+            "ordem_de_visita": 458,
+            "nivel": 2
+        },
+        "tarifa": {
+            "pai": "impacto",
+            "ordem_de_visita": 177,
+            "nivel": 2
+        },
+        "empresa": {
+            "pai": "economia",
+            "ordem_de_visita": 69,
+            "nivel": 1
+        },
+        "resistente": {
+            "pai": "economia",
+            "ordem_de_visita": 96,
+            "nivel": 1
+        },
+        "rumo": {
+            "pai": "estabilização",
+            "ordem_de_visita": 329,
+            "nivel": 2
+        },
+        "reduzir": {
+            "pai": "impacto",
+            "ordem_de_visita": 209,
+            "nivel": 2
+        },
+        "redução": {
+            "pai": "economia",
+            "ordem_de_visita": 39,
+            "nivel": 1
+        },
+        "judicial": {
+            "pai": "impacto",
+            "ordem_de_visita": 231,
+            "nivel": 2
+        },
+        "progressivamente": {
+            "pai": "estabilização",
+            "ordem_de_visita": 320,
+            "nivel": 2
+        },
+        "publicamente": {
+            "pai": "1990",
+            "ordem_de_visita": 470,
+            "nivel": 2
+        },
+        "regra": {
+            "pai": "1990",
+            "ordem_de_visita": 513,
+            "nivel": 2
+        },
+        "liga": {
+            "pai": "severo",
+            "ordem_de_visita": 153,
+            "nivel": 2
+        },
+        "grão": {
+            "pai": "decorrente",
+            "ordem_de_visita": 255,
+            "nivel": 2
+        },
+        "instabilidade": {
+            "pai": "estabilização",
+            "ordem_de_visita": 338,
+            "nivel": 2
+        },
+        "frente": {
+            "pai": "estabilização",
+            "ordem_de_visita": 316,
+            "nivel": 2
+        },
+        "milhar": {
+            "pai": "impacto",
+            "ordem_de_visita": 224,
+            "nivel": 2
+        },
+        "colocação": {
+            "pai": "impacto",
+            "ordem_de_visita": 226,
+            "nivel": 2
+        },
+        "minidesvalorização": {
+            "pai": "estabilização",
+            "ordem_de_visita": 321,
+            "nivel": 2
+        },
+        "perfil": {
+            "pai": "impacto",
+            "ordem_de_visita": 195,
+            "nivel": 2
+        },
+        "ativo": {
+            "pai": "liquidez",
+            "ordem_de_visita": 304,
+            "nivel": 2
+        },
+        "memória": {
+            "pai": "economia",
+            "ordem_de_visita": 93,
+            "nivel": 1
+        },
+        "encontrar": {
+            "pai": "economia",
+            "ordem_de_visita": 103,
+            "nivel": 1
+        },
+        "fiscal": {
+            "pai": "impacto",
+            "ordem_de_visita": 201,
+            "nivel": 2
+        },
+        "atrasar": {
+            "pai": "1990",
+            "ordem_de_visita": 473,
+            "nivel": 2
+        },
+        "acordo": {
+            "pai": "longo",
+            "ordem_de_visita": 442,
+            "nivel": 2
+        },
+        "prioritário": {
+            "pai": "severo",
+            "ordem_de_visita": 163,
+            "nivel": 2
+        },
+        "país": {
+            "pai": "estabilização",
+            "ordem_de_visita": 339,
+            "nivel": 2
+        },
+        "desvalorização": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 407,
+            "nivel": 2
+        },
+        "bloqueio": {
+            "pai": "economia",
+            "ordem_de_visita": 51,
+            "nivel": 1
+        },
+        "diversos": {
+            "pai": "impacto",
+            "ordem_de_visita": 216,
+            "nivel": 2
+        },
+        "atividade": {
+            "pai": "economia",
+            "ordem_de_visita": 35,
+            "nivel": 1
+        },
+        "collor": {
+            "pai": "economia",
+            "ordem_de_visita": 47,
+            "nivel": 1
+        },
+        "mobilização": {
+            "pai": "decorrente",
+            "ordem_de_visita": 280,
+            "nivel": 2
+        },
+        "tanto": {
+            "pai": "impacto",
+            "ordem_de_visita": 227,
+            "nivel": 2
+        },
+        "informal": {
+            "pai": "estabilização",
+            "ordem_de_visita": 336,
+            "nivel": 2
+        },
+        "montadora": {
+            "pai": "1990",
+            "ordem_de_visita": 480,
+            "nivel": 2
+        },
+        "paralisar": {
+            "pai": "economia",
+            "ordem_de_visita": 62,
+            "nivel": 1
+        },
+        "construção": {
+            "pai": "severo",
+            "ordem_de_visita": 144,
+            "nivel": 2
+        },
+        "patamar": {
+            "pai": "economia",
+            "ordem_de_visita": 118,
+            "nivel": 1
+        },
+        "desesperadora": {
+            "pai": "economia",
+            "ordem_de_visita": 128,
+            "nivel": 1
+        },
+        "habitacional": {
+            "pai": "longo",
+            "ordem_de_visita": 456,
+            "nivel": 2
+        },
+        "lançar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 369,
+            "nivel": 2
+        },
+        "liquidação": {
+            "pai": "liquidez",
+            "ordem_de_visita": 302,
+            "nivel": 2
+        },
+        "postos": {
+            "pai": "empurrar",
+            "ordem_de_visita": 355,
+            "nivel": 2
+        },
+        "trabalho": {
+            "pai": "empurrar",
+            "ordem_de_visita": 352,
+            "nivel": 2
+        },
+        "necessidade": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 387,
+            "nivel": 2
+        },
+        "governamental": {
+            "pai": "economia",
+            "ordem_de_visita": 102,
+            "nivel": 1
+        },
+        "manter": {
+            "pai": "longo",
+            "ordem_de_visita": 425,
+            "nivel": 2
+        },
+        "acentuar": {
+            "pai": "economia",
+            "ordem_de_visita": 21,
+            "nivel": 1
+        },
+        "moeda": {
+            "pai": "estabilização",
+            "ordem_de_visita": 331,
+            "nivel": 2
+        },
+        "liderar": {
+            "pai": "decorrente",
+            "ordem_de_visita": 279,
+            "nivel": 2
+        },
+        "salário": {
+            "pai": "economia",
+            "ordem_de_visita": 86,
+            "nivel": 1
+        },
+        "circulante": {
+            "pai": "nacional",
+            "ordem_de_visita": 537,
+            "nivel": 2
+        },
+        "vis": {
+            "pai": "liquidez",
+            "ordem_de_visita": 308,
+            "nivel": 2
+        },
+        "volume": {
+            "pai": "liquidez",
+            "ordem_de_visita": 294,
+            "nivel": 2
+        },
+        "honrar": {
+            "pai": "liquidez",
+            "ordem_de_visita": 309,
+            "nivel": 2
+        },
+        "sindicato": {
+            "pai": "decorrente",
+            "ordem_de_visita": 278,
+            "nivel": 2
+        },
+        "obsoleto": {
+            "pai": "1990",
+            "ordem_de_visita": 472,
+            "nivel": 2
+        },
+        "desabastecimento": {
+            "pai": "1990",
+            "ordem_de_visita": 517,
+            "nivel": 2
+        },
+        "severo": {
+            "pai": "economia",
+            "ordem_de_visita": 1,
+            "nivel": 1
+        },
+        "público": {
+            "pai": "impacto",
+            "ordem_de_visita": 211,
+            "nivel": 2
+        },
+        "controversa": {
+            "pai": "economia",
+            "ordem_de_visita": 50,
+            "nivel": 1
+        },
+        "exigência": {
+            "pai": "longo",
+            "ordem_de_visita": 440,
+            "nivel": 2
+        },
+        "facilitação": {
+            "pai": "impacto",
+            "ordem_de_visita": 189,
+            "nivel": 2
+        },
+        "essencial": {
+            "pai": "1990",
+            "ordem_de_visita": 518,
+            "nivel": 2
+        },
+        "acesso": {
+            "pai": "longo",
+            "ordem_de_visita": 433,
+            "nivel": 2
+        },
+        "espaço": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 408,
+            "nivel": 2
+        },
+        "dólar": {
+            "pai": "estabilização",
+            "ordem_de_visita": 317,
+            "nivel": 2
+        },
+        "cidadão": {
+            "pai": "economia",
+            "ordem_de_visita": 68,
+            "nivel": 1
+        },
+        "dinâmica": {
+            "pai": "economia",
+            "ordem_de_visita": 109,
+            "nivel": 1
+        },
+        "expandiramr se": {
+            "pai": "empurrar",
+            "ordem_de_visita": 358,
+            "nivel": 2
+        },
+        "drástico": {
+            "pai": "economia",
+            "ordem_de_visita": 49,
+            "nivel": 1
+        },
+        "custeio": {
+            "pai": "decorrente",
+            "ordem_de_visita": 247,
+            "nivel": 2
+        },
+        "aplicação": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 402,
+            "nivel": 2
+        },
+        "passar": {
+            "pai": "nacional",
+            "ordem_de_visita": 531,
+            "nivel": 2
+        },
+        "impasse": {
+            "pai": "longo",
+            "ordem_de_visita": 459,
+            "nivel": 2
+        },
+        "operarar": {
+            "pai": "severo",
+            "ordem_de_visita": 158,
+            "nivel": 2
+        },
+        "negócio": {
+            "pai": "liquidez",
+            "ordem_de_visita": 295,
+            "nivel": 2
+        },
+        "gradual": {
+            "pai": "1990",
+            "ordem_de_visita": 497,
+            "nivel": 2
+        },
+        "desovar": {
+            "pai": "impacto",
+            "ordem_de_visita": 185,
+            "nivel": 2
+        },
+        "receita": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 412,
+            "nivel": 2
+        },
+        "choque": {
+            "pai": "economia",
+            "ordem_de_visita": 44,
+            "nivel": 1
+        },
+        "produtividade": {
+            "pai": "1990",
+            "ordem_de_visita": 486,
+            "nivel": 2
+        },
+        "volumoso": {
+            "pai": "longo",
+            "ordem_de_visita": 420,
+            "nivel": 2
+        },
+        "caderneta": {
+            "pai": "economia",
+            "ordem_de_visita": 58,
+            "nivel": 1
+        },
+        "gerar": {
+            "pai": "economia",
+            "ordem_de_visita": 64,
+            "nivel": 1
+        },
+        "precedente": {
+            "pai": "economia",
+            "ordem_de_visita": 40,
+            "nivel": 1
+        },
+        "brasileira": {
+            "pai": "impacto",
+            "ordem_de_visita": 171,
+            "nivel": 2
+        },
+        "prestação": {
+            "pai": "empurrar",
+            "ordem_de_visita": 360,
+            "nivel": 2
+        },
+        "território": {
+            "pai": "economia",
+            "ordem_de_visita": 70,
+            "nivel": 1
+        },
+        "operação": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 396,
+            "nivel": 2
+        },
+        "saneamento": {
+            "pai": "severo",
+            "ordem_de_visita": 168,
+            "nivel": 2
+        },
+        "perder": {
+            "pai": "decorrente",
+            "ordem_de_visita": 244,
+            "nivel": 2
+        },
+        "executivo": {
+            "pai": "1990",
+            "ordem_de_visita": 469,
+            "nivel": 2
+        },
+        "diariamente": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 405,
+            "nivel": 2
+        },
+        "devedor": {
+            "pai": "longo",
+            "ordem_de_visita": 463,
+            "nivel": 2
+        },
+        "ambiente": {
+            "pai": "decorrente",
+            "ordem_de_visita": 258,
+            "nivel": 2
+        },
+        "deficitário": {
+            "pai": "impacto",
+            "ordem_de_visita": 220,
+            "nivel": 2
+        },
+        "destinar": {
+            "pai": "longo",
+            "ordem_de_visita": 446,
+            "nivel": 2
+        },
+        "queda": {
+            "pai": "economia",
+            "ordem_de_visita": 20,
+            "nivel": 1
+        },
+        "temporário": {
+            "pai": "economia",
+            "ordem_de_visita": 52,
+            "nivel": 1
+        },
+        "importação": {
+            "pai": "impacto",
+            "ordem_de_visita": 178,
+            "nivel": 2
+        },
+        "vender": {
+            "pai": "liquidez",
+            "ordem_de_visita": 306,
+            "nivel": 2
+        },
+        "identificar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 379,
+            "nivel": 2
+        },
+        "abastecimento": {
+            "pai": "economia",
+            "ordem_de_visita": 135,
+            "nivel": 1
+        },
+        "serviço": {
+            "pai": "empurrar",
+            "ordem_de_visita": 361,
+            "nivel": 2
+        },
+        "decorrente": {
+            "pai": "economia",
+            "ordem_de_visita": 3,
+            "nivel": 1
+        },
+        "mercadoria": {
+            "pai": "impacto",
+            "ordem_de_visita": 191,
+            "nivel": 2
+        },
+        "processo": {
+            "pai": "severo",
+            "ordem_de_visita": 166,
+            "nivel": 2
+        },
+        "infraestrutura": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 392,
+            "nivel": 2
+        },
+        "corrigir": {
+            "pai": "economia",
+            "ordem_de_visita": 83,
+            "nivel": 1
+        },
+        "flutuação": {
+            "pai": "estabilização",
+            "ordem_de_visita": 315,
+            "nivel": 2
+        },
+        "rigidamente": {
+            "pai": "estabilização",
+            "ordem_de_visita": 323,
+            "nivel": 2
+        },
+        "safra": {
+            "pai": "decorrente",
+            "ordem_de_visita": 248,
+            "nivel": 2
+        },
+        "patrimônio": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 377,
+            "nivel": 2
+        },
+        "endividamento": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 389,
+            "nivel": 2
+        },
+        "federal": {
+            "pai": "impacto",
+            "ordem_de_visita": 207,
+            "nivel": 2
+        },
+        "laboral": {
+            "pai": "decorrente",
+            "ordem_de_visita": 259,
+            "nivel": 2
+        },
+        "contrato": {
+            "pai": "economia",
+            "ordem_de_visita": 84,
+            "nivel": 1
+        },
+        "produtivo": {
+            "pai": "economia",
+            "ordem_de_visita": 28,
+            "nivel": 1
+        },
+        "canal": {
+            "pai": "economia",
+            "ordem_de_visita": 134,
+            "nivel": 1
+        },
+        "produção": {
+            "pai": "severo",
+            "ordem_de_visita": 146,
+            "nivel": 2
+        },
+        "cortar": {
+            "pai": "severo",
+            "ordem_de_visita": 149,
+            "nivel": 2
+        },
+        "necessário": {
+            "pai": "decorrente",
+            "ordem_de_visita": 246,
+            "nivel": 2
+        },
+        "civil": {
+            "pai": "severo",
+            "ordem_de_visita": 145,
+            "nivel": 2
+        },
+        "parque": {
+            "pai": "1990",
+            "ordem_de_visita": 504,
+            "nivel": 2
+        },
+        "resultar": {
+            "pai": "1990",
+            "ordem_de_visita": 516,
+            "nivel": 2
+        },
+        "concentrava-se": {
+            "pai": "economia",
+            "ordem_de_visita": 78,
+            "nivel": 1
+        },
+        "estrangulamento": {
+            "pai": "longo",
+            "ordem_de_visita": 424,
+            "nivel": 2
+        },
+        "tradicional": {
+            "pai": "economia",
+            "ordem_de_visita": 97,
+            "nivel": 1
+        },
+        "entanto": {
+            "pai": "estabilização",
+            "ordem_de_visita": 326,
+            "nivel": 2
+        },
+        "amplamente": {
+            "pai": "1990",
+            "ordem_de_visita": 505,
+            "nivel": 2
+        },
+        "automóvel": {
+            "pai": "1990",
+            "ordem_de_visita": 477,
+            "nivel": 2
+        },
+        "remarcação": {
+            "pai": "economia",
+            "ordem_de_visita": 124,
+            "nivel": 1
+        },
+        "reajustar": {
+            "pai": "longo",
+            "ordem_de_visita": 461,
+            "nivel": 2
+        },
+        "primeiro": {
+            "pai": "impacto",
+            "ordem_de_visita": 175,
+            "nivel": 2
+        },
+        "inaugurar": {
+            "pai": "1990",
+            "ordem_de_visita": 483,
+            "nivel": 2
+        },
+        "controle": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 385,
+            "nivel": 2
+        },
+        "protesto": {
+            "pai": "decorrente",
+            "ordem_de_visita": 271,
+            "nivel": 2
+        },
+        "ociosidade": {
+            "pai": "economia",
+            "ordem_de_visita": 33,
+            "nivel": 1
+        },
+        "remunerar": {
+            "pai": "impacto",
+            "ordem_de_visita": 229,
+            "nivel": 2
+        },
+        "escassez": {
+            "pai": "decorrente",
+            "ordem_de_visita": 234,
+            "nivel": 2
+        },
+        "insumo": {
+            "pai": "1990",
+            "ordem_de_visita": 523,
+            "nivel": 2
+        },
+        "diálogo": {
+            "pai": "longo",
+            "ordem_de_visita": 437,
+            "nivel": 2
+        },
+        "acionário": {
+            "pai": "liquidez",
+            "ordem_de_visita": 297,
+            "nivel": 2
+        },
+        "perverso": {
+            "pai": "empurrar",
+            "ordem_de_visita": 368,
+            "nivel": 2
+        },
+        "generalizar": {
+            "pai": "economia",
+            "ordem_de_visita": 67,
+            "nivel": 1
+        },
+        "liquidez": {
+            "pai": "economia",
+            "ordem_de_visita": 6,
+            "nivel": 1
+        },
+        "termo": {
+            "pai": "liquidez",
+            "ordem_de_visita": 298,
+            "nivel": 2
+        },
+        "cruzeiro": {
+            "pai": "liquidez",
+            "ordem_de_visita": 300,
+            "nivel": 2
+        },
+        "qualidade": {
+            "pai": "1990",
+            "ordem_de_visita": 487,
+            "nivel": 2
+        },
+        "quebra": {
+            "pai": "1990",
+            "ordem_de_visita": 491,
+            "nivel": 2
+        },
+        "americano": {
+            "pai": "estabilização",
+            "ordem_de_visita": 318,
+            "nivel": 2
+        },
+        "frequentemente": {
+            "pai": "1990",
+            "ordem_de_visita": 515,
+            "nivel": 2
+        },
+        "comitê": {
+            "pai": "longo",
+            "ordem_de_visita": 438,
+            "nivel": 2
+        },
+        "devido": {
+            "pai": "1990",
+            "ordem_de_visita": 512,
+            "nivel": 2
+        },
+        "mudança": {
+            "pai": "nacional",
+            "ordem_de_visita": 533,
+            "nivel": 2
+        },
+        "colapso": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 394,
+            "nivel": 2
+        },
+        "imobiliário": {
+            "pai": "longo",
+            "ordem_de_visita": 445,
+            "nivel": 2
+        },
+        "profundo": {
+            "pai": "economia",
+            "ordem_de_visita": 13,
+            "nivel": 1
+        },
+        "renda": {
+            "pai": "empurrar",
+            "ordem_de_visita": 342,
+            "nivel": 2
+        },
+        "transferir": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 384,
+            "nivel": 2
+        },
+        "veículo": {
+            "pai": "severo",
+            "ordem_de_visita": 147,
+            "nivel": 2
+        },
+        "pressão": {
+            "pai": "estabilização",
+            "ordem_de_visita": 330,
+            "nivel": 2
+        },
+        "massa": {
+            "pai": "decorrente",
+            "ordem_de_visita": 273,
+            "nivel": 2
+        },
+        "indexação": {
+            "pai": "economia",
+            "ordem_de_visita": 81,
+            "nivel": 1
+        },
+        "persistente": {
+            "pai": "estabilização",
+            "ordem_de_visita": 327,
+            "nivel": 2
+        },
+        "duro": {
+            "pai": "1990",
+            "ordem_de_visita": 467,
+            "nivel": 2
+        },
+        "médio": {
+            "pai": "empurrar",
+            "ordem_de_visita": 343,
+            "nivel": 2
+        },
+        "cenário": {
+            "pai": "1990",
+            "ordem_de_visita": 482,
+            "nivel": 2
+        },
+        "máquina": {
+            "pai": "impacto",
+            "ordem_de_visita": 205,
+            "nivel": 2
+        },
+        "modernização": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 391,
+            "nivel": 2
+        },
+        "cooperativa": {
+            "pai": "decorrente",
+            "ordem_de_visita": 242,
+            "nivel": 2
+        },
+        "bancário": {
+            "pai": "decorrente",
+            "ordem_de_visita": 239,
+            "nivel": 2
+        },
+        "anunciar": {
+            "pai": "impacto",
+            "ordem_de_visita": 214,
+            "nivel": 2
+        },
+        "ser": {
+            "pai": "severo",
+            "ordem_de_visita": 164,
+            "nivel": 2
+        },
+        "flexibilidade": {
+            "pai": "estabilização",
+            "ordem_de_visita": 314,
+            "nivel": 2
+        },
+        "instituído": {
+            "pai": "nacional",
+            "ordem_de_visita": 526,
+            "nivel": 2
+        },
+        "paralisia": {
+            "pai": "economia",
+            "ordem_de_visita": 26,
+            "nivel": 1
+        },
+        "conta": {
+            "pai": "economia",
+            "ordem_de_visita": 56,
+            "nivel": 1
+        },
+        "doméstico": {
+            "pai": "impacto",
+            "ordem_de_visita": 181,
+            "nivel": 2
+        },
+        "padrão": {
+            "pai": "empurrar",
+            "ordem_de_visita": 340,
+            "nivel": 2
+        },
+        "bancos": {
+            "pai": "longo",
+            "ordem_de_visita": 439,
+            "nivel": 2
+        },
+        "imediato": {
+            "pai": "economia",
+            "ordem_de_visita": 61,
+            "nivel": 1
+        },
+        "índice": {
+            "pai": "economia",
+            "ordem_de_visita": 89,
+            "nivel": 1
+        },
+        "ambulante": {
+            "pai": "empurrar",
+            "ordem_de_visita": 359,
+            "nivel": 2
+        },
+        "ver": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 393,
+            "nivel": 2
+        },
+        "alterar": {
+            "pai": "impacto",
+            "ordem_de_visita": 194,
+            "nivel": 2
+        },
+        "bruto": {
+            "pai": "economia",
+            "ordem_de_visita": 18,
+            "nivel": 1
+        },
+        "obsolescência": {
+            "pai": "1990",
+            "ordem_de_visita": 507,
+            "nivel": 2
+        },
+        "passado": {
+            "pai": "economia",
+            "ordem_de_visita": 91,
+            "nivel": 1
+        },
+        "empréstimo": {
+            "pai": "longo",
+            "ordem_de_visita": 455,
+            "nivel": 2
+        },
+        "automobilístico": {
+            "pai": "1990",
+            "ordem_de_visita": 465,
+            "nivel": 2
+        },
+        "nervosismo": {
+            "pai": "estabilização",
+            "ordem_de_visita": 337,
+            "nivel": 2
+        },
+        "cultural": {
+            "pai": "economia",
+            "ordem_de_visita": 107,
+            "nivel": 1
+        },
+        "cambial": {
+            "pai": "estabilização",
+            "ordem_de_visita": 311,
+            "nivel": 2
+        },
+        "jurídico": {
+            "pai": "longo",
+            "ordem_de_visita": 460,
+            "nivel": 2
+        },
+        "criticar": {
+            "pai": "1990",
+            "ordem_de_visita": 506,
+            "nivel": 2
+        },
+        "termômetro": {
+            "pai": "estabilização",
+            "ordem_de_visita": 335,
+            "nivel": 2
+        },
+        "submeter": {
+            "pai": "severo",
+            "ordem_de_visita": 165,
+            "nivel": 2
+        },
+        "durável": {
+            "pai": "1990",
+            "ordem_de_visita": 509,
+            "nivel": 2
+        },
+        "ágio": {
+            "pai": "1990",
+            "ordem_de_visita": 521,
+            "nivel": 2
+        },
+        "aluguel": {
+            "pai": "economia",
+            "ordem_de_visita": 85,
+            "nivel": 1
+        },
+        "caracterizar": {
+            "pai": "decorrente",
+            "ordem_de_visita": 260,
+            "nivel": 2
+        },
+        "metrópole": {
+            "pai": "empurrar",
+            "ordem_de_visita": 364,
+            "nivel": 2
+        },
+        "política": {
+            "pai": "impacto",
+            "ordem_de_visita": 200,
+            "nivel": 2
+        },
+        "dinheiro": {
+            "pai": "nacional",
+            "ordem_de_visita": 539,
+            "nivel": 2
+        },
+        "buscar": {
+            "pai": "impacto",
+            "ordem_de_visita": 183,
+            "nivel": 2
+        },
+        "decreto": {
+            "pai": "economia",
+            "ordem_de_visita": 101,
+            "nivel": 1
+        },
+        "petroquímico": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 382,
+            "nivel": 2
+        },
+        "base": {
+            "pai": "economia",
+            "ordem_de_visita": 88,
+            "nivel": 1
+        },
+        "devir": {
+            "pai": "longo",
+            "ordem_de_visita": 428,
+            "nivel": 2
+        },
+        "mutuário": {
+            "pai": "longo",
+            "ordem_de_visita": 457,
+            "nivel": 2
+        },
+        "compulsório": {
+            "pai": "liquidez",
+            "ordem_de_visita": 293,
+            "nivel": 2
+        },
+        "criar": {
+            "pai": "economia",
+            "ordem_de_visita": 92,
+            "nivel": 1
+        },
+        "desenvolvimentista": {
+            "pai": "severo",
+            "ordem_de_visita": 141,
+            "nivel": 2
+        },
+        "moradia": {
+            "pai": "longo",
+            "ordem_de_visita": 450,
+            "nivel": 2
+        },
+        "introduzir": {
+            "pai": "estabilização",
+            "ordem_de_visita": 313,
+            "nivel": 2
+        },
+        "restabelecer": {
+            "pai": "longo",
+            "ordem_de_visita": 436,
+            "nivel": 2
+        },
+        "descontrolar": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 401,
+            "nivel": 2
+        },
+        "agrícola": {
+            "pai": "decorrente",
+            "ordem_de_visita": 253,
+            "nivel": 2
+        },
+        "protegê-lo": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 406,
+            "nivel": 2
+        },
+        "extremo": {
+            "pai": "liquidez",
+            "ordem_de_visita": 289,
+            "nivel": 2
+        },
+        "congelamento": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 409,
+            "nivel": 2
+        },
+        "causa": {
+            "pai": "economia",
+            "ordem_de_visita": 75,
+            "nivel": 1
+        },
+        "paralelo": {
+            "pai": "estabilização",
+            "ordem_de_visita": 333,
+            "nivel": 2
+        },
+        "administrativo": {
+            "pai": "impacto",
+            "ordem_de_visita": 204,
+            "nivel": 2
+        },
+        "desnecessário": {
+            "pai": "impacto",
+            "ordem_de_visita": 221,
+            "nivel": 2
+        },
+        "autônomo": {
+            "pai": "economia",
+            "ordem_de_visita": 95,
+            "nivel": 1
+        },
+        "pilar": {
+            "pai": "severo",
+            "ordem_de_visita": 139,
+            "nivel": 2
+        },
+        "planejar": {
+            "pai": "1990",
+            "ordem_de_visita": 511,
+            "nivel": 2
+        },
+        "sindical": {
+            "pai": "decorrente",
+            "ordem_de_visita": 263,
+            "nivel": 2
+        },
+        "internacional": {
+            "pai": "longo",
+            "ordem_de_visita": 431,
+            "nivel": 2
+        },
+        "linha": {
+            "pai": "longo",
+            "ordem_de_visita": 434,
+            "nivel": 2
+        },
+        "andamento": {
+            "pai": "longo",
+            "ordem_de_visita": 464,
+            "nivel": 2
+        },
+        "empobrecimento": {
+            "pai": "empurrar",
+            "ordem_de_visita": 365,
+            "nivel": 2
+        },
+        "abalo": {
+            "pai": "decorrente",
+            "ordem_de_visita": 233,
+            "nivel": 2
+        },
+        "autônomos": {
+            "pai": "empurrar",
+            "ordem_de_visita": 362,
+            "nivel": 2
+        },
+        "deterioração": {
+            "pai": "empurrar",
+            "ordem_de_visita": 346,
+            "nivel": 2
+        },
+        "credor": {
+            "pai": "longo",
+            "ordem_de_visita": 430,
+            "nivel": 2
+        },
+        "desestatização": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 372,
+            "nivel": 2
+        },
+        "banco": {
+            "pai": "longo",
+            "ordem_de_visita": 429,
+            "nivel": 2
+        },
+        "disponível": {
+            "pai": "liquidez",
+            "ordem_de_visita": 301,
+            "nivel": 2
+        },
+        "acumular": {
+            "pai": "impacto",
+            "ordem_de_visita": 187,
+            "nivel": 2
+        },
+        "nacional": {
+            "pai": "economia",
+            "ordem_de_visita": 71,
+            "nivel": 1
+        },
+        "organizar": {
+            "pai": "decorrente",
+            "ordem_de_visita": 270,
+            "nivel": 2
+        },
+        "político": {
+            "pai": "economia",
+            "ordem_de_visita": 74,
+            "nivel": 1
+        },
+        "rápido": {
+            "pai": "nacional",
+            "ordem_de_visita": 538,
+            "nivel": 2
+        },
+        "institucional": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 370,
+            "nivel": 2
+        },
+        "concessão": {
+            "pai": "longo",
+            "ordem_de_visita": 454,
+            "nivel": 2
+        },
+        "consumo": {
+            "pai": "economia",
+            "ordem_de_visita": 24,
+            "nivel": 1
+        },
+        "psicológico": {
+            "pai": "nacional",
+            "ordem_de_visita": 536,
+            "nivel": 2
+        },
+        "vigente": {
+            "pai": "1990",
+            "ordem_de_visita": 493,
+            "nivel": 2
+        },
+        "bem": {
+            "pai": "impacto",
+            "ordem_de_visita": 197,
+            "nivel": 2
+        },
+        "capacidade": {
+            "pai": "severo",
+            "ordem_de_visita": 159,
+            "nivel": 2
+        },
+        "interno": {
+            "pai": "economia",
+            "ordem_de_visita": 17,
+            "nivel": 1
+        },
+        "pagamento": {
+            "pai": "longo",
+            "ordem_de_visita": 418,
+            "nivel": 2
+        },
+        "desconfiança": {
+            "pai": "estabilização",
+            "ordem_de_visita": 328,
+            "nivel": 2
+        },
+        "formal": {
+            "pai": "empurrar",
+            "ordem_de_visita": 356,
+            "nivel": 2
+        },
+        "alimentar": {
+            "pai": "estabilização",
+            "ordem_de_visita": 332,
+            "nivel": 2
+        },
+        "instalar": {
+            "pai": "decorrente",
+            "ordem_de_visita": 283,
+            "nivel": 2
+        },
+        "considerar": {
+            "pai": "impacto",
+            "ordem_de_visita": 219,
+            "nivel": 2
+        },
+        "ministério": {
+            "pai": "impacto",
+            "ordem_de_visita": 217,
+            "nivel": 2
+        },
+        "agitação": {
+            "pai": "decorrente",
+            "ordem_de_visita": 262,
+            "nivel": 2
+        },
+        "deixar": {
+            "pai": "nacional",
+            "ordem_de_visita": 529,
+            "nivel": 2
+        },
+        "cerca": {
+            "pai": "economia",
+            "ordem_de_visita": 53,
+            "nivel": 1
+        },
+        "conhecer": {
+            "pai": "brasileiro",
+            "ordem_de_visita": 397,
+            "nivel": 2
+        },
+        "comparação": {
+            "pai": "1990",
+            "ordem_de_visita": 475,
+            "nivel": 2
+        },
+        "abertamente": {
+            "pai": "economia",
+            "ordem_de_visita": 113,
+            "nivel": 1
+        },
+        "funcionar": {
+            "pai": "estabilização",
+            "ordem_de_visita": 334,
+            "nivel": 2
+        },
+        "sofrer": {
+            "pai": "economia",
+            "ordem_de_visita": 38,
+            "nivel": 1
+        },
+        "resultante": {
+            "pai": "decorrente",
+            "ordem_de_visita": 282,
+            "nivel": 2
+        },
+        "astronômico": {
+            "pai": "economia",
+            "ordem_de_visita": 120,
+            "nivel": 1
+        },
+        "limitar": {
+            "pai": "longo",
+            "ordem_de_visita": 432,
+            "nivel": 2
+        },
+        "foco": {
+            "pai": "longo",
+            "ordem_de_visita": 423,
+            "nivel": 2
+        },
+        "década": {
+            "pai": "1990",
+            "ordem_de_visita": 495,
+            "nivel": 2
+        },
+        "fechamento": {
+            "pai": "empurrar",
+            "ordem_de_visita": 354,
+            "nivel": 2
+        },
+        "siderúrgica": {
+            "pai": "severo",
+            "ordem_de_visita": 138,
+            "nivel": 2
+        },
+        "1990": {
+            "pai": "economia",
+            "ordem_de_visita": 15,
+            "nivel": 1
+        },
+        "aço": {
+            "pai": "severo",
+            "ordem_de_visita": 152,
+            "nivel": 2
+        },
+        "abrupta": {
+            "pai": "economia",
+            "ordem_de_visita": 100,
+            "nivel": 1
+        },
+        "alimento": {
+            "pai": "decorrente",
+            "ordem_de_visita": 256,
+            "nivel": 2
+        },
+        "promover": {
+            "pai": "1990",
+            "ordem_de_visita": 496,
+            "nivel": 2
+        },
+        "embalagem": {
+            "pai": "1990",
+            "ordem_de_visita": 524,
+            "nivel": 2
+        },
+        "contestar": {
+            "pai": "decorrente",
+            "ordem_de_visita": 274,
+            "nivel": 2
+        }
+    }
+}

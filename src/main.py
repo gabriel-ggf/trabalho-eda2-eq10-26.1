@@ -1,43 +1,64 @@
-import processamento_de_dados as pdd
 import os
-from grafos import criar_grafo
-from grafos import criar_grafo
+from processamento_de_dados import salvar_lista, salvar_todos_resultados, coocorrencia
+from grafos import criar_grafo, criar_lista
+from algoritmos import kruskal_todas_epocas
 from algoritmos import bfs
 
-words_list = {}
+# Caminho de entrada pala gerar a lista de ocorrência.
 base_dir = os.path.dirname(os.path.abspath(__file__))
-data_path = os.path.join(base_dir, 'data', 'text')
-processed_path = os.path.join(base_dir, 'data', 'processed')
-savement_path = os.path.join(processed_path, "words_list.json")
+caminho_de_entrada = os.path.join(base_dir, 'data', 'text')
 
-for period in sorted(os.listdir(data_path)):
+# Primeira etapa do programa.
+# Gera uma lista de ocorrência com as palavras filtradas pela biblioteca Spacy
+print(f"Gerando Lista de Ocorrência...")
+lista_ocorrencia = criar_lista(caminho_de_entrada)
+salvar_lista("data/processed/words_list.json", lista_ocorrencia)
 
-    period_path = os.path.join(data_path, period)
+print(f"\n------------------------------------------\n")
 
-    if os.path.isdir(period_path):
-
-        words_list[period] = []
-        for file in sorted(os.listdir(period_path)):
-            if file.endswith(".txt"):
-
-                file_path = os.path.join(period_path, file)
-                words = pdd.load_words(file_path)
-        
-                frequency = {}
-                for word in words:
-                    frequency[word] = frequency.get(word, 0) + 1
-
-                words_list[period].append(frequency)
-
-pdd.list_write(savement_path, words_list)
-
-# cria um grafo para cada epoca
+# Segunda etapa do programa.
+# Gera os grafos de cada época utilizando a lista de ocorrência.
+print(f"Gerando Grafos por Épocas...")
 grafos_por_epoca = {}
-for period, documentos in words_list.items():
+for period, documentos in lista_ocorrencia.items():
     grafos_por_epoca[period] = criar_grafo(documentos)
     print(f"Grafo {period}: {len(grafos_por_epoca[period])} vértices")
+salvar_lista("data/processed/graphs.json", grafos_por_epoca)
 
+print(f"\n------------------------------------------\n")
 
-from algoritmos import kruskal_todas_epocas, salvar_todos_resultados
+# Terceira etapa do programa.
+# Aplica o algoritmo de Kruskal para cada grafo e salva na pasta '/data/processed/'
+print(f"Aplicando algoritmo de Kruskal por Época...")
 resultados_kruskal = kruskal_todas_epocas(grafos_por_epoca)
-salvar_todos_resultados(resultados_kruskal, processed_path)
+salvar_todos_resultados(resultados_kruskal)
+
+print(f"\n------------------------------------------\n")
+
+# Quarta etapa do programa.
+# Aplica o algoritmo BFS para cada grafo e salva na pasta '/data/processed/'
+print(f"Aplicando algoritmo BFS por Época...")
+palavra_alvo = "economia"
+for periodo_alvo, grafo_alvo in grafos_por_epoca.items():
+    if palavra_alvo in grafo_alvo:
+        try:
+            resultado_bfs = bfs(grafo_alvo, palavra_alvo)
+            palavras_encontradas = len(resultado_bfs)
+            
+            dados_de_salvamento = {
+                "periodo": periodo_alvo,
+                "palavra_raiz": palavra_alvo,
+                "total_palavras": palavras_encontradas,
+                "arvore_bfs": resultado_bfs 
+            }
+            
+            caminho_bfs = os.path.join("data", "processed", f"bfs_{periodo_alvo}_{palavra_alvo}.json")
+            salvar_lista(caminho_bfs, dados_de_salvamento)
+            
+        except Exception as e:
+            print(f"Erro no periodo {periodo_alvo}: {e}")
+
+print(f"\n------------------------------------------\n")
+
+print("Matriz de coocorência de vértices em cada matriz:\n")
+coocorrencia('data/processed/graphs.json')
